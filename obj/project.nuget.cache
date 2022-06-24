@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "812I+68e+oVyxmeJ90liud7yL/xz3cx6TJHJYFr7hmYgH+XQXT8QVfwgoLk+ApvVjcFJJ3hZii2WD5VSoZCyqQ==",
+  "dgSpecHash": "bD2PenoG95w8gTsTBpK04iGOOQXgXfCSf6NKjemJKbe0elvLVtNgi5cVuiIM6vx+FC0sYBz7wp8+wAxg6xRnMw==",
   "success": true,
   "projectFilePath": "/Users/lev/workspace/mintyREST/mintyREST.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "/Users/lev/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/Users/lev/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/lev/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/Users/lev/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/lev/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/lev/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.6/microsoft.netcore.app.runtime.linux-x64.6.0.6.nupkg.sha512",
+    "/Users/lev/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.6/microsoft.aspnetcore.app.runtime.linux-x64.6.0.6.nupkg.sha512",
+    "/Users/lev/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }
