@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lev/workspace/mintyREST/mintyREST.csproj": {}
+    "/var/www/mintyREST/mintyREST.csproj": {}
   },
   "projects": {
-    "/Users/lev/workspace/mintyREST/mintyREST.csproj": {
+    "/var/www/mintyREST/mintyREST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lev/workspace/mintyREST/mintyREST.csproj",
+        "projectUniqueName": "/var/www/mintyREST/mintyREST.csproj",
         "projectName": "mintyREST",
-        "projectPath": "/Users/lev/workspace/mintyREST/mintyREST.csproj",
-        "packagesPath": "/Users/lev/.nuget/packages/",
-        "outputPath": "/Users/lev/workspace/mintyREST/obj/",
+        "projectPath": "/var/www/mintyREST/mintyREST.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/www/mintyREST/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/lev/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -60,20 +57,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[6.0.6, 6.0.6]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.6, 6.0.6]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[6.0.6, 6.0.6]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,12 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "ubuntu.16.04-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

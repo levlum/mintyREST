@@ -46,9 +46,9 @@ namespace Com.Gamegestalt.MintyScript.Import
 			//string sentencesPath = "Assets/Editor/de_sentences.xml";
 			//string namesPath = "Assets/Editor/names.txt";
 
-			string wordsPath = "../mintyscript/language/de_words.xml";
-			string sentencesPath = "../mintyscript/language/de_sentences.xml";
-			string namesPath = "../mintyscript/language/names.txt";
+			string wordsPath = "language/de_words.xml";
+			string sentencesPath = "language/de_sentences.xml";
+			string namesPath = "language/names.txt";
 
 			var ct = MintyTextsContainer.Instance;
 			ct.Clear();
