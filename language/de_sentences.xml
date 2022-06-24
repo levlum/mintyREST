@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LocalizedText language="GERMAN">
+	
+	<sentences>
+		<!-- some rules
+		1. response is the question, responseType the answer: name should tell the category of the answer
+			example: name = "name of", question would be "Waht is the name of ... ?", answer "the blue dragon, ..."
+			example: name "because", question "Why are you so funny?", answer: "because of the rainy day" 
+		
+		
+		
+		
+		-->
+		
+		
+		<!-- M O S T    C O M M O N -->
+
+		<sentence meaning="STATEMENT">[words/article/the:(s)][?; [a=adjective(s)]] [s=subject(v)] [v=words/verb:p3]</sentence>
+		<sentence meaning="STATEMENT">[words/article/the:(s)][?; [a=adjective(s)]] [s=subject(v)] [v=words/verb:rxp3] sich.</sentence>
+		<sentence meaning="STATEMENT">[words/article/the:(s)][?; [a=adjective(s)]] [s=subject(v)] [v=words/verb:p3] [words/article/a:(o1)] [o1=object(v):da] [words/article/a:(o2)] [o2=object(v):ac]</sentence>
+		<sentence meaning="STATEMENT">Ich [v=words/verb:p1] [words/article/the:(o4)] [o4=object(v):ac] wegen [words/article/this:(su)] [su=words/substantiv:gepl]</sentence>
+
+		<sentence meaning="ANSWER" responseType="because">weil [words/article/the:(s)][?; [adjective(s)]] [s=subject(v)] [words/article/a:(o1)] [o1=object(v):da]  [words/article/a:(o2)] [o2=object(v):ac] [v=words/verb:p3pa] [word(v):au]</sentence>
+		<sentence meaning="ANSWER" responseType="because">weil [words/article/the:(s)][?; [adjective(s)]] [s=subject(v)] [words/article/no:(o)] [o=object(v):ac] [v=words/verb:p3pa] [word(v):au]</sentence>
+
+
+		<!-- STORY -->
+		<sentence topic="Relationship" meaning="STATEMENT,NARRATION">Du sollst [words/article/the:(o1)] [o1=object(v):da] [words/article/no:(o2)] [o2=object(v):ac] [v=words/verb:in], weil [?3:die;[word(o1):plno]] sind[? ehh;][?2: selber; automatisch;3:][? genug;] [adjective(o1):in]</sentence>
+		
+		
+		
+		<!-- HEADLINE POETRY -->
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1" responseType="AnswerToStatement">[?Worte;[words/article/the:(s)] [s=topic]] [words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic:ge]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1" responseType="AnswerToStatement">[?3:in;durch] [words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic:ac] [?gedichtet;gereimt]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1">[o=words/substantiv/abstractum/adjectivic]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1" responseType="AnswerToStatement">[?[Genus(o)?vom;von der;vom];für [words/article/the:(o)]] [o=words/substantiv/abstractum/adjectivic:ac]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1">vom [adj=Up[words/adjective:deda]]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1">[words/article/the:(t)] [t=topic] [a=words/article/the:(o)] [o=words/substantiv:ge]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1" responseType="from Moviename,AnswerToStatement">aus "[words/article/the:(t)] [t=topic] [words/article/the:(o)] [o=words/substantiv:ge]"</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1">[o=words/substantiv/abstractum:ac] [Genus(o2)?im;in der;im] [o2=words/substantiv/nature:da]</sentence>
+		<sentence topic="POETRY" id="one picture" meaning="HEADLINE" sequence="1">für [words/article/possessiv_pronomen/my:(s)] [s=words/substantiv/person/relative:ac]</sentence>
+		
+		
+		<!-- GENERAL SENTENCES, no special topic -->
+		
+		<sentence meaning="STATEMENT" probability="1">[words/article/a:(s)][? [adjective(s)];2:] [s=subject(v1)] [v1=words/verb:p3] [words/article/the:(o)] [o=?[object(v1):ac];[object(v1):acpl]]</sentence>
+		<sentence meaning="STATEMENT" probability="1">[words/special/howMany/plural] [s=subject(v1):pl] [v1=words/verb:p3pl] [words/article/the:(o3)] [o3=?[object(v1):da];[object(v1):dapl]]  [words/article/the:(o4)] [o4=?[object(v1):ac];[object(v1):acpl]]</sentence>
+		<sentence meaning="STATEMENT" probability="1">[words/article/a:(s)][? [adjective(s)];2:] [s=subject(v1)] [v1=words/verb:p3] [Genus(s)?[words/article/possessiv_pronomen/his:(o2)];[words/article/possessiv_pronomen/her:(o2)];[words/article/possessiv_pronomen/his:(o2)]][? [adjective(o2)];] [o2=object(v1):da] [words/article/the:(o)] [o=object(v1):ac]</sentence>
+		<sentence meaning="STATEMENT" probability="1">[words/article/a:(o4)] [o4=object(v):ac] zu [v=words/verb:in] ist [words/adjective:k2] als [Genus(o4)?ihn;sie;es] nicht zu [word(v)]</sentence>
+		<sentence meaning="STATEMENT" probability="1">[?unter;bei] den [o3=object(v):dapl] [v=words/verb:p3pl] die [words/adjective:depl] [words/article/the:(o4)][invisible[o4=object(v):acpl]] [?[words/adjective:depl];[words/adjective:k2depl];[words/adjective:k3depl]]</sentence>
+
+		<sentence meaning="STATEMENT" probability="1">ich habe [words/article/the:(big)] [big=words/substantiv/bigImportant:ac] [?erfunden;erdacht;entdeckt;zerstört;verdorben], um [words/article/a:(o)] [o=object(v):ac] zu [v=words/verb:in]</sentence>
+        <sentence meaning="STATEMENT" probability="1">ich [word(v2):au] [?[words/adverb];] [v2=words/verb:p1pa], um [?[words/adverb];] zu [v=words/verb:in]</sentence>
+		<sentence meaning="STATEMENT" probability="1">ich habe [words/article/the:(big)] [big=words/substantiv/bigImportant:ac] [?erfunden;erdacht;entdeckt;zerstört;verdorben], [?weil;damit] [words/article/possessiv_pronomen/my:(s)] [s=subject(v)] [words/article/the:(o)] [o=object(v):ac] [v=words/verb:p3]</sentence>
+		
+		<sentence response="direct: That thing">[words/article/question_which:(o)] [o=object(v1):ac] [v1=words/verb:p3] [words/article/the:(s)] [s=subject(v1)]?</sentence>
+		<sentence responseType="direct: That thing">[words/article/the:(o)] aus [words/article/the:(loc)] [loc=words/substantiv/location:da]</sentence>
+		<sentence responseType="direct: That thing">[words/article/the:(x)] [x=word(o)] [words/article/the:(y)] [y=words/substantiv/bigImportant:ge]</sentence>
+		
+		<sentence response="the name is">Wie heißt [words/article/possessiv_pronomen/your:(o)] Lieblings[Low[o=words/substantiv]]?</sentence>
+		<sentence responseType="the name is">[Genus(o)?er;sie;es] heißt [Up[words/adjective][o]mo[Low[?[words/substantiv/abstractum/adjectivic];[words/substantiv/nature]]]]</sentence>
+		<sentence responseType="the name is">[Genus(o)?er;sie;es] heißt [Up[words/adverb][o]][Low[?[words/adjective];[word(o):ws]]]</sentence>
+		
+		<sentence topic="SPECIAL" id="debug" response="to location">wohin [v=words/verb/activity/intransitiv/move:p3] [words/article/the:(s)] [s=subject(v)]?</sentence>
+		<sentence responseType="to location">[Genus(s)?er;sie;es] [word(v):p3] [?in [?[words/article/a:(l1)] [l1=words/substantiv/location/general/in:ac];[words/article/the:(l2)] [l2=words/substantiv/abstractum/adjectivic:ac]]]</sentence>
+		
+		<sentence response="for whom">Für wen [word(v):aup3] [words/article/the:(s)] [s=subject(v)][? denn;] [a=words/article/the:(o2)] [o2=object(v):ac] [v=words/verb:p3pa]?</sentence>
+		<sentence responseType="for whom">für [?[words/article/possessiv_pronomen/your:(o)];[words/article/possessiv_pronomen/my:(o)];[words/article/the:(o)]] [o=?[words/substantiv/bigImportant:ac];[words/substantiv/person:ac];[words/substantiv/abstractum]]</sentence>
+		<sentence responseType="for whom">für [words/article/the:(o)] [o=?[words/substantiv/bigImportant:ac];[words/substantiv/person:ac];[words/substantiv/abstractum]] [words/article/the:(ad)] [ad=words/substantiv/abstractum:ge]</sentence>
+		<sentence responseType="WhatIDo">ich [v1=words/verb:p1][? durchaus;5:][? [words/adverb];4:] [a=words/article/the:(o)] [o=object(v1):ac]</sentence>
+        <sentence responseType="WhatIDo">ich [v1=words/verb:p1][? durchaus;5:][? [words/adverb];4:] [a=words/article/the:(o)] [o=object(v1):acpl]</sentence>
+        <sentence responseType="WhatIDo">ich [v1=words/verb:p1][? durchaus;5:][? [words/adverb];4:] [a=words/article/possessiv_pronomen:(o3)] [o3=object(v1):da] [a2=words/article/the:(o)] [o=object(v1):ac]</sentence>
+        <sentence responseType="WhatIDo">ich [v1=words/verb:p1][? durchaus;5:][? [words/adverb];4:] [a=words/article/possessiv_pronomen:(o3)] [o3=object(v1):dapl] [a2=words/article/the:(o)] [o=object(v1):acpl]</sentence>
+		
+		<sentence meaning="STATEMENT">[?eigentlich;meistens;oft] [?bin ich;fühle ich mich;[words/verb/activity:p1] ich] am [words/adjective/human:k3]</sentence>
+		<sentence meaning="STATEMENT">ich bin[? eigentlich;] [adj=words/adjective/human:k2] als nur[? [words/preposition/adjectival];3:] [word(adj):k1]</sentence>
+		
+		<sentence meaning="STATEMENT">[a=words/article/a:(s)] [?1:[Genus(s)?wahrer;wahre;wahres];[adj=words/adjective/human:(s)]] [s=?Frau;Mann;3:[words/substantiv/person:si]] achtet[? [words/adverb];] auf [?das Innere;[a2=words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic:ac]] [a3=words/article/a:(o2)] [o2=words/substantiv/person:ge]</sentence>
+		<sentence meaning="STATEMENT">Hörst Du[? nur; eigentlich; bitte;;] was ich [word(v):p1], oder verstehst Du auch was ich [v=words/verb/activity/transitive/say:p1]?</sentence>
+		<sentence meaning="STATEMENT">[?Mein Aussehen;[a=words/article/possessiv_pronomen/my:(s)] [s=words/substantiv/nature/body/part]] gefällt den [words/substantiv/nature/animals:plda]</sentence>
+		<sentence meaning="STATEMENT">[?Mein Aussehen;[a=words/article/possessiv_pronomen/my:(s)] [s=words/substantiv/nature/body/part]] gefällt [words/article/the:(o)] [o=words/substantiv/person:da]</sentence>
+		<sentence meaning="STATEMENT">[adj=words/adjective/things] und [words/adjective/situation] [v=words/verb:p3] [a=words/article/possessiv_pronomen/my:(s)] [s=subject(v)]</sentence>
+		<sentence meaning="STATEMENT">Wenn ich[? [words/adverb];] [v=words/verb/activity:p1], werde ich[?2:; immer] [words/adjective:k2]</sentence>
+		<sentence meaning="STATEMENT">Wenn ich[? [words/adverb];] [v=words/verb/activity:p1], werde ich[?2:; immer] [words/preposition/adjectival] [words/adjective]</sentence>
+		<sentence meaning="STATEMENT">[?schau, ;ohh, ;haha, ]da [v=words/verb:p3][invisible[subject(v)]] [a=?[words/article/a:feno];[words/article/a:mano]] [Up[s=words/adjective:(a)]] [words/article/a:(o)] [o=object(v):ac]</sentence>
+		
+		<sentence meaning="STATEMENT">Es [word(v):aup3pl] [words/article:(s)] [s=subject(v):pl][?; mit [words/substantiv/abstractum/adjectivic]][?; in [words/article:(loc)] [loc=words/substantiv/location/general/in:da]] [v=words/verb:p3plpa]</sentence>
+		<sentence meaning="STATEMENT">[s=subject(v):pl] [word(v):aup3pl] [?;herum;dahin][v=words/verb:p3plpa]</sentence>
+		
+		<sentence meaning="STATEMENT">das [Up[words/adjective:k3node]] ist [words/article:(o)] [o=words/substantiv/abstractum/adjectivic]</sentence>
+		<sentence meaning="STATEMENT">[words/article:(s)] [s=words/substantiv/nature/animals] [words/verb/modal:p3] [words/article:(o2)] [o2=words/substantiv/bigImportant:ac][?; [words/article:(o)] [o=object(v):ac]] [v=words/verb]</sentence>
+		
+		<sentence meaning="STATEMENT">[v=words/verb/activity:p2im] [words/article:(o)] [o=object(v):ac]!</sentence>
+		<sentence meaning="STATEMENT">[v=words/verb:p2im] [words/article:(o)] [o=words/substantiv:ac]!</sentence>
+		<sentence meaning="STATEMENT">Auf[?; auf], ihr [words/substantiv/person:plno], [words/verb/activity:impl]!</sentence>
+		<sentence meaning="STATEMENT">[?hör auf zu;besser nicht;vergiss nicht zu;denk daran zu] [words/verb:in]!</sentence>
+		<sentence meaning="STATEMENT">sei ohne [words/substantiv:acpl]!</sentence>
+		<sentence meaning="STATEMENT">halte dich fern [Genus(o)?vom;von der;vom] [o=words/substantiv:da]!</sentence>
+		<sentence meaning="STATEMENT">[?ihm;dir;mir;ihr;euch;uns;[words/article/the:(o)] [o=words/substantiv:da]] fällt es[?3:; besonders; manchmal; oft] [?leicht;schwer] zu [words/verb:in]</sentence>
+		<sentence meaning="STATEMENT">sei ohne [o=words/substantiv:acpl], ohne [a=words/article/the:(o)] [Up[adjective(o)]]!</sentence>
+		<sentence meaning="STATEMENT">Am [words/adjective/situation:k3ac] [?[?mag;findet;[words/verb/activity/transitive:p3]] [Genus(s)?er;sie;es];ist [Genus(s)?ihm;ihr;ihm]]  das [Up[words/adjective:deno]]</sentence>
+		<!--sentence meaning="STATEMENT">[?jedenfalls;immerhin;zumindest;angeblich] ist [Genus(o)?er;sie;es] [words/adjective/human:k2]</sentence-->
+		<sentence meaning="STATEMENT">[?jedenfalls;immerhin;zumindest;angeblich] sind [s=words/substantiv/person:plno] [words/adjective/human:k2]</sentence>
+		<sentence meaning="STATEMENT">[s=words/substantiv/person:plno] sind [?jedenfalls;immerhin;zumindest;angeblich;] am [words/adjective/human:k3]</sentence>
+		<sentence meaning="STATEMENT">ich träume etwas [Up[words/adjective:noneunk2]]</sentence>
+		<sentence meaning="STATEMENT">[words/substantiv/person] [words/article/the:(o)] [o=words/substantiv/bigImportant:gesi], [words/article/the:(o2)] [o2=object(v):ac] [v=words/verb/activity:sip2im]!</sentence>
+		<sentence meaning="STATEMENT">[words/article/the:(s)] [s=words/substantiv/bigImportant:nosi] [?fußt auf;gebricht an;versinkt unter] [words/article/the:(o)] [o=words/substantiv:plda]</sentence>
+		<sentence meaning="STATEMENT">[?[Genus(o)?er;sie;es];[words/article/this:(os)] [os=word(o):nosi]] gehört zu den [Up[words/adjective/human:pldedak3]]</sentence>
+		<sentence meaning="STATEMENT">[?[words/article/the:(o1)] [o1=words/substantiv/person/profession];2:[words/article:(o)] [o=words/substantiv/person/relative]] gehört zu den [Up[words/adjective:pldedak2]]</sentence>
+		<sentence meaning="STATEMENT">so sagt [?der;die] [Up[words/adjective:denosik1]]</sentence>
+		<sentence meaning="STATEMENT">so [?sagen;fragen;[v=words/verb/activity:p3pl]] die [Up[words/adjective:denoplk3]]</sentence>
+		<sentence meaning="STATEMENT">Die sind meistens [words/adjective/human], die [Up[words/adjective:denoplk1]]</sentence>
+		<sentence meaning="STATEMENT">Gib mir [words/article/possessiv_pronomen/your:(o)] [o=words/substantiv:ac], [words/article/possessiv_pronomen/your:(o)] [adjective(o):k3]!</sentence>
+		<sentence meaning="STATEMENT">[?so;bald;danach] wurde [words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic] [words/article/the:(o)] [words/article/possessiv_pronomen:fe]</sentence>
+		<sentence meaning="STATEMENT">ich [?träume;rede;erzähle] von [adjective(o):de] [o=words/substantiv/nature/body:plda], von [words/article/possessiv_pronomen:dapl]!</sentence>
+        <sentence meaning="STATEMENT">ich [?sterbe;lebe;liebe;stehle;lerne] für [adjective(o):un] [o=words/substantiv/bigImportant:plac], für [words/article/possessiv_pronomen:acpl]!</sentence>
+		<sentence meaning="STATEMENT">so [?[?gut ;]kenne;[?gerne ;]mag] ich [words/article/no:acma]</sentence>
+		<sentence meaning="STATEMENT">so [?[?gut ;]kenne;[?gerne ;]mag] ich [words/article/no:acfe]</sentence>
+		<sentence meaning="STATEMENT">diese [o=words/substantiv/nature:plno], sind das [words/article/possessiv_pronomen:pl]?</sentence>
+		<sentence meaning="STATEMENT">[words/article/this:(os)] [os=word(o):pl], sind das [words/article/possessiv_pronomen:pl]?</sentence>
+		<sentence meaning="STATEMENT">so [words/adjective/human] ist [?[words/article/no:ma];[words/article/no:fe];[words/article/no:pl]]</sentence>
+		<sentence meaning="STATEMENT" probability="2">[words/article/this:(o)] [o=words/substantiv/bigImportant:ac] wünsche ich [words/article/no:sida]</sentence>
+		<sentence meaning="STATEMENT">von den [words/substantiv/thing:neplda] will ich ein [Up[words/adjective:neun]]</sentence>
+		<sentence meaning="STATEMENT">[Genus(s)?er;sie;es] ist[? halt;][? auch;] nicht[? gerade;] [Genus(s)?der;die;das] [Up[words/adjective:desik3]]</sentence>
+		<sentence meaning="STATEMENT">[words/article/this:(s)] [s=words/substantiv/person:no] ist[? halt;2:][?[? auch;2:][?  nicht;] gerade;] [words/article/the:(s)] [Up[adjective(s):k3]]</sentence>
+		<sentence meaning="SUBORDINATE">[? manchmal;][? auch;] [words/substantiv:pl]</sentence>
+		<sentence meaning="STATEMENT" probability="6">[words/article/the:(o)] [o=object(v):ac]  [v=words/verb/state]</sentence>
+        <sentence meaning="STATEMENT" probability="3">[words/article/the:(o)] [o=object(v):acpl]  [v=words/verb/state]</sentence>
+		<sentence meaning="STATEMENT">[?Mir reichts, ;]ihr [o=words/substantiv/nature/animals:pl], [v=words/verb/activity:impl]!</sentence>
+		<!--sentence meaning="STATEMENT">Mein blaues [words/substantiv:ne] ist ein blaustes</sentence-->
+		<sentence meaning="STATEMENT">zu [adjective(body):un] [body=words/substantiv/nature/body:plno]</sentence>
+		<sentence meaning="ANSWER" responseType="to which place">in [?den Himmel;die Hölle;[words/article/the:(loc)] [loc=words/substantiv/location/general/in:ac]] kommen [words/article:unpl]</sentence>
+		<sentence meaning="STATEMENT">es gehört sich nicht, [words/article/a:(os)] [os=word(o):ac] zu [words/verb/activity/transitive:in]</sentence>
+		<sentence meaning="STATEMENT">[?glücklich;traurig;5:[words/adjective/human]] wer [words/article/a:(o)] [o=word(s):ac] [words/verb/state:p3]</sentence>
+		<sentence meaning="STATEMENT">schenke [words/article/possessiv_pronomen/your:(s)] [s=words/substantiv/person/relative:da][? doch;] [words/substantiv:plno]!</sentence>
+		<sentence meaning="STATEMENT">[words/article/the:(s2)] [s2=word(s):no] [Numerus(s2)?[words/verb:p3rxsi];[words/verb:p3rxpl]] sich [words/adjective]</sentence>
+		<sentence meaning="STATEMENT">male auf [words/article/possessiv_pronomen/your:(o)] [o=words/substantiv/thing/clothes:ac] [words/article/a:(o2)] [o2=words/substantiv/thing:pl]!</sentence>
+		<sentence meaning="STATEMENT">[?alle meine Gedanken drehen sich;alles dreht sich;[words/article/the:(bi)][? ganze;] [bi=words/substantiv/bigImportant] dreht sich] um [words/article/the:(o)] [o=words/substantiv:ac]</sentence>
+		<sentence meaning="STATEMENT">[?mir scheint;ich träume;ich ahne es;mir schwant], ich [v=words/verb:p1]</sentence>
+	    <sentence meaning="STATEMENT">[words/article/the:(s)] [s=subject(v2)] [v2=words/verb:p3] [words/article/a:(o)] [o=object(v2):ac] und ich [v=words/verb:p1]</sentence>
+        <sentence meaning="STATEMENT">[Genus(s)?er;sie;es] [v2=words/verb:p3] und ich [v=words/verb:p1]</sentence>
+        <sentence meaning="STATEMENT" probability="3">während du [v2=word(v):pap2si] [word(v2):au], [word(v3):au] ich [?mich;dich;[words/article/a:(o)] [o=object(v3):ac]] [v3=words/verb:pap1]</sentence>
+		<sentence meaning="STATEMENT" probability="0.1">ob ihr [o=object(v):acpl] [word(v):in] müsst? Ja, [words/article/this:(o)] [v=words/verb:plim]!</sentence>
+		<sentence meaning="STATEMENT">[?Also gut, ; so sei es! ;][words/article/the:(o)] [o=words/substantiv:(art)] [Numerus(art)?sei;seien] [art=words/article/possessiv_pronomen:no]!</sentence>
+		<sentence meaning="STATEMENT">[?Also gut, ; so sei es! ;][words/article/the:(o)] [o=words/substantiv:(art)] [Numerus(art)?sei;seien] [art=words/article/possessiv_pronomen:nopl]!</sentence>
+		<sentence meaning="STATEMENT">ich [?wünsche[? mir;];[words/verb/state:p1]] [words/article/the:(o2)] [o2=word(o):ac] [?und;aber] [?habe;hasse;[words/verb/state:p1]] [words/substantiv:plac]</sentence>
+		<sentence meaning="STATEMENT">ich [v=words/verb/state:p1] [words/article/the:(o2)] [o2=object(v):acsi] wegen [Genus(o2)?[words/article/possessiv_pronomen/his:(o)];[words/article/possessiv_pronomen/her:(o)];[words/article/possessiv_pronomen/his:(o)]] [o=words/substantiv:plge]</sentence>
+		<sentence meaning="STATEMENT">[words/article/this:(o2)] [o2=word(s):nosi] [words/verb:rxp3] sich mit [Genus(s)?[words/article/possessiv_pronomen/his:(o)];[words/article/possessiv_pronomen/her:(o)];[words/article/possessiv_pronomen/his:(o)]] [o=words/substantiv:sida]</sentence>
+		<sentence meaning="STATEMENT">[words/article/this:(o2)] [o2=word(s):nosi] [words/verb:rxp3] sich für [Genus(s)?[words/article/possessiv_pronomen/his:(o)];[words/article/possessiv_pronomen/her:(o)];[words/article/possessiv_pronomen/his:(o)]] [o=words/substantiv:plac]</sentence>
+		<sentence meaning="STATEMENT" probability="5">[words/article/the:(o)] [o=words/substantiv/bigImportant] [words/article/the:(o2)] [o2=?[words/substantiv/person:ge];[words/substantiv/abstractum:ge]] ist [?Ursache;der Grund] für [adjective(o3):un] [o3=words/substantiv/abstractum:ac]</sentence>
+		<sentence meaning="STATEMENT" probability="10">[words/article/the:(s)] [s=subject(v)] [v=words/verb:p3] [words/article/the:(o)] [o=object(v):da] [words/article/the:(o2)] [?2:;[adjective(o2)]] [o2=object(v):ac]</sentence>
+		<sentence meaning="STATEMENT">[words/substantiv/person] im [words/substantiv/location/general/on/test:da]</sentence>
+        <sentence meaning="STATEMENT">Um [words/article/a:(o)] [o=object(v):ac] zu [v=words/verb:in], [words/verb:im]!</sentence>
+        <sentence meaning="STATEMENT">[word(v):im] nicht, [words/verb:im]!</sentence>
+        <sentence meaning="STATEMENT">[words/article/possessiv_pronomen/my:(s)] [?;[a=adjective(s)]] [s=subject(v)], [v=words/verb:im]!</sentence>
+        
+        
+		<sentence story="Kürzeste Geschichte" topic="JOKE" sequence="1">[?es war einmal;vor [?langer Zeit;Ewigkeiten] lebte] [words/article/a:(s)] [s=?[words/substantiv/person:no];[words/substantiv/nature/animals:no]] in [words/article/a:(loc)] [loc=?[words/substantiv/geographic:da];[words/substantiv/location/general/in:da]]</sentence>
+		<sentence story="Kürzeste Geschichte" sequence="1">vor [?langer Zeit;Ewigkeiten] gab es [words/article/a:(s)] [s=?[words/substantiv/person:ac];[words/substantiv/nature/animals:ac]] in [words/article/a:(loc)] [loc=?[words/substantiv/geographic:da];[words/substantiv/location/general/in:da]]</sentence>
+		<sentence story="Kürzeste Geschichte" sequence="1">vor [?langer Zeit;Ewigkeiten] [word(v):au] einmal [words/article/a:(s)] [s=subject(v)] [words/article/a:(loc)] [loc=object(v):ac] [v=words/verb:p3pa]</sentence>
+		<sentence story="Kürzeste Geschichte" sequence="2">[?plötzlich;und da;da] [word(v):au] [words/article/a:(s2)] [s2=subject(v)] [words/article/the:(o4)] [o4=object(v,s):ac] [v=words/verb:p3pa]</sentence>
+		<!-- sentence story="Kürzeste Geschichte" sequence="2">[?plötzlich;und da;da] [word(v):au] [words/article/a:(s2)] [s2=subject(v)] auch [words/article/a:(o4)] [o4=object(v):ac] [v=words/verb:p3pa]</sentence-->
+		<!--sentence story="Kürzeste Geschichte" sequence="3">in [words/article/this:(o3)] [o3=word(loc):da]!</sentence-->
+		<!--sentence story="Kürzeste Geschichte" sequence="3">[words/article/this:(o3)] [adjective(o3)] [o3=object(v2,o4):ac] [v2=word(v)]!</sentence-->
+		<sentence story="Kürzeste Geschichte" sequence="3">[words/article/the:(s2)] [word(s2)] [word(say):au] [say=words/verb/activity/transitive/say:pap3]: "[sentence:meaning=Statement]"</sentence>
+		<!--sentence story="Kürzeste Geschichte" sequence="3" id="WhatMakesUsHappy">[words/article/the:(s2)] [word(s2)] [word(say):au] [say=words/verb/activity/transitive/say:pap3]: "[sentence:response=WhatMakesUsHappy]"</sentence-->
+		<!--sentence story="Kürzeste Geschichte" sequence="3" id="Why">[words/article/the:(s2)] [word(s2)] [word(say):au] [say=words/verb/activity/transitive/say:pap3]: "[sentence:response=because]"</sentence-->
+		<!--sentence story="Kürzeste Geschichte" sequence="4" id="WhatMakesUsHappy">darauf [words/article/the:(sa)] [sa=word(s):no]: "[sentence:responseType=WhatMakesUsHappy]"</sentence-->
+		<!--sentence story="Kürzeste Geschichte" sequence="4" id="Why">darauf [words/article/the:(sa)] [sa=word(s):no]: "[sentence:responseType=because]"</sentence-->
+		<sentence story="Kürzeste Geschichte" sequence="4">[words/article/the:(s3)] [s3=word(s):no] [word(v):au] [?dann;daraufhin] [words/article/the:(o4)] [o4=object(v,s2):ac] [v=words/verb:p3pa]</sentence>
+
+		<sentence story="Weissagung" topic="JOKE" sequence="1">[subject(v):pl] [word(v):au] [v=?[words/verb/activity/intransitiv:fuplp3];[words/verb/activity/intransitiv:fuplp3]]</sentence>
+		<sentence story="Weissagung" sequence="2">[words/article/a:(s)] [s=subject(v)] [word(v):au] [words/article/the:(o)] [o=object(v):ac] [v=words/verb:fup3]</sentence>
+		<sentence story="Weissagung" sequence="3">Aus allen [words/article/the:(loc)] [words/substantiv/location:plda] werden [?die Rufe;die Schreie;die Gebete;die Gesänge] [words/article/the:(o)] [o=words/substantiv/person:plge] [?erklingen;verklingen;verwehen;zu hören sein;erschallen;anschwellen;verstummen;ertönen]</sentence>
+		<sentence story="Weissagung" sequence="4">[?aber;und] du [word(v):au] [?nur;] [words/article/the:(o)] [o=object(v):da] [v=words/verb:fup2]</sentence>
+
+		<!--sentence story="Love SMS">[words/adjective/human/psychology/positive/address:(s)] [s1=?[words/substantiv/person:(s)];[words/substantiv/nature/animals:(s)]]!</sentence-->
+		<sentence story="Love SMS" topic="JOKE">[invisible[a=words/article/a:(s1)]][words/adjective/human/psychology/positive/address:(a)] [s1=?[words/substantiv/person];[words/substantiv/nature/animals]]!</sentence>
+		<sentence story="Love SMS" sequence="2">Wir sind [o=words/substantiv/abstractum:nopl] [a=words/article/the:(o2)] [o2=?[words/substantiv/abstractum:ge];[words/substantiv/bigImportant:ge]]</sentence>
+		<sentence story="Love SMS" sequence="2">Du bist [a=words/article/the:(abstin)] [Up[words/adjective/human/positive:(abstin)k3]] meiner [abstin=invisible[word(abst):sino]] [abst=Genus(s1)?[words/substantiv/abstractum:gemapl];[words/substantiv/abstractum:gefepl];[words/substantiv/abstractum:negepl]]</sentence>
+		<sentence story="Love SMS" sequence="2" id="dream">ich [?träume davon;stelle mir vor], wie du [?dich;mich;[words/article/a:(o3)] [o3=object(v3):ac]] [v3=words/verb:rxp2]</sentence>
+		<sentence story="Love SMS" sequence="3" id="dream">das macht mich [words/adverb/temporal] [words/adjective/human/psychology]</sentence>
+		<sentence story="Love SMS" sequence="4" id="dream">erinnere dich an [words/article/possessiv_pronomen/our:(o3)] [o3=?[words/substantiv/event:ac];[words/substantiv/thing:ac]]!</sentence>
+		<sentence story="Love SMS" sequence="3">Und trotzdem denke ich [words/adverb] an [words/article/possessiv_pronomen/your:(o3)] [o3=words/substantiv/nature/body:ac]</sentence>
+		<sentence story="Love SMS" sequence="3">ich träume von [words/article/possessiv_pronomen/your:(o3)] [o3=words/substantiv/nature/body:da]</sentence>
+		<sentence story="Love SMS" sequence="3" id="question">[invisible[o3=?[words/substantiv/nature/body];[words/substantiv/abstractum/feeling]]]Weißt du, was ich an dir [?am meisten;wirklich;so sehr;für immer] [words/verb/state/person/positive:p1]?</sentence>
+		<sentence story="Love SMS">[Genus(o3)?er;sie;es] war [?; doch; so] [?;[words/preposition/adjectival]] [adjective(o3):in]!</sentence>
+		<sentence story="Love SMS" sequence="4" id="question">[words/article/possessiv_pronomen/your:(o3s)] [o3s=word(o3):ac]</sentence>
+		<sentence story="Love SMS" sequence="2" id="question2">[words/verb/modal:p2] du mit mir [words/article/the:(o3)] [o3=object(v2):ac] [v2=words/verb:in]?</sentence>
+		<sentence story="Love SMS" sequence="3" id="question2">ich meine [?[words/article/possessiv_pronomen/your:(o3s)];[words/article/possessiv_pronomen/our:(o3s)]] [adjective(o3s)] [o3s=word(o3):ac]</sentence>
+		<!--sentence story="Love SMS">ich [words/verb/state/person/positive:p1] dich, [Genus(s1)?deine [words/substantiv/nature/animals:fe];dein [words/substantiv/nature/animals:ma];dein [words/substantiv/nature/animals:ma]]</sentence-->
+		<sentence story="Love SMS">ich [words/verb/state/person/positive:p1] dich,[h=invisible[Genus(s1)?[?[words/substantiv:fe];[words/substantiv:ne]];[words/substantiv:ne];[?[words/substantiv:ne];[words/substantiv:ma]]]] [words/article/possessiv_pronomen/your:(h)] [?[words/substantiv/nature/animals:(h)];[words/substantiv/person/petname:(h)]]</sentence>
+
+		<sentence story="Hate SMS" topic="JOKE">Du [?2:[words/adjective/human/negative:de(faekal)];] [o1=words/substantiv/nature/animals:pl][Low[faekal=words/substantiv/nature/faekal]]!</sentence>
+		<sentence story="Hate SMS" sequence="2" id="location">[?verfaule;verrotte;verhungere;0.5:[words/verb/process:im] [?ruhig;halt]] in [words/article/possessiv_pronomen/your:(loc)] [words/adjective/situation/negative:(loc)] [loc=words/substantiv/location/general/in:da] voller [faekal2=words/substantiv/nature/faekal]</sentence>
+		<sentence story="Hate SMS" id="location">[Genus(loc)?er;sie;es] [?stinkt;riecht] nach [words/substantiv/abstractum:da] und [words/adjective/food/negative:(o2)st] [o2=words/substantiv/nature:plda]</sentence>
+		<sentence story="Hate SMS" sequence="2">Du siehst aus, wie [?der Sohn;die Tochter;der Bastard;[words/article/the:(faekal3)] [faekal3=words/substantiv/nature/faekal:no];[words/article/the:(o4)] [words/adjective/food:de(o4)] [o4=words/substantiv/nature/body/part:no]] [words/article/a:(animal)] [?verdammten;verrotteten;[words/adjective/food/negative:(animal)];[words/adjective/human/negative:(animal)]] [animal=words/substantiv/nature/animals:ge]</sentence>
+		<sentence story="Hate SMS" sequence="4">und [words/article/possessiv_pronomen/your:(s1)] [s1=words/substantiv/person/relative] ist [words/article/a:(o4)] [words/adjective/food/negative:(o4)] [o4=Genus(s1)?[words/substantiv/nature/animals:noma];[words/substantiv/nature/animals:nofe];[words/substantiv/nature/animals:none]]</sentence>
+		<sentence story="Hate SMS" sequence="4">sogar [words/article/possessiv_pronomen/your:(s1)] [s1=words/substantiv/person/relative] sagt, du bist am [words/adjective/human/negative:k3] von allen [words/substantiv/nature/animals:plda]</sentence>
+
+		<sentence story="Schulname" topic="JOKE" sequence="1" id="">[?Schule;[words/substantiv/location/general/in]] [words/article/the:(o1)] [o1=words/substantiv/abstractum:ge]</sentence>
+		<sentence story="Schulname" topic="JOKE" sequence="1" id="">[?Schule;[words/substantiv/location/general/in]] [words/article/the:(o1)] [o1=words/substantiv/person:gepl]</sentence>
+		<sentence story="Schulname" topic="JOKE" sequence="1" id="">[words/adjective][Low[?schule;[words/substantiv/location/general/in]]]</sentence>
+		<sentence story="Schulname" topic="JOKE" sequence="1" id="">[words/adjective/allPositiveGroups:k3(o)] [o=?Schule;[words/substantiv/location/general/in]]</sentence>
+
+		<sentence story="Antiwitz" topic="JOKE" sequence="1" id="dialog">sagt [words/article/a:(s1)] [s1=?[words/substantiv/person:nosi];[words/substantiv/nature/animals:nosi]] zu [words/article/a:(s2)] [s2=?[words/substantiv/person:dasi];[words/substantiv/nature/animals:dasi]]: [?[sentence:response=WhatDoYouDo];[sentence:response=WhatToDo]]</sentence>
+		<sentence story="Antiwitz" topic="JOKE" sequence="1" id="dialog">fragt [words/article/a:(s1)] [s1=?[words/substantiv/person:nosi];[words/substantiv/nature/animals:nosi]] [words/article/a:(s2)] [s2=?[words/substantiv/person:acsi];[words/substantiv/nature/animals:acsi]]: [sentence:response=WhatToDo]</sentence>
+		<sentence story="Antiwitz" topic="JOKE" sequence="2" id="dialog">darauf [words/article/the:(s22)] [s22=word(s2):no]: [sentence:responseType=WhatToDo]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="handlung">[v=words/verb/activity/intransitiv/move:p3pl] zwei [s1=subject(v):pl] [?in [words/article/a:(loc1)] [loc1=words/substantiv/location/general/in:ac];auf [words/article/a:(loc2)] [loc2=words/substantiv/location/general/on:ac]]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="handlung">[v=words/verb:plrxp3] sich [words/special/numbers/letters/plural] [s1=subject(v):pl] [?3:;selbst;gegenseitig]</sentence>
+		<sentence story="Antiwitz" sequence="2" id="handlung">sagt [Genus(s1)?der;die;das] eine: [sentence:topic=SEX]</sentence>
+		<sentence story="Antiwitz" sequence="3" id="handlung">[Genus(s1)?der;die;das] andere [v2=words/verb:p3] [words/adverb] [words/article/the:(o)] [o=object(v2):ac]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question">Was denkt [words/article/a:(s1)] [s1=subject(v)] wenn [Genus(s1)?er;sie;es] [words/article/a:(o4)] [o4=object(v):ac] [v=words/verb:p3]?</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question">dass [Genus(s1)?er;sie;es] [words/article/the:(o4)] [word(o4)][?; lieber] hätte [v2=words/verb/state:in] sollen</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question">[?[?gut;blöd;saublöd] gelaufen;schade um [words/article/the:(o4)] [word(o4)]; nächstes mal [words/adverb/modal/positive:k2] [word(v):in];[word(v):in] ist [words/adjective/situation]]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question2">Was geschieht, wenn [words/article/a:(s)] [s=subject(v)] [words/article/a:(o)] [o=object(v):ac] [v=words/verb:p3]?</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question2">[?nichts[?; besonderes; arges; wildes];nix;gar nichts;3:[Genus(s)?er;sie;es] [words/verb/process:p3];3:[words/article/the:(s2)] [s2=word(o):no] [words/verb/process:p3]]</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question2">[words/article/the:(s)] [word(s)] [?3:[words/verb/activity/intransitiv:p3] [words/adverb];[v=words/verb:rxp3] sich]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question3">Was ist der Unterschied zwischen [o=?[words/substantiv/nature/animals:plda];[words/substantiv/person:plda]] und [o2=?[words/substantiv/nature/animals:plda];[words/substantiv/person:plda]]?</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question3">Was ist der Unterschied zwischen [o=?[words/substantiv/geographic:da];[words/substantiv/location:da]] und [o2=?[words/substantiv/geographic:da];[words/substantiv/location:da]]?</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question3">Was ist der Unterschied zwischen [words/article/the:(o)] [o=words/substantiv/abstractum:da] und [words/article/the:(o2)] [o2=words/substantiv/abstractum:da]?</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question3">Was ist der Unterschied zwischen [o=words/substantiv/thing:plda] und [o2=words/substantiv/thing:plda]?</sentence>
+		<sentence story="Antiwitz" sequence="1" id="question3">Was ist der Unterschied zwischen [o=words/substantiv/bigImportant:plda] und [o2=words/substantiv/bigImportant:plda]?</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question3">[Numerus(o)?[words/article/the:(o1)] ;][o1=word(o):no] [Numerus(o)?ist;sind] [adjective(o):k2]</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question3">[Numerus(o)?[words/article/the:(o1)] ;][o1=word(o2):no] [Numerus(o2)?ist;sind] [adjective(o2):ink2]</sentence>
+		<sentence story="Antiwitz" sequence="2" id="question3">gleich ist jedenfalls [words/article/possessiv_pronomen/her:(o3)] [o3=words/substantiv/abstractum]</sentence>
+		<sentence story="Antiwitz" sequence="1" id="whatIs">Was ist[invisible[o4=subject(v)]] [a=adjective(o4):in] und [v=words/verb:p3][Reflexive(v)? sich;] [words/adverb]?</sentence>
+		<sentence story="Antiwitz" sequence="2" id="whatIs">[words/article/a:(s)][?; [adjective(s)]] [s=word(o4):no]</sentence>
+		<sentence story="Antiwitz" sequence="2" id="whatIs">[words/article/a:(s)] [Up[word(v):ws]][Low[s=word(o4):no]]</sentence>
+
+		<sentence story="Antiwitz" sequence="1" id="handlung2">[v=words/verb:plp3] [words/special/numbers/letters/plural] [s1=subject(v):pl] [words/article/a:(o3)] [o3=object(v):da] [words/article/the:(o4)] [o4=object(v):ac]:</sentence>
+		<sentence story="Antiwitz" sequence="2" id="handlung2">[v2=words/verb/activity/transitive/say:!!rxp3] [words/article/the:(s1singular)][s1singular=invisible[word(s1):si]] eine[?50:; [word(s1):si]]: "[?Das hätte sich [words/article/the:(s2)] [s2=word(o4):sino] nicht [?erwartet;gedacht];[word(o3):plno] und [word(o4):plno],[?3:; das ist] [words/adjective]]"</sentence>
+		<sentence story="Antiwitz" sequence="2" id="handlung2">[v2=words/verb/activity/transitive/say:!!rxp3] [words/article/the:(s1singular)][s1singular=invisible[word(s1):si]] eine[?50:; [word(s1):si]]: "[sentence:meaning=ANSWER]"</sentence>
+		<sentence story="Antiwitz" sequence="3" id="handlung2">darauf [words/article/the:(s1singular)] andere: "[sentence:meaning=STATEMENT]"</sentence>
+		
+
+		<sentence story="Einladung" >[?liebe;sehr geehrte][Genus(s1)?r;;s] [s1=words/substantiv/person:no]!</sentence>
+		<sentence story="Einladung">[?zum;3:beim] Spieleabend [word(v):au] [?3:;3:heute;[words/adverb/temporal]] [s=subject(v):pl] [words/article/the:(o1)] [o1=object(v):ac] [v=words/verb:fupl]</sentence>
+		<sentence story="Einladung" sequence="3" id="version 3">und gerade du, als [word(s1)] [?hilfst dabei;verhinderst], dass [sentence:responseType=ThatWe]</sentence>
+		<sentence story="Einladung" sequence="3" id="version 3">und gerade du, als [word(s1)] [words/verb/modal:p2] [?dabei helfen;verhindern], dass [words/article/the:(o11)] [o11=word(o1):pl] [?sich [words/verb:rx];[?nicht;] [words/verb/activity:pl] [?;[words/verb/modal:in]]]</sentence>
+		<sentence story="Einladung" sequence="3" id="version 1">und der Grund für diesen [?heutigen ;][?;[words/adjective/situation:deacma] ][?5:Spieleabend;Spaß] ist [?[words/article/a:(o1)];2:[Genus(o1)?folgender;folgende;folgendes]] [words/adjective/situation:(o1)] [o1=words/substantiv/abstractum:no]:</sentence>
+		<sentence story="Einladung" sequence="3" id="version 2">und der Grund für diesen [?heutigen ;][?;[words/adjective/situation:deacma] ][?5:Spieleabend;Spaß] ist [words/article/the:(o1)] [o1=words/substantiv/abstractum:no] in [words/article/possessiv_pronomen/our:(loc)] [loc=words/substantiv/location/general/in:da]</sentence>
+		<sentence story="Einladung" sequence="4" id="version 2">in [words/article/this:(loc)] [word(loc)] [v=words/verb:rxplp3] sich [words/article/the:(s1)] [s1=word(s):plno] [words/adverb/modal], was[?; [words/preposition/adjectival]] [adjective(s):in] ist</sentence>
+		<sentence story="Einladung" sequence="4" id="version 1">[words/article/the:(o1)] [word(o1):sino] [words/article/the:(bi)] [o5=words/substantiv/bigImportant:ge]</sentence>
+		<sentence story="Einladung" sequence="5" id="version 1">[words/article/the:(bi2)] [bi2=word(o5):no] [words/article/the:(o4)] [o4=words/substantiv/abstractum:ge]</sentence>
+		<sentence story="Einladung" sequence="6" id="version 1">und voraussichtlich werden daher[?; auch] [word(s):plno] [a=words/article/the:(o2)] [o2=object(v1):ac] [v1=words/verb:p3pl]</sentence>
+		<sentence story="Einladung" >[words/article/a:(su)] [su=word(s):sino] sagt dazu[?; übrigens; nur]: [?[sentence:topic=SciFi];[sentence:responseType=YesNo];10:[sentence:response=YesNo]]</sentence>
+		<sentence story="Einladung" >Also komme und [v2=?[words/verb:imp2];[words/verb/activity/transitive/destroy:imp2]] mit uns [words/article/this:(o3)] [adjective(o3):de] [invisible[object(v2):ac]][o3=word(s):plac]!</sentence>
+		<sentence story="Einladung">ich [words/verb:rxp1] mich,[h=invisible[?[words/substantiv:ne];[words/substantiv:ma]]] [words/article/possessiv_pronomen/yours:(h)] [?[words/substantiv/nature/animals:(h)];[words/substantiv/person/petname:(h)]]</sentence>
+
+
+
+		<sentence story="Game Evaluation" sequence="1" id="type1">Die Spieler [word(mv):au] in Ihrem Spiel [?[words/adverb/temporal];zu oft] [words/article/the:(o1)] [adjective(o1):k3] [o1=object(v1):acpl] [v1=words/verb:in] [mv=words/verb/modal:plp3pa]!</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="type2">[?leider;Gottseidank] [word(v1):au] [?die Spieler;die Tester] [?da;2:] [?[sentence:responseType=Where];[?erst ganz am Ende;in der Mitte;nach dem Einstieg] Ihres Spiels] [words/article/a:(o1)] [o1=object(v1):ac] [v1=words/verb:plp3pa]</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="frage">[words/article/question_which:(o1)] [o1=object(v2):acpl] [v2=words/verb:plp3] [?denn;2:] die [s1=subject(v2):nopl] [?da;] [words/adverb/modal] [?[?erst;] ganz am Ende;[?gleich;] am Anfang;in der Mitte;[?etwa;] im Mittelteil] Ihres Spiels?</sentence>
+		<sentence story="Game Evaluation" sequence="2" id="frage">[?[sentence:responseType=WhatToDo]]?</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="type3">Probieren Sie vielleicht [?mehr;eher;2:] [words/substantiv/nature:plac] statt[? nur;] Punkte zu vergeben![? die Spieler[? stehen drauf; lieben das]!;]</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="type3">Setzen Sie die Spieler durch mehr [words/substantiv/abstractum:plac] unter Druck!</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="type4">Vorschlag für ein neues [?Thema;Milieu;2:Spielthema]: [words/article/the:(o1)] [o1=?[words/substantiv/abstractum:no];2:[words/substantiv/bigImportant:no]]</sentence>
+		<sentence story="Game Evaluation" sequence="1" id="type4">Vorschlag für einen [?passenden;besseren;2:] [?neuen;] Spielnamen: [?Traum;der Beginn;das Ende;Horror;Welt;Stadt;[?das;] Zimmer] [words/article/the:(o1)] [o1=?[words/substantiv/abstractum:ge];[words/substantiv/bigImportant:ge]]</sentence>
+		<sentence story="Game Evaluation">Alles in Allem ist Ihr Spiel [?sehr;] [?gelungen;[words/adjective/situation]], [?weiter so!;immerhin;zufrieden?;finden Sie nicht?;[?das ist;2:] besser als nur [words/adjective/situation/negative]]</sentence>
+
+		
+		<!-- Paul --> 
+		
+		<sentence topic="Friendship" response="because,Because subj does something" probability="2">warum [v=words/verb/state:sip3] [words/article/the:(s)] [s=subject(v)] [words/article/the:(o)] [o=object(v):ac]?</sentence>
+		<sentence topic="Friendship" responseType="Because subj does something">Weil [Genus(s)?er;sie;es] [Genus(o)?ihn;diese [word(o)];es][? so;][? [words/adverb]; [words/adjective/situation]] [?[words/verb/activity/transitive/sense:p3];findet]</sentence>
+		<sentence topic="Friendship" responseType="Because subj does something">Weil [Genus(s)?er;sie;es][? einfach;] [?Lust auf [word(o):plac];Angst vor [word(o):plda];Sehnsucht nach [word(o):plda]] hat</sentence>
+		
+		<sentence topic="SEX" response="direct: to sex like bees">[sexYou?lieber:liebe] [nameYou]. [?[?Also das;Das] funktioniert;[?Kinder;Babies] entstehen] wie bei den [o=?1:Bienen;[words/substantiv/nature/animals:dapl]].[? Also .....;]</sentence>
+		<sentence topic="SEX" responseType="direct: to sex like bees">[sentence:responseType=YesShort]. mit [words/article/the:(body)] [body=words/substantiv/nature/body/part:da] [?tief;intensiv;[words/adjective/situation]] [sexMe?[words/article/possessiv_pronomen/her:(body2)]:[words/article/possessiv_pronomen/his:(body2)]] [body2=words/substantiv/nature/body/part:ac] [v=words/verb/activity/transitive/sense/feel]</sentence>
+		<sentence topic="SEX" responseType="direct: to sex like bees">[sentence:responseType=YesShort]. zwei [?kleine;süße;[adjective(o):plst]] [word(o):pl] ..... Ich [?[?träume;fantasiere][? es];stelle es mir[? bildlich;] vor]</sentence>
+		<sentence topic="SEX" responseType="direct: to sex like bees">[sentence:responseType=YesShort]. aber [word(o):plno] haben[? dafür;] doch [?[?gar ;]keine;zu [invisible[a=words/article/a:(body)]] [words/adjective:(a))]] [body=words/substantiv/nature/body:plno]</sentence>
+		
+		<sentence response="direct: to Sex Object,direct: to Sex Animal">schau, [words/article/a:(o)] [o=words/substantiv/nature/animals:no]! was [?willst du;[?könnten;wollen;sollen] wir] mit [Genus(o)?ihm;ihr;ihm] sexuall [?machen;anstellen]?</sentence>
+		<sentence response="direct: to Sex Object">ich habe hier [words/article/a:(o)] [o=?[words/substantiv/nature/animals:ac];[words/substantiv/thing/tool:ac];[words/substantiv/thing/weapon:ac];[words/substantiv/thing/material:ac]], was [?willst du;[?könnten;wollen;sollen] wir] mit [Genus(o)?ihm;ihr;ihm] sexuell [?machen;anstellen]?</sentence>
+		<sentence response="direct: to Sex Object">was könnten wir mit [words/article/this:(o)] [o=?[words/substantiv/nature/animals:da];[words/substantiv/thing/tool:da];[words/substantiv/thing/weapon:da];[words/substantiv/thing/material:da]]  [?machen;anstellen;anfangen], also[? rein;] sexuell??</sentence>
+		<sentence responseType="direct: to Sex Object">[?[sentence:responseType=IDontKnow].;[sentence:responseType=YesShort].;][? vielleicht;] [?1:mit ins [?Bett;Auto;Himmelbett] nehmen;uns [?füttern;umbinden;darauf setzen; darauf legen];mit [words/article/possessiv_pronomen/your:(b1)] [b1=words/substantiv/nature/body:da] [?vereinigen;[words/verb/activity/transitive/sense/feel];berühren];in [words/article/possessiv_pronomen/your:(b2)] [b2=words/substantiv/nature/body:ac] [?tun;stecken;einführen]]?</sentence>
+		<sentence responseType="direct: to Sex Object">ich will [words/article/no:(o2)] [o2=word(o):ac] [?im Bett haben;sehen;essen;[?in mir;auf mir] [words/verb/activity/transitive/sense]]</sentence>
+		<sentence responseType="direct: to Sex Animal">ich nehme[? von [Genus(o)?ihm;ihr;ihm];] [?das eine Ende;[words/article/the:(bodypart)] [bodypart=words/substantiv/nature/body/part:ac]], und du [?.....;versuchst [?das andere Ende;[words/article/the:(bp)] [bp=words/substantiv/nature/body/part:ac]] [?zu fassen;herum zu wickeln;in [?den Schuh;[words/article/the:(co)] [co=words/substantiv/thing/container:ac]] zu stopfen]]</sentence>
+
+
+		
+		<!--                                           R E L A T I O N S H I P                                       -->
+		
+		
+		<sentence topic="Relationship,DISPUTE" response="because, because">Warum streiten wir[? uns;] über [words/article/the:(o)] [o=words/substantiv/bigImportant:ac]?</sentence>
+	
+		<!-- DEFAULT -->
+		<!-- DEFAULT SHORT-->
+		<sentence topic="INDIRECT" meaning="STATEMENT">[?[?[?In der Zeitung;Im Internet] steht;Im [?Radio;Fernsehen] sagen sie;[nameOther] [?sagt;behauptet];[?meine [words/substantiv/person/relative:sifeno];mein [words/substantiv/person/relative:simano]] hat gesagt], ;][?schuld seien;es sind] die [words/substantiv:pl]</sentence>
+		<sentence topic="INDIRECT,Relationship" response="HowAreYou" meaning="QUESTION">Wie geht's mit [words/article/the:(o)] [o=words/substantiv:sida]?</sentence>
+		<sentence topic="INDIRECT,Relationship" response="HowAreYou" meaning="QUESTION" probability="1">[?Hallo [nameYou], ;][?wie war's heute;wie war [?der;dein] Tag;war es gut[? heute;]]?</sentence>
+		
+		<sentence meaning="ANSWER" responseType="HowAreYou">[?gut;schlecht;super;hervorragend;naja], [words/article/the:(sa)][invisible[sa=word(o):no]] [word(v):au] [words/article/the:(o4)] [o4=object(v):ac] [v=verb(o):p3pa]</sentence>
+		
+		<sentence topic="Relationship,INDIRECT" response="Answer to imperativ, yes my honey, yes but could you" meaning="QUESTION" probability="0.1">Nimm mich mal kurz in den Arm!</sentence>
+		<sentence responseType="yes,yes my honey">[?ja;ok] [words/article/possessiv_pronomen/my:(o)] [o=words/substantiv/person/petname]</sentence>
+		<sentence responseType="yes but could you">[?;ja;ok] [?;aber] [?;könntest du] bitte vorher [words/article/possessiv_pronomen/your:(o)] [o=words/substantiv/nature/body:ac] [v=verb(o)]?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="I did, Yes but we could" meaning="QUESTION" probability="1">Hallo! Wir haben uns ja lange nicht gesehen</sentence>
+		<sentence responseType="Yes but we could">ja, aber wir könnten uns jetzt [words/verb:plp1rx]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="WhatDoYouDo,IDo, I did, Yes but we could" meaning="QUESTION" probability="1">Hallo[?, das ist ja eine Überraschung;]! Was machst du denn hier?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="IDo,YesNo,Yes but we could" meaning="QUESTION" probability="1">[?[words/verb/modal:plp1];Sollen] wir uns eigentlich wieder [?;einmal] [?sehen;treffen;verabreden]?</sentence>
+		<sentence topic="BIRTHDAY,INDIRECT" response="YesNo,AnswerToStatement,Yes but we could" meaning="QUESTION" probability="1">[?;Ich glaube, ]ich werde [words/article/no:(o)] [o=?[words/substantiv/event:ac];Feier] [?veranstalten;machen]</sentence>
+		<sentence topic="BIRTHDAY,INDIRECT" response="AnswerToStatement,Yes but we could" meaning="QUESTION" probability="1">[?Ich glaube, ;]ich werde[? dir;][? doch;] [words/article/no:(o)] [o=words/substantiv/thing:ac] [?machen;kaufen;herstellen;schenken;verschenken]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="YesNo, direct:no I am" meaning="QUESTION" probability="1">Entschuldigung, sind Sie [Genus(o)?der Herr;die Frau;das] [o=words/substantiv/person:no] aus [words/substantiv/geographic/cities:ac]?</sentence>
+		<sentence responseType="direct:no I am">Nein, [words/article/the:(o)] [Genus(o)?[words/substantiv/person:mano];[words/substantiv/person:feno];[words/substantiv/person:neno]]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="HowAreYou" meaning="QUESTION" probability="0.2">Wilkommen in [words/substantiv/geographic:sino]. Wie war Ihre Reise?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="WhatDoYouDo,direct:no I am" meaning="QUESTION" probability="1">Was machst du, wenn du [?total;[words/adverb/modal]] [?unzufrieden;[words/adjective/human]] [?wirst;bist]?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="because,direct:Yes about" meaning="QUESTION" probability="0.2">Du denkst zu viel</sentence>
+		<sentence responseType="direct:Yes about">Ja über [words/article/this:(o)] [?;[adjective(o)]] [o=?[words/substantiv/abstractum:plac];[words/substantiv/bigImportant:plac]]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="because,AnswerToStatement,direct:always do" meaning="QUESTION" probability="0.5">Du [v=words/verb/activity:rxp2] [?mich;dich] [?nicht mehr;[adverb(v)];zu viel]</sentence>
+		<sentence responseType="direct:always do">[words/adverb/temporal] [word(v):in]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="YesNo,AnswerToStatement,direct:thing does" meaning="QUESTION" probability="1">Viele [o=words/substantiv], viele [words/]</sentence>
+		<sentence responseType="direct:thing does">[word(o)] [verb(o):p3]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="WhatThing NOMINATIV,WhatDoYouDo" meaning="QUESTION" probability="1">Was wenn [words/adjective/things]?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="WhatDoYouDo" meaning="QUESTION" probability="1">Was wenn [?[?der;unser;ein] [words/substantiv/bigImportant:simano];[?die;unsere;eine] [words/substantiv/bigImportant:sifeno];[?das;unser;ein] [words/substantiv/bigImportant:sineno]] [?kaputt[? wird;geht;];explodiert;verschwindet]?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="WhatThing NOMINATIV,WhatDoYouDo,YesNo,verb is" meaning="QUESTION" probability="1">[?Schatzi;[words/substantiv/person/petname]]: Es müsste [v=?gekocht;[words/verb/activity:pa]] werden…</sentence>
+		<sentence responseType="verb is" probability="3">[word(v):in] ist [words/adjective]</sentence>
+		<sentence topic="INDIRECT" response="WeCould,How,direct:use this and that" meaning="QUESTION" probability="1">Wie soll man da bitte arbeiten?</sentence>
+		<sentence responseType="direct:use this and that" probability="5">[?lege;wickle] [words/article/the:(o)] [o=words/substantiv/abstractum:ac] um [words/article/possessiv_pronomen/your:(o2)] [o2=words/substantiv/nature/body:ac]!</sentence>
+		<sentence topic="Relationship,INDIRECT" response="YesNo,direct: only if you cook that" meaning="QUESTION" probability="1">Würdest du mitessen, wenn ich koche?</sentence>
+		<sentence responseType="direct: only if you cook that" probability="10">[?;Nur ]wenn du [?;[words/substantiv/nature:plac] mit] [o=words/substantiv/nature:ws][lastOf(o)=a|e|i|o|u|ö|ü|ä?n:][Low[words/substantiv/thing/food:da]] [?machst;kochst;zubereitest]</sentence>
+		<sentence topic="Relationship,INDIRECT" response="YesNo, AnswerToStatement" meaning="QUESTION" probability="1">Soll ich dich haun?</sentence>
+		<sentence responseType="direct: if you want beating back" probability="10">wenn du [words/article/a:(o)] [b=words/substantiv/nature/body][lastOf(b)=a|e|i|o|u|ö|ü|ä?n:][?haken;watsche;wurf;stich;salto]</sentence>
+		<sentence topic="INDIRECT" response="YesNo, AnswerToStatement, because" meaning="QUESTION" probability="0.5">Sie sind [?völlig;[words/adverb/modal]] [?ausgetrocknet;[words/adjective]].</sentence>
+		<sentence topic="Relationship,INDIRECT" response="Where" meaning="QUESTION" probability="0.5">Wo ist denn [words/article/possessiv_pronomen/my:(o)] [o=?Frau;[words/substantiv/person/petname:no]]?</sentence>
+		<sentence topic="Relationship,INDIRECT" response="AnswerToStatement,YesNo" meaning="QUESTION" probability="0.1">Und jetzt brauche ich von dir noch [words/article/a:(o)] [o=?Foto;[words/substantiv/nature/body:ac]], damit ich [?sehe;[words/verb/activity/transitive/sense:p1]], wenn du [?anrufst;[words/verb/activity/intransitiv:p2]]</sentence>
+		 
+		<sentence topic="INDIRECT" response="Yes,YesNo,direct: only if you do something,Answer to imperativ" probability="1">[?[nameYou], ;][words/verb:im]!</sentence>
+		<sentence topic="INDIRECT" response="Yes,YesNo,direct: only if you do something,Answer to imperativ" probability="10">[?[nameYou], ;][?[words/verb/activity/transitive:im];[words/verb/state/person:im]] [?dich;mich;[words/article/possessiv_pronomen/your:(rel)] [rel=words/substantiv/person/relative:no]]!</sentence>
+		<sentence responseType="direct: only if you do something" probability="5">nur, wenn wir [sentence:responseType=WhatToDo]</sentence> 
+		
+		<sentence responseType="Answer to imperativ">[?nur ;]wenn du [words/article/the:(o)] [o=object(v):ac] [v=words/verb:p2]</sentence>
+		<sentence responseType="Answer to imperativ">ich [words/verb/modal:p1] nicht</sentence>
+		<sentence responseType="Answer to imperativ">warte! Ich [words/verb/modal:p1] vorher [words/article/the:(o)] [o=object(v):ac] [v=words/verb:in]</sentence>
+		
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.1">ja wirklich arg..[?10:; du hast was besseres verdient]</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">[adverb(v)] [v=words/verb/activity/transitive/say:pa]</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">hat das [words/article/the:(s)] [s=subject(v)] [v=?gesagt;[words/verb/activity/transitive/say:pa]]?</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">hat das [words/article/the:(s2)] [s2=word(s):nosi] [v=?gesagt;[words/verb/activity/transitive/say:pa]]?</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">sagt wer? [Up[words/article/the:(s)]] [s=?[words/substantiv/person];[words/substantiv/abstractum];[words/substantiv/bigImportant]]?</sentence>
+		<sentence topic="INDIRECT" responseType="Where" meaning="ANSWER" probability="1">in [words/article/this:(locin)] [locin=words/substantiv/location/general/in:dasi]. Schon seit [words/special/numbers/letters/plural] Jahren</sentence>
+		<sentence topic="INDIRECT" responseType="" meaning="ANSWER" probability="1">Ich hoffe, du willst dir das nicht länger gefallen lassen? Das ist echt ne Frechheit!</sentence>
+		<sentence topic="INDIRECT" responseType="" meaning="ANSWER" probability="1">Na gut, dann wirst Du auch nicht älter.</sentence>
+		<sentence topic="INDIRECT" responseType="HowAreYou" meaning="ANSWER" probability="1">Danke gut. Schön, daß Sie mich [?[Genus(x)?vom;von der;vom] [x=words/substantiv:da] wegholen;[Genus(x2)?vom;von der;vom] [x2=words/substantiv/location/general:da] abholen]</sentence>
+		<sentence topic="INDIRECT" responseType="HowAreYou" meaning="ANSWER" probability="1">Danke, Sie haben mich [Genus(o)?vom;von der;vom] [o=words/substantiv/bigImportant:da] überzeugt</sentence>
+		<sentence topic="INDIRECT" responseType="" meaning="ANSWER" probability="1">Sehnsucht und Angst sollten bei diesem Thema gleichermaßen vorsichtig machen</sentence>
+		<sentence topic="INDIRECT" responseType="YesNo" meaning="ANSWER" probability="0.1">Diese Möglichkeit muss ich gelten lassen können, wenn ich wirklich wissen will, was geschieht</sentence>
+		<sentence topic="INDIRECT" responseType="YesNo" meaning="ANSWER" probability="1">Es ist gegen meinen Willen</sentence>
+		<sentence topic="INDIRECT" responseType="YesNo" meaning="ANSWER" probability="1">Nein, sagt [words/article/the:(s)] [s=?[words/substantiv/person:no];[words/substantiv/nature/animals:no]].</sentence>
+		<sentence topic="INDIRECT" responseType="YesNo" meaning="ANSWER" probability="1">Nein, aber wir sind durch [words/article/the:(o4)] [o4=words/substantiv/abstractum:ac] gebunden</sentence>
+		<sentence topic="INDIRECT" responseType="WhatDoYouDo" meaning="ANSWER" probability="1">Ich mache dich wieder [?gesund;[words/adjective/human/positive];[words/adjective/human/psychology/positive]].</sentence>
+
+		<sentence topic="Friendship,Relationship" response="because,YesNo">wir schauen aus, als hätten wir [?zu viele;verdorbene;[words/adjective/food:(o)]] [o=words/substantiv/thing/food:plac] gegessen</sentence>
+		<sentence topic="Friendship,Relationship" response="because,YesNo">sieh [?einer;mal;uns] an, wir [?schauen;sehen] [words/adjective/human:k2] aus, als [?die Anderen;[?[words/article/the:(o)];[words/article/a:(o)]; [words/article/possessiv_pronomen/your:(o)]] [o=words/substantiv/person:nopl]]!</sentence>
+		<sentence topic="Relationship" response="AnswerToStatement,because,YesNo">wir gehören zusammen, wie [o2=words/substantiv:sino] und [o=words/substantiv:sino]</sentence>
+		<sentence topic="Friendship,Relationship" response="ThatSomethingChanges,MyName,SaySomethingImportant">Was sollte ich nie zu Dir sagen?</sentence>
+		<sentence topic="Relationship" response="WeCould">Welche Aktivitäten können wir entwickeln, die uns einander näher bringen?</sentence>
+		<sentence topic="Relationship" response="WhatMakesUsHappy,ThatSomethingChanges">Was regt Dich am meisten auf?</sentence>
+		<sentence topic="Relationship" response="WhatIf,WhatDoYouDo,WeCould">Was ist, wenn wir uns über [? [words/article/the:(o)] [o=words/substantiv/bigImportant:ac];eine wichtige Sache] nicht einigen können?</sentence>
+		<sentence topic="Relationship" response="WhichContact">Welche Art Berührung sagt Dir am [?besten;ehesten]: [?"Ich liebe Dich";"Ich mag Dich";"Ich begehre Dich"]?</sentence>
+		<sentence topic="Relationship" response="HowMany">Wie viele [words/substantiv/abstractum/time:pl][? ohne Sex wären dir zu viel; Sex wären dir zu [?wenig;viel]]?</sentence>
+		<sentence topic="Relationship" response="WeCould" probability="1">Wenn Du [?;nach der Arbeit;nach [words/article/the:(o)] [o=words/substantiv/event:da]] [?heim;zurück;nach Hause] kommst, was soll ich [?;[words/adverb/temporal];zuerst] tun?</sentence>
+		<sentence topic="Relationship" response="MyName,SaySomethingImportant" probability="0.5">Wenn Du [?;nach der Arbeit;nach [words/article/the:(o)] [o=words/substantiv/event:da]] [?heim;zurück;nach Hause] kommst, was soll ich [?3:;[words/adverb/temporal];zuerst] [?;zu dir] sagen?</sentence>
+		<sentence topic="Relationship" response="SaySomethingImportant" probability="0.5">Wenn ich [words/verb/activity:p1si], was sagst du?</sentence>
+		<sentence topic="Relationship" response="WhichTwoPeople" probability="0.05">Welches Paar kennen wir, dass die Art von [?[words/substantiv/abstractum:no];Nähe und Intimität] hat, die wir [?[words/verb/modal:plp1];wollen]</sentence>
+		<sentence topic="Relationship" response="HowToHelpYou,HowToChange,HowToBecome,YouCould,change,ILike">Was müsste ich [?machen;verändern;[words/verb/activity/transitive:in]], um Dich[? wirklich; sehr; unendlich] [?glücklich;froh] zu machen?</sentence>
+		<sentence topic="Relationship" response="Where,WhereMetaphorical">Wo werden wir in [words/special/numbers/letters/plural] Jahren mit unserer Beziehung sein?</sentence>
+		<sentence topic="Relationship" response="WhatToDo,WhatThing AKKUSATIV">Was ist [?das Wichtigste, das;das Schönste, das;das Beste, das;das [Up[words/adjective:k3node]], das] ich von Dir [?lernen;übernehmen;abschauen] könnte?</sentence>
+		<sentence topic="Relationship" response="IDo,WhatDoYouDo">Was tust Du, wenn Du Dich von mir verletzt fühlst?</sentence>
+		<sentence topic="Relationship" response="WhichProfession,WhatThing NOMINATIV,WhatToDo">Was würde unsere Beziehung zerstören?</sentence>
+		<sentence topic="Relationship" response="WeCould,WhatToDo,IDo,WhatDoYouDo">Was jetzt?</sentence>
+		<sentence topic="Relationship" response="WhatHabitsOfYou,YouCould,ILike">Welche Gewohnheiten von mir regen Dich auf?</sentence>
+		<sentence topic="Relationship" response="WhatIf,WhatSchouldWeDoNotToArgue">Was, wenn wir an einem Tag [?unterschiedliche;große;wilde] Dinge wollen?</sentence>
+		<sentence topic="Relationship" response="WhatIf,WhatSchouldWeDoNotToArgue">Was ist, wenn einer von uns mehr Raum für sich braucht?</sentence>
+		<sentence topic="Relationship" response="WeCould, WhatIf, WhatSchouldWeDoNotToArgue">Was tun wir, wenn wir beide einen schlechten Tag haben?</sentence>
+		<sentence topic="Relationship" response="How,HowBigAreYou">Wie [?leidenschaftlich;[words/adjective/situation]] willst Du mit mir sein?</sentence>
+		<sentence topic="Relationship" response="HowBigAreYou">Wie [words/adjective/human/psychology] wirst Du zu mir sein?</sentence>
+		<sentence topic="Relationship" response="WeCould,WhatSchouldWeDoNotToArgue">Was können wir tun, um nicht ewig zu streiten?</sentence>
+		<sentence topic="Relationship" response="WhatIf,WhatSchouldWeDoNotToArgue,WeCould">Was ist, wenn wir[? immer; dauernd; oft;] über Geld streiten?</sentence>
+		<sentence topic="Relationship" response="WhatIf,WhatSchouldWeDoNotToArgue,WeCould">Was ist, wenn [words/article/possessiv_pronomen/our:(o)] [o=?[words/substantiv/abstractum:no];Arbeit] ein [?wiederkehrendes;dauerndes] [?Ärgernis;Problem] werden würde?</sentence>
+		<sentence topic="Relationship" response="How,HowToDo">Wie erfahren wir, was wir sexuell voneinander wollen?</sentence>
+		<sentence topic="Relationship" response="WhatShouldISay">Was kann ich sagen, um Deine Aufmerksamkeit zu bekommen?</sentence>
+		<sentence topic="Relationship" response="WhatNeedOfYou">Welches Bedürfnis von Dir konnte ich bisher nicht erfüllen?</sentence>
+		<sentence topic="Friendship,Relationship" response="YourName" probability="1">Wie nennst du mich in deinen [?kühnsten;schönsten;furchtbarsten;aufregensten;[words/adjective/situation:k3]] Träumen?</sentence>
+		<sentence topic="Friendship,Relationship" response="MyName" probability="1">Wie soll ich dich[? liebevoll; im Zorn; am besten; [words/special/when/future];;] nennen?</sentence>
+		<sentence topic="Friendship,Relationship" response="YourName" probability="1">Wie nennen mich[? liebevoll; im Zorn; meistens; [words/special/when/future]; in deiner Vorstellung; manchmal; immer;;] [?deine;meine] [?Freunde;Verwandten;Kollegen]?</sentence>
+		<sentence topic="Friendship,Relationship" response="MyName" probability="1">Wie nennen dich[? liebevoll; im Zorn; meistens; [words/special/when/future]; in deiner Vorstellung; manchmal; immer;;] [?deine;meine] [?Freunde;Verwandten;Kollegen]?</sentence>
+		<sentence topic="Friendship,Relationship" response="YourName" probability="1">Wie nennst du mich, wenn du mir etwas sehr [Up[words/adjective/situation][e]s] sagen willst?</sentence>
+		<sentence topic="Friendship,Relationship" response="WhichMemories" probability="1">Welche Art von Erinnerungen wollen wir gemeinsam [?[words/verb/activity/transitive/say:in];schaffen]?</sentence>
+		<!-- work position -->
+		<sentence topic="Friendship,Relationship" response="WhatMakesUsHappy,WhichMemories,WeCould" probability="1">Was wird uns in den nächsten Jahren glücklich machen?</sentence>
+		<sentence topic="Relationship" response="WhatWarnsUs" probability="1">Was sind die ersten Warnzeichen, dass unsere Beziehung in Gefahr ist?</sentence>
+		<sentence topic="Friendship" response="WhatWarnsUs" probability="1">Was sind die ersten Warnzeichen, dass unsere Freundschaft in Gefahr ist?</sentence>
+		<sentence topic="DISPUTE,Friendship,Relationship" response="HowCanYouForgiveMe,WhatMakesUsHappy" probability="1">Wie kannst Du mir vergeben, wenn ich Dich wirklich verletzt habe?</sentence>
+		<sentence topic="psychology,Relationship" response="WhatWillYouDo,AnotherOne" probability="2">Was wirst Du tun, wenn Du Dich durch einen anderen Menschen angezogen fühlst?</sentence>
+		<sentence topic="psychology,Relationship" response="WhichCharacteristicsDoWeHave" probability="1">Welche Eigenschaften haben wir, die Probleme zwischen uns bringen könnten?</sentence>
+		<sentence topic="DISPUTE,Relationship" response="WhatWillYouDo,HowToDo,IDo" probability="1">Wenn wir streiten, wie willst Du Verantwortung für Deinen Teil des Problems übernehmen?</sentence>
+		<sentence topic="Sex,Relationship" response="HowToDo,WeCould" probability="1">Wie können wir unser Sexleben noch verbessern?</sentence>
+		<sentence topic="Friendship,Relationship" response="WhatWarnsUs,WhatHabitsOfMe,MyBodyParts" probability="1">Was sind Deine verletzlichsten Punkte?</sentence>
+		<sentence topic="Friendship,Relationship" response="DoYouNeedHelp" probability="1">Brauchst du meine Hilfe?</sentence>
+		<sentence topic="Friendship,Relationship" response="NoCompromises,WhereMetaphorical" probability="1">Auf welchem Gebiet willst Du keine Kompromisse machen?</sentence>
+		<sentence topic="Friendship,Relationship" response="WhatBothersYouWithMy" probability="2">Was stört dich an [?meiner Stimme;meinem Kommunikationsstil;[?meinem [words/substantiv/nature/body/part:simada];meiner [words/substantiv/nature/body/part:sifeda];meinem [words/substantiv/nature/body/part:sineda]]]?</sentence>
+		<sentence topic="Friendship,Relationship" response="WhichCharacteristicsDoWeHave,YouCould,ILike,WhatBothersYouWithMy" probability="1">Was erwartest Du von mir, das Du besser von Dir selbst erwarten solltest?</sentence>
+		<sentence topic="Relationship" response="WhatCouldYouNot,WhatHabitsOfMe" probability="1">Was konntest Du in früheren Beziehungen nie?</sentence>
+		<sentence topic="Friendship" response="WhatCouldYouNot,WhatHabitsOfMe" probability="1">Was konntest Du in früheren Freundschaften nie?</sentence>
+		<sentence topic="Dreams,Friendship,Relationship" response="WhatNeedOfYou,WhatSchouldWeDoNotToArgue,WhatToDo" probability="2">Was sind Deine [?tiefsten Wünsche;größten Träume;geheimsten Vorstellungen][? für [?dich;uns]; [?dich;uns] betreffend;;]?</sentence>
+		<sentence topic="Work,Friendship,Relationship" response="HowWasTheDay" probability="2">Was hast du [?heute;gestern] [?den Tag über;in der Nacht] gemacht?</sentence>
+		
+		
+		
+		
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="because" probability="3">Weil wir [Numerus(o)?[Genus(o)?ihn;sie;es];sie] [v=verb(o):plpap1] [word(v):aup1]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="because" probability="3">Weil wir [Numerus(o)?[Genus(o)?ihn;sie;es];sie] [v=verb(o):plp1]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="because" probability="3">Weil [Numerus(o)?[Genus(o)?der;die;das];die] [?;zu;[words/adverb/modal]] [adjective(o):in] [Numerus(o)?ist;sind]</sentence>
+		
+		<!-- Do something! (central structure)-->
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[words/verb/activity/intransitiv/move:imp2] [?in [words/article/a:(lin)] [lin=words/substantiv/location/general/in:ac];auf [words/article/a:(lon)] [lon=words/substantiv/location/general/on:ac]]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[v=words/verb/activity/transitive/create:imp2] [words/article/a:(o)] [o=object(v):ac]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[?starre auf;[words/verb/activity/transitive/sense/see:imp2];male auf;pinkle auf] [words/article/a:(o)] [o=words/substantiv/thing:ac]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[?[words/verb/activity/transitive/sense/taste:imp2];[words/verb/activity/transitive/sense/smell:imp2]] [words/article/a:(o)] [o=words/substantiv/thing/food:ac]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[words/verb/activity/intransitiv/move:imp2] nach [words/substantiv/geographic]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[words/verb/state/person:imp2] [?[words/article/possessiv_pronomen/your:(rel)] [rel=words/substantiv/person/relative:ac];[words/article/a:(op)] [op=words/substantiv/person:ac];[a2=words/article/possessiv_pronomen/your:(rel2)][? [words/adjective/human:(a2)];] [rel2=words/substantiv/person/relative:ac]]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[?befolge den Hinweis;erfülle den Wunsch] [?eines [words/substantiv/person:simage];einer [words/substantiv/person:sifege];deines [words/substantiv/person/relative:simage];deiner [words/substantiv/person/relative:sifege]]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[?[words/verb/activity/transitive/sense/hear:imp2];fühle;[words/verb/activity/transitive/sense/feel:imp2]] das [Up[?[words/verb/process];[words/verb/activity]]] [?eines [words/substantiv/nature/animals:simage];einer [words/substantiv/nature/animals:sifege];eines [words/substantiv/nature/animals:sinege]]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[v=words/verb/activity/transitive/sense/feel:imp2] das [Up[words/verb/state/person]] [?deines [words/substantiv/person/relative:simage];deiner [words/substantiv/person/relative:sifege]]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[v=words/verb/process:imp2] [?100:[adverb(v)];innerlich;ohne Hemmungen;ganz und gar;aus Protest;mit Hingabe]!</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="Do something!">[words/verb/state/person:imp2] [words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic:ac]!</sentence>
+		
+		<!-- WeCould -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WeCould">Uns [words/verb/state/person]?</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WeCould">Ich könnte [sentence:responseType=WhatToDo][?,; und] du [?auch;sicher nicht;[sentence:responseType=WhatToDo]][??;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WeCould" probability="5">[?am besten;vielleicht;Wir könnten] [sentence:responseType=WhatToDo]</sentence>
+		
+		<!-- IDo -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="IDo" probability="10">Ich könnte [sentence:responseType=WhatToDo]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="IDo" probability="1">Ich könnte mich [adverb(v)] [v=words/verb:rxin]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="IDo">Ich könnte [words/verb/activity] wenn du[? daneben;] [words/verb/activity:p2][??;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="IDo">Ich könnte [sentence:responseType=WhatToDo][?, und du [sentence:responseType=WhatToDo];;][??;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="IDo" probability="0.5">[?Hmm, ;ich mache ;ich liebe ]alles, was [words/adjective] ist</sentence>
+		
+		
+		<!-- I did -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="I did" probability="10">Ich [word(v):aup1] [?;inzwischen;daweil] [v=sentence:responseType=WhatToDoPast]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="I did">Ich [word(v):aup1] [?;inzwischen;daweil] [words/article/a:(o)] [o=object(v):ac] [v=words/verb:pap1]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="I did">Ich [word(v):aup1] [?;inzwischen;daweil] [adverb(v)] [v=words/verb:pap1]</sentence>
+		
+		
+		
+		<!-- IDontKnow -->
+		<sentence responseType="IDontKnow" probability="5">[?puh, ;ähm, ;du, ;eeeeh, ;oh, ;öööh, ;;;][?[?sowas;das;dies] weiß ich [?leider ;][?gerade ;]nicht;hab noch nicht [?drüber nachgedacht;darüber reflektiert;nachgesehen;nachgeschaut];keine Ahnung;weiß nicht;hab ich mir noch nicht überlegt;ist mir grad kein [?Begriff];das kann ich [?gerade ;grad ;;]nicht zuordnen;kein Plan;weiß ich nicht;sowas weiß ich doch nicht;da muss ich [?kurz ;][?drüber ;]nachdenken]</sentence>
+		<sentence responseType="IDontKnow" probability="5">[?;und] was ist [words/article/a:(o)] [word(o)]?</sentence>
+		
+		
+		
+		<!-- YouCould / ILike -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YouCould" probability="10">Du könntest [sentence:responseType=WhatToDo]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YouCould">Du könntest [words/verb/activity] wenn du[? daneben;] [words/verb/activity:p2][??;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YouCould">Du könntest [sentence:responseType=WhatToDo], wenn du [sentence:responseType=WhatToDo][??;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="ILike" probability="0.5">[?Hmm, ;ich mag ;ich liebe ]alles, was [words/adjective] ist</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YouCould">[?trauern;heulen;weinen;verzweifeln] [?aber] [sentence:topic=deep_statements]</sentence>
+		
+		
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="WhatToDo" probability="3">[?;[adverb(v)]] [words/article/a:(o)] [o=object(v):ac] [v=words/verb:in]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="WhatToDo" probability="1">[adverb(v)] [v=words/verb:in]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="3">[?;[adverb(v)]] [words/article/a:(o)] [o=object(v):ac] [v=words/verb:pa]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="1">[adverb(v)] [v=words/verb:pa]</sentence>
+		
+		<sentence responseType="Yes,YesShort,YesNo" probability="0.1">[?Ja;Hmm]?</sentence>
+		<sentence meaning="ANSWER"  responseType="No,YesNo" probability="0.1">Nein</sentence>
+	
+		<!-- WhatSchouldWeDoNotToArgue -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WeCould,WhatSchouldWeDoNotToArgue" probability="5">[?;wir [?können;könnten]] uns [adverb(v)] [v=words/verb:rx]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WeCould,WhatSchouldWeDoNotToArgue" probability="5">[?am besten;vielleicht] [?weniger;nicht mehr;[adverb(v)]] [v=words/verb/activity/intransitiv]</sentence>
+		
+		
+		<!-- HowToHelpYou -->
+		<sentence responseType="HowToBecome, HowToHelpYou">bleib[? so;] [words/adjective/human][? wie du bist;]!</sentence>
+		<sentence responseType="HowToHelpYou" probability="0.4">gib mir [?[?genug ;]Zeit;[?[?unauffällig;heimlich: ohne großes Aufsehen; schnell;] [?riesige;große;arge;verbotene] Mengen;] [?[words/substantiv/thing:pl];Geld]]!</sentence>
+		<sentence responseType="HowToHelpYou, HowToBecome" probability="1">sei[? vielleicht;][? in Zukunft;;] [?ein bisschen;etwas;einfach;;] [words/adjective/human/psychology:k2]!</sentence>
+		
+		
+		<!-- HowToChange -->
+		<sentence responseType="HowToChange">nimm dir ein Beispiel an [?deinem [words/substantiv/person/relative:dasima];deiner [words/substantiv/person/relative:sifeda]]!</sentence>
+		<sentence responseType="HowToChange">lerne zu [words/verb:in]!</sentence>
+		<sentence responseType="HowToChange">[?fahre;begib dich] [?;[words/adverb/temporal]] [?nach [words/substantiv/geographic:siacne];in die [words/substantiv/geographic:siacfe]]!</sentence>
+		
+		
+		<!-- WhichProfession -->
+		<sentence responseType="WhichProfession">du könntest [sexYou?[words/substantiv/person/profession:simano]:[words/substantiv/person/profession:sifeno]] werden</sentence>
+		<sentence responseType="WhichProfession">[sexYou?[words/substantiv/person/profession:plmano]:[words/substantiv/person/profession:plfeno]] sollen ein [?[words/adjective/situation/positive:unacne];schönes;leichtes;gutes] Leben haben</sentence>
+		
+		<!-- WhatIf -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann sage ich: [Up[sentence:topic=deep_statements]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann [words/verb/process:sip3] [?sofort;bald;vielleicht bald;] [?alles;[?der [words/substantiv/bigImportant:simano];die [words/substantiv/bigImportant:sifeno];das [words/substantiv/bigImportant:sineno]]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann juckt [?mein [words/substantiv/nature/body/part:simano];meine [words/substantiv/nature/body/part:sifeno];mein [words/substantiv/nature/body/part:sineno]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf" probability="0.2">[?na ;]dann geht [?hoffentlich;wahrscheinlich][? trotzdem;] nicht die Welt unter</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann [?heirate ich;verliebe ich mich in;verklage ich] [sexMe?eine [words/substantiv/person/profession:sifeac]:einen [words/substantiv/person/profession:simaac]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]was soll dann sein? [Up[sentence:topic=deep_statements]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann werde ich [words/verb/process] und du [?auf mich zu;von mir weg][words/verb/activity/intransitiv/move]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann wird [?wieder einmal ;endlich einmal ;zum Beispiel ;sofort ;bald ;vielleicht bald ;][?ein [words/substantiv/person:simano];eine [words/substantiv/person:sifeno]] [?geboren;erscheinen]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann würde ich [?hoffen;beten;erwarten], dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf" probability="2">[?na ;]das heißt, dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann füttere ich dich[? schnell; ausgiebig;] mit [words/substantiv/thing/food:plda]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann [?esse ich;verzehre ich][? erstmal;][? schnell; ausgiebig;][? einige; viele; mehrere;] [words/substantiv/thing/food:pl]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann [?schaue ich;fülle ich [words/substantiv/thing/beverage:si]] in [?deinen[? geheimen; geheimnisvollen;] [words/substantiv/thing/container:simaac];dein[? geheimes; geheimnisvolles;] [words/substantiv/thing/container:sineac];deine[? geheime; geheimnisvolle;] [words/substantiv/thing/container:sifeac]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatIf">[?na ;]dann denke ich[? schnell; sofort; automatisch;] an [?deinen [words/substantiv/nature/body/part:simaac];deine [words/substantiv/nature/body/part:sifeac];dein [words/substantiv/nature/body/part:sineac]]</sentence>
+		
+		
+		
+		<!-- SaySomethingImportant -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="SaySomethingImportant">[?Etwa: ;Hmmm, zum Beispiel: ;Lass mich nachdenken. ;;;][Up[sentence:topic=deep_statements]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="SaySomethingImportant">Ich [?könnte;muss;will;sollte] [?rülpsen;[? das; es][? stattdessen;;;] [words/verb/state]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="SaySomethingImportant">ich [words/]?</sentence>
+		
+		
+		<!-- How was the day? -->
+		<sentence topic="INDIRECT" id="default short" responseType="HowWasTheDay" meaning="ANSWER" sequence="2">[?Super, ;Genial, ;Bestens, ;]ich habe [?alles;die Aufgabe][? mit pravour;] geschafft</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowWasTheDay" meaning="ANSWER" sequence="2">[?Super, ;]ich habe [?[sexMe?sie:ihn][? wieder] [?gesehen;getroffen];mit [sexMe?ihr:ihm] [?geredet;gesprochen;zu Mittag gegessen;viel gelacht;die Pause verbracht]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowWasTheDay" meaning="ANSWER" sequence="2">[?Frag nicht! ;][?Furchtbar. ;][?[?Sie;Die];Diese [words/adjective/human/psychology/negative][e]n Typen][? haben sich gegen mich verbündet!; [?vermiesen;versauen;verleiden] mir den ganzen[? schönen;] Tag; bringen mich noch ins Grab]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowWasTheDay" meaning="ANSWER" sequence="2">Du warst gestern so [words/adjective/human/psychology/positive], [?daran denke ich schon den ganzen Tag;das war so schön;das macht mich [?glücklich;froh];voll cool]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowWasTheDay" meaning="ANSWER" sequence="2">[?Es war ;Die waren ;][words/adjective/situation/negative][?, faaad, faaad; und[? zusätzlich;][? auch;] [words/adjective/situation/negative]; aber[? andererseits;][? auch;] [words/adjective/situation/positive]]</sentence>
+		
+		<!-- Yes No -->
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ja ehh, ;Ich weiß, ;]in [?[words/substantiv/geographic:siacne];der [words/substantiv/geographic:siacfe]] [?heiligen;essen;verspeisen;feiern;huldigen] sie auch [?ihre [words/substantiv/person:plac];[words/substantiv/nature/animals:plac]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Nein! ;Echt? ;Unglaublich, ;;]dabei bräuchten wir[? dringend; gerade jetzt;;;] [?einen [words/substantiv/person/profession:siacma], der;eine [words/substantiv/person/profession:siacfe], die] [?uns [?hilft;beisteht;gehorcht];[words/adjective/human/psychology/positive] ist]!</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ja ehh, ;Ich weiß, ;Ich glaub's nicht, ;Arg, ;;;]über [words/article/the:(o)] [?wird überall [?berichtet;[words/verb/activity/transitive/say:pa]];werden die Historiker noch [?streiten;berichten;schreiben;[words/verb/activity/transitive/say]]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Nein, ;So ein Blödsinn, ;;]wir haben [?[?die;unsere] [words/substantiv/nature/animals:sifeac];[?den;unseren] [words/substantiv/nature/animals:simaac];[?das;unser] [words/substantiv/nature/animals:sineac]][? doch;] [?[?gut;ordentlich;artgerecht;angemessen] behandelt;[?ausreichend mit;ehh mit] [?[words/substantiv/nature/plants:plda];[words/substantiv/thing/food:plda]] gefüttert;[?nie;ordentlich;angemessen;nur selten] bestraft]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ja, ;Stimmt, ;Da siehst du es, ][?ich brauche;du brauchst][? zweifellos; unbedingt; noch heute;;] [?einen [?neuen;besseren;frischen;funktionierenden] [words/substantiv/nature/body/part:simaac];eine [?neue;bessere;frische;funktionierende] [words/substantiv/nature/body/part:sifeac];ein [?neues;besseres;frisches;funktionierendes] [words/substantiv/nature/body/part:sineac]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Keine Ahnung, ;Naja, aber ;Aber, ;Ok, aber ;] [words/article/the:(o)no] [? als ganzes;;] ist mir[? jedenfalls;;] [?zu groß;ein zu [?wichtiges;großes;heikles] Thema]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?der [words/substantiv/bigImportant:simaac];die [words/substantiv/bigImportant:sifeac];das [words/substantiv/bigImportant:sineac]] hat auch [?gute;schöne;wichtige] [?Seiten;Auswirkungen]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Mehr ging halt nicht, als;Aber das ist doch;Die spinnen, das ist] [?[?dieser;unser] [words/substantiv/location/general/in/housing:simano];[?diese;unsere] [words/substantiv/location/general/in/housing:sifeno];[?dieses;unser] [words/substantiv/location/general/in/housing:sineno]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ich wohne[? jedenfalls;][? gerne;] in;Nein, es gibt[? sicher;] keine [words/substantiv/nature/animals:plno] in] [?[?diesem;unserem] [words/substantiv/location/general/in/housing:simano];[?dieser;unserer] [words/substantiv/location/general/in/housing:sifeno];[?diesem;unserem] [words/substantiv/location/general/in/housing:sineno]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Jaja, ;Klar, ;Natürlich, ;Naja, ;3:][?neben [a=words/article/a:(loc)];[Genus(loc)?im;in einer;im]] [loc=words/substantiv/location/general/in:da] sollte man[? halt;] nicht [?campieren;zu lange schlafen;[?heimlich ;]essen;[?sofort ;]einschlafen;schreien;[?zu viel ][words/verb:in]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Was??;Unglaublich!;Furchtbar!;] Ich [?trinke;kaufe;bestelle] nie mehr [?mehrere [words/substantiv/thing/beverage:pl];einen [words/substantiv/thing/beverage:simaac];eine [words/substantiv/thing/beverage:sifeac];ein [words/substantiv/thing/beverage:sineac]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Und was findest du? ;Aha, ;Interessant, ;;;][?kann;soll;muss] man[? nicht;] [?zu Weihnachten;zu Ostern;ins Theater;in die Oper;in die Schule;in die Kirche] [?einen [words/substantiv/thing/clothes:simano];eine [words/substantiv/thing/clothes:sifeno];ein [words/substantiv/thing/clothes:sineno]] anziehen?</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Soso, ;Naja, ;;] ich mag[? halt;] [?bunte;gestreifte;karierte;[words/adjective/colors][e];[words/adjective/things][e]] [words/substantiv/thing/clothes:plno]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ob;Nur weil;Weil] [?[?der;unser] [words/substantiv/thing/container:simano];[?die;unsere] [words/substantiv/thing/container:sifeno];[?das;unser] [words/substantiv/thing/container:sineno]] [?ein Loch hat;undicht ist;zu [?groß;klein] ist]?</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Grauenhaft, ;Furchtbar, ;Ekelhaft, die Vorstellung, ;]wenn ich [?[?mehrere soche;diese] [words/substantiv/thing/food:pl];[?einen solchen;diesen] [words/substantiv/thing/food:simaac];[?eine solche;diese] [words/substantiv/thing/food:sifeac];[?ein solches;dieses] [words/substantiv/thing/food:sineac]][? nochmals [?essen;nur riechen] müsste; [?nur ;][?riechen;essen] müsste][?, .....;]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">Ich hoffe nur, [?unser [words/substantiv/thing/furniture:simaac];unsere [words/substantiv/thing/furniture:sifeac];unser [words/substantiv/thing/furniture:sineac]] fängt nicht Feuer!</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Jaja, ;Klar, ;Natürlich, ;Naja, ;;;]wer [?nicht;nie] [?lernt;übt], [?[words/substantiv/thing/tool:pl];einen [words/substantiv/thing/tool:simaac];eine [words/substantiv/thing/tool:sifeac];ein [words/substantiv/thing/tool:sineac]] [?zu verwenden;richtig einzusetzen], .....</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[?Ich glaube eher, die konnten;Wahrscheinlich konnten die;Die konnten vielleicht] [?die [words/substantiv/thing/vehicle:pl];den [words/substantiv/thing/vehicle:simaac];die [words/substantiv/thing/vehicle:sifeac];das [words/substantiv/thing/vehicle:sineac]] nicht[? richtig;] [?steuern;lenken].</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2">[words/substantiv/thing/weapon:plno] gehören [?verboten;alle vernichtet].[? So ist das; Oder[? nicht;]?; Punktum;;]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="AnswerToStatement" meaning="ANSWER" sequence="2" probability="0.1">[words/article/possessiv_pronomen/my:(o)] [o=words/substantiv:sino] ist[? noch;] geheim</sentence>
+
+
+		<!-- How are you? -->
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?Im Traum;In meiner Phantasie] lebe ich[? schon;][? mit dir;] in [?[words/substantiv/geographic:siacne];der [words/substantiv/geographic:siacfe]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?Wenn ich groß bin,;Irgendwann;Im nächsten Leben] will ich[? auch;] [sexMe?[words/substantiv/person/profession:siacma]:[words/substantiv/person/profession:siacfe]] werden</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?mein [words/substantiv/person/relative:siacma]  will deine [words/substantiv/person/relative:siacfe];meine [words/substantiv/person/relative:siacfe]  will deinen [words/substantiv/person/relative:siacma]] [?heiraten;treffen]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">Ich habe [?die [words/substantiv/nature/animals:sifeac];den [words/substantiv/nature/animals:simaac];das [words/substantiv/nature/animals:sineac]][? ehh;] nur [?ausgeborgt;im Zoo ausgeliehen;für zwei Tage].</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?Naja, ;Gute Frage, ;Ich weiß auch nicht recht, ;;][?meine;die] [words/substantiv/nature/plants:plno] brauchen[? extrem viel; viel] [?Wasser;Liebe;Erde;Sonne;Aufmerksamkeit;Düngemittel]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?mein [words/substantiv/nature/body/part:simaac];meine [words/substantiv/nature/body/part:sifeac];mein [words/substantiv/nature/body/part:sineac]] [?schmerzt;zwickt;brennt;pocht;juckt][? furchtbar; wirklich stark; zu sehr;]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?der [words/substantiv/bigImportant:simano];die [words/substantiv/bigImportant:sifeno];das [words/substantiv/bigImportant:sineno]] [?ist nichts gegen dich; geht mich nichts an; kann mir meine Laune[? auch;][? nicht;] verderben]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">Noch [?ein [words/substantiv/thing/furniture:simaac];eine [words/substantiv/thing/furniture:sifeac];ein [words/substantiv/thing/furniture:sineac]] [?in meinen [words/substantiv/location/general/in/housing:simaac];in meine [words/substantiv/location/general/in/housing:sifeac];in mein [words/substantiv/location/general/in/housing:sineac]] und fertig!</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?Ich gehe [?nicht mehr[? so oft; dauernd;;];nur[? noch; mehr;] selten]] [?in den [words/substantiv/location:simaac];in die [words/substantiv/location:sifeac];in das [words/substantiv/location:sineac]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?Schlecht, ;Nicht gut, ;]ich kriege [?diesen [words/substantiv/thing/container:simano];diese [words/substantiv/thing/container:sifeno];dieses [words/substantiv/thing/container:sineno]][? einfach;] nicht[? mehr;] auf.</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">[?Ich habe][? gestern;] [?den[? ganzen;] [words/substantiv/thing/beverage:simaac];die[? ganze;] [words/substantiv/thing/beverage:sifeac];das[? ganze;] [words/substantiv/thing/beverage:sineac]][? sofort;][? wieder;] [?ausgespuckt;erbrochen; [?ins Klo;in die Abwasch] geschüttet].</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?Schlecht, ;Nicht gut, ;][?der [words/substantiv/thing/clothes:simano];die [words/substantiv/thing/clothes:sifeno];das [words/substantiv/thing/clothes:sineno]] ist mir[? leider;][? wesentlich;] zu [?klein;groß;eng;bunt;teuer]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?Huch, ;Aja, ;Schlecht, weil ;][?die [words/substantiv/thing/food:plno] sind;[?der [words/substantiv/thing/food:simaac];die [words/substantiv/thing/food:sifeac];das [words/substantiv/thing/food:sineac]] ist] [?noch [?roh;nicht gekocht];verschimmelt;noch im [?Kühlschrank;Keller;Supermarkt]]</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="HowAreYou" meaning="ANSWER" sequence="2">[?Hervorragend! ;Super! ;Genial! ;]Ich weiß[? immerhin;][? schon], dass ich [?[words/substantiv/thing/tool:plac];einen [words/substantiv/thing/tool:simaac];eine [words/substantiv/thing/tool:sifeac];ein [words/substantiv/thing/tool:sineac]] verwenden kann, um [?[?meinen;deinen;unseren] [words/substantiv/thing/vehicle:simaac];[?meine;deine;unsere] [words/substantiv/thing/vehicle:sifeac];[?mein;dein;unser] [words/substantiv/thing/vehicle:sineac]] in Gang zu setzen</sentence>
+		<sentence topic="INDIRECT" id="default short" responseType="WhatDoYouDo,HowAreYou" meaning="ANSWER" sequence="2">Na, ich hab[? halt;] Angst vor [words/substantiv/thing/weapon:plda]</sentence>
+	
+		<!-- DEFAULT long-->
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="1">[nameMe] im Alltag</sentence>
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="2">[nameMe] und [nameYou]</sentence>
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="2">[nameMe] und [words/article/the:(t)] [t=topic]</sentence>
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="2">[words/adjective/situation:(t)] [t=topic]</sentence>
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="2">[words/article/the:(t)] [t=topic] [words/article/the:(adj)] [adj=words/substantiv/abstractum/adjectivic:ge]</sentence>
+		<sentence topic="alternatives" meaning="HEADLINE" sequence="3">[nameMe] und Freunde</sentence>
+		
+		<sentence topic="alternatives" sequence="10" response="No">Weißt du, was ich denke?</sentence>
+		<sentence topic="alternatives" sequence="10" response="YesShort">[?Duu;[nameYou]]?</sentence>
+		<sentence topic="alternatives" sequence="10" response="YesShort">Mir ist was eingefallen</sentence>
+		<sentence topic="alternatives" sequence="10" response="YesShort">[?[nameYou], ;]darf ich was [?fragen;sagen]?</sentence>
+		<sentence topic="alternatives" sequence="10" response="HowAreYou">[?[nameYou], ;]wie [?geht's;geht's dir]?</sentence>
+		<sentence responseType="YesShort,YesNo">[?Ja;Hmm]?</sentence>
+		<sentence responseType="No,YesNo">Nein</sentence>
+		<sentence responseType="YesNo">[?ja, weil;nein, weil] [sentence:responseType=ThatYou]</sentence>
+		
+		<sentence responseType="HowAreYou">[?Ja eh. ;Naja. ;Hmm .;Super! ;Danke super! ;][?Schönes;Furchtbares;Kaltes;Warmes;Windiges] Wetter haben wir heute.</sentence>
+		<sentence responseType="YesNo">Ja, hab' ich mir auch gedacht</sentence>
+		<sentence responseType="HowAreYou">[?hmm, ;Naja, ;;]mein Therapeut sagt gut</sentence>
+		<sentence responseType="HowAreYou" response="HowAreYou">[?hmm, ;Naja, ;Eh gut ;Geht so ;] und dir?</sentence>
+		
+		<!-- ANSWERS TO STATEMENTS -->
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">[?Aha, ;Soso, ;Hmm , ;;]das ist[? ja;] [?peinlich;[words/adjective/situation]]</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">OK, aber [?wie;wo;warum] [?passen;gehören] da [words/substantiv:plno] [?hinein;dazu;ins Bild]?</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">z z z. In [words/substantiv/geographic:sineac] wäre [?sowas;das] [?unmöglich;nicht erlaubt;gefährlich;wahrscheinlich verboten].</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.1">[?Oh, ;][?Was? ;][?Entschuldige ]-- Jetzt wäre ich fast [?eingeschlafen;weggepennt;eingenickt]</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER">Das glaubt vielleicht [?dein [words/substantiv/person:simano];deine [words/substantiv/person:sifeno]], ich jedenfalls nicht.</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.3">[?bitte, ][e]rzähl das doch den[? [words/adjective/human][e]n;;;] [words/substantiv/nature/animals:plda], aber verschone mich!</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Woher willst du das wissen?</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Soll das [?gescheit;besonders klug] [?sein;wirken]?</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Glaube ich[? dir;] nicht</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Ja ehh</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="1">[?Schön;[words/adjective/human/positive]] gesagt</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="1">Ich [words/verb/activity:p1si] dafür mehr</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Ich staune</sentence>
+		<sentence topic="INDIRECT" responseType="AnswerToStatement" meaning="ANSWER" probability="0.2">Genau so sehe ich es auch!</sentence>
+		
+		
+		
+		<sentence responseType="WhatThing AKKUSATIV" probability="0.5">[?Was für eine Frage. ;;][?Offensichtlich ;Naja, ;Hmm, ;;][?[?einen;den] [words/substantiv/thing:simano];[?eine;die] [words/substantiv/thing:sifeno];[?ein;das] [words/substantiv/thing:sineno]]</sentence>
+		<sentence responseType="WhatThing NOMINATIV, whatAmI"  probability="0.1">[words/article/the:(s)] [s=words/substantiv:ac] [?vom Mars;aus einer anderen Welt]?</sentence>
+		<sentence responseType="WhatThing AKKUSATIV">[?[words/article/a:(o)];[words/article/the:(o)]] [o=words/substantiv/thing:siac][??;]</sentence>
+		<sentence responseType="WhatThing NOMINATIV">[?[words/article/a:(o)];[words/article/the:(o)]] [o=words/substantiv/thing:sino][??;]</sentence>
+		
+		
+		<!-- Martin -->
+		<sentence topic="Work" response="WhatShouldISay" probability="1">Was hältst du [?von der Idee;davon], dass [sentence:responseType=ThatWeDoBusiness]?</sentence>
+		<sentence topic="Work" response="YesNoBusiness" probability="1">glaubst du, dass [sentence:responseType=ThatWeDoBusiness]?</sentence>
+		
+		
+		<!-- YesNoBusiness -->
+		<sentence topic="Work" responseType="YesNoBusiness" probability="1">[?[sentence:responseType=YesShort] ;]aber nur wenn [sentence:responseType=ThatWeDoBusiness]</sentence>
+		<sentence topic="Work" responseType="YesNoBusiness" probability="1">[?[sentence:responseType=YesShort] ;vielleicht, ]aber zu [words/adjective]</sentence>
+		
+		<!-- WhatCouldYouNot -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatCouldYouNot" probability="1" like="5:6">Nichts! [Up[sentence:responseType=ILoveYou]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatCouldYouNot" probability="1">[?zum Beispiel, ; hmm, ;;][sentence:responseType=WhatToDo]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatCouldYouNot" probability="1">[?ich hätte mich nie getraut, ;]dich zu [words/verb/activity/transitive/create]</sentence>
+		
+		<!-- WhatBothersYouWithMy -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="ThatWeWhatBothersYouWithMy" probability="1">Nichts! [Up[sentence:responseType=ILoveYou]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatBothersYouWithMy" probability="1">[?vielleicht, ;]dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatBothersYouWithMy" probability="1">[?vielleicht ;][?etwas ;]zu [words/adjective]?</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatBothersYouWithMy" probability="1">das [Up[words/adjective][e]]</sentence>
+		
+		<!-- ILoveYou -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="ILoveYou" probability="1">[?ich liebe dich;ich [words/verb/state/person/positive:p1] dich;ich [?möchte;werde] dich [?andauernd;für immer;ohne Ende;sofort;;] [words/verb/state/person/positive]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="ILoveYou" probability="1">du bis [sexYou?der:die] [Up[words/adjective/human/positive:k3node]][? von allen; [sexYou?den:die] ich je getroffen habe; überhaupt;;;]</sentence>
+		
+		<!-- NoCompromises -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="NoCompromises" probability="1">in Fragen [words/article/the:(o)] [o=words/substantiv/bigImportant:ge]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="NoCompromises" probability="1">[?auf ]dem[? [words/adjective/situation][e]n;;] Gebiet [words/article/the:(o)] [o=words/substantiv/abstractum/adjectivic:simage]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="NoCompromises" probability="1">[?wenn;solagen] es um [words/substantiv:pl] geht</sentence>
+		
+		<!-- DoYouNeedHelp -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="DoYouNeedHelp" probability="1">[sentence:responseType=Yes] beim [Up[words/verb]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="DoYouNeedHelp" probability="1">[sentence:responseType=No] [?höchstens;wenn dann] beim [Up[words/verb]][? vielleicht;]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="DoYouNeedHelp" probability="1">[sentence:responseType=Yes] [?wenn;bis] [sentence:responseType=ThatI]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="DoYouNeedHelp" probability="1">[sentence:responseType=Yes][? am besten;;;] beim [sentence:responseType=WhatToDo]</sentence>
+		
+		<!-- MyBodyParts -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="MyBodyParts" probability="1">[?vielleicht ;wahrscheinlich ;;][?[words/article/possessiv_pronomen/my:(o)];[words/article/the:(o)]] [o=words/substantiv/nature/body/part:no]</sentence>
+		
+		<!-- WhichCharacteristics -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichCharacteristicsDoWeHave" probability="1">[?vielleicht, dass;dass] [sentence:responseType=ThatWe]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichCharacteristicsDoWeHave" probability="1">hmm, wir sind[? beide;] [words/adjective/human][? und vielleicht[? etwas;] zu [words/adjective/human];]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichCharacteristicsDoWeHave" probability="1" response="YesNo">[?naja ;][?vielleicht ;]dass du[? so;] [words/adjective/human] bist und ich[? zu;] [words/adjective/human]?</sentence>
+		
+		<!-- WhatWarnsUs -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatWillYouDo" probability="2">[?ich werde dir sagen, dass;ich finde, dass] [?[sentence:responseType=ThatYou];[sentence:responseType=ThatI]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatWillYouDo" probability="1">einfach [?immer ;]weiter [words/verb]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatWillYouDo" probability="1">[?ich werde ;][? überlegen; in mich [?schauen;blicken]], ob ich dich [?noch ;][?genug ;][?[words/verb/state/person:p1];[words/verb/state/person] will]</sentence>
+		
+		<!-- AnotherOne -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="AnotherOne" probability="1">wer soll das[? denn;][? um Himmelswillen;] sein? [sexMe?[?die [words/substantiv/person/profession:sifeno];[?meine;deine;deine;deine] [words/substantiv/person/relative:sifeno]]:[?der [words/substantiv/person/profession:simano];[?mein;dein;dein;dein] [words/substantiv/person/relative:simano]]]?</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="AnotherOne" probability="1">nein, du bist [sexYou?der:die] [?[words/adjective/human/positive:k3node] und ;][words/adjective/human/positive:k3node]!</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="AnotherOne" probability="1">[?aber ich [?brauche;liebe;[words/verb/state/person/positive:p1]] ja nur dich;ich will nimanden sonst. nie.]</sentence>
+		
+		<!-- WhatName -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="MyName,YourName" probability="1">[?[words/adjective/human:(o)] ;][o=words/substantiv/nature/animals:no]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="MyName" probability="1">[sexMe?[?[words/adjective/human][e]r ;][words/substantiv/person/profession:simano]:[?[words/adjective/human][e] ;][words/substantiv/person/profession:sifeno]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="MyName" probability="1">[sexMe?der:die] mit [?dem [words/substantiv/nature/animals:simada];der [words/substantiv/nature/animals:sifeda];dem [words/substantiv/nature/animals:sineda]] [?tanzt;[words/verb/activity:p3]]</sentence>
+		
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YourName" probability="1">[sexYou?[?[words/adjective/human][e]r ;][words/substantiv/person/profession:simano]:[?[words/adjective/human][e] ;][words/substantiv/person/profession:sifeno]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="YourName" probability="1">[sexYou?der:die] mit [?dem [words/substantiv/nature/animals:simada];der [words/substantiv/nature/animals:sifeda];dem [words/substantiv/nature/animals:sineda]] [?tanzt;[words/verb/activity:p3]]</sentence>
+		
+		
+		<!-- HowCanYouForgiveMe -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowCanYouForgiveMe" probability="2">indem [?ich dafür sorge, dass ;ich mich erinnere, dass ][?[sentence:responseType=ThatYou];[sentence:responseType=ThatI]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowCanYouForgiveMe" probability="1">[?täglich;schnell davor] [a=words/article/a:(o)] [?[words/adjective/food:(a)] ;][o=words/substantiv/thing/food:ac]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowCanYouForgiveMe" probability="1">indem ich mir[? heimlich;] [words/article/a:(o)] [o=words/substantiv/games:ac] [?zugelegt;gekauft] habe</sentence>
+		
+		<!-- WhatWarnsUs -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatWarnsUs" probability="2">wenn [?du[? plötzlich;] nicht mehr magst, dass ;][?[sentence:responseType=ThatYou];[sentence:responseType=ThatI]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatWarnsUs" probability="1">wenn du anfängst, [?dauernd ;]zu [words/verb]</sentence>
+		
+		<!-- HowBigAreYou -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowBigAreYou" probability="1">[?sehr;unendlich;gar nicht;ein bisschen;mehr als du]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowBigAreYou" probability="1">[?und ;]wie [words/adjective/human] bist du?</sentence>
+		
+		
+		<!-- WhatMakesUsHappy -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatMakesUsHappy" probability="1">wenn [?[sentence:responseType=ThatYou];[sentence:responseType=ThatI]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatMakesUsHappy" probability="1">[?die[? große; starke; intensive] Liebe;3:[words/article/a:(o)] [o=words/substantiv/nature:ac]]</sentence>
+		
+		<!-- WhichMemories -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichMemories" probability="1">[words/adjective][e] Erinnerungen</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichMemories" probability="1">[?Erinnerungen ;]an was [Up[words/adjective][e]s]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichMemories" probability="3">wie [sentence:responseType=ThatWePast]</sentence>
+		
+		<!-- HowToDo -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowToDo" probability="2">[?indem wir ;][?hoffen;erkennen], dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowToDo" probability="2">durch die[? geschickte; [words/adjective/food][e];] Verwendung [words/article/a:(o)] [o=words/substantiv/thing:ge]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowToDo" probability="2">indem wir es [?[words/verb/activity/transitive/say];fragen]?</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowToDo" probability="2">indem wir uns fragen, ob [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="HowToDo" probability="2">indem wir [?gemeinsam;] [sentence:responseType=WhatToDo]</sentence>
+		
+		
+		
+		<!-- WhatNeedOfYou -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatNeedOfYou">[?zum Beispiel;ich hätte gerne], dass [?[sentence:responseType=ThatYou];[sentence:responseType=ThatI]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatNeedOfYou">dass[? du so tust, als ob;] [sentence:responseType=ThatI]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatNeedOfYou" probability="2">[?ich würde gerne ;][sentence:responseType=WhatToDo]</sentence>
+		
+		
+		<!-- WhatHabitsOfYou -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfYou" probability="2">zum Beispiel, dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfYou" probability="2">wenn[? du so tust, als ob;;] [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfYou" probability="2">wenn du [?;[adverb(v)]] [v=words/verb:p2]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfYou" probability="2">wenn du mich [?;[adverb(v)]] [words/verb:rxp2]</sentence>
+		
+		<!-- WhatHabitsOfMe -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfMe">zum Beispiel, dass [sentence:responseType=ThatI]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfMe" probability="2">wenn[? ich so tue, als ob;;] [sentence:responseType=ThatI]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhatHabitsOfMe">wenn ich[? wieder[? einmal;];][? [words/adjective];] [words/verb:p1]</sentence>
+		
+		
+		<!-- ThatYou -->
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du[? immer; so oft;][? einfach;] [?in die [words/substantiv/geographic:sifeno];nach [words/substantiv/geographic:sineno]] [?abhaust;reist;abhauen sollst]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du [?meinen [words/substantiv/nature/body/part:simaac];meine [words/substantiv/nature/body/part:sifeac];mein [words/substantiv/nature/body/part:sineac]] drückst</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du etwas [Up[words/adjective/human][e]s] mit [sexYou?der [words/substantiv/person/profession:sifeda]:dem [words/substantiv/person/profession:simada]] [?vor hast;gemacht hast;geplant hast]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du [sexYou?[?die;eine] [words/substantiv/person/profession:sifeno]:[?den;einen] [words/substantiv/person/profession:simano]] [words/adjective/human] [?gemacht hast]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du mich [words/adjective/human:k2] [?gemacht hast]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du [words/adjective/human:k2] [?geworden bist]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du[? unbedingt; unabsichtlich; damals] [?dem [words/substantiv/person/profession:simada];der [words/substantiv/person/profession:sifeda]] [?geholfen;mit [?[?viel ;]Geld;[words/substantiv/thing:plda]] ausgeholfen] hast</sentence>		
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du[? unbedingt;] [sexYou?[words/substantiv/person/profession:simano]:[words/substantiv/person/profession:sifeno]] werden möchtest</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du noch [words/adjective/human/psychology:k2] wirst</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du [? wieder[? einmal;];][? [words/adjective];] [words/verb:p2]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatYou">du versuchst, mich zu [words/verb/activity/transitive/create:in]</sentence>
+		
+		<!-- ThatI -->
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich[? immer; so oft;][? einfach;] [?in die [words/substantiv/geographic:sifeno];nach [words/substantiv/geographic:sineno]] [?abhaue;reise;abhauen soll]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich [?deinen [words/substantiv/nature/body/part:simaac];deine [words/substantiv/nature/body/part:sifeac];dein [words/substantiv/nature/body/part:sineac]] drücke</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich etwas [Up[words/adjective/human][e]s] mit [sexYou?der [words/substantiv/person/profession:sifeda]:dem [words/substantiv/person/profession:simada]] [?vor habe;gemacht habe;geplant habe]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich [sexMe?[?den;einen] [words/substantiv/person/profession:simaac]:[?die;eine] [words/substantiv/person/profession:sifeac]] [words/adjective/human] [?gemacht habe]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich mich [words/adjective/human:k2] [?gemacht habe]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich für mich[? wenigstens; zumindest;] [words/adjective/human:k2] [?geworden bin]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich[? unbedingt;] [sexMe?[words/substantiv/person/profession:simano]:[words/substantiv/person/profession:sifeno]] werden möchte</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich[? unbedingt; unabsichtlich; damals] [?dem [words/substantiv/person/profession:simada];der [words/substantiv/person/profession:sifeda]] [?geholfen;mit [?[?viel ;]Geld;[words/substantiv/thing:plda]] ausgeholfen] habe</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich noch [words/adjective/human/psychology:k2] werde</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich [?wieder[? einmal;];dagegen;][? [words/adjective];] [words/verb:p1]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatI">ich versuche, dich zu [words/verb/activity/transitive/create]</sentence>
+		
+		<!-- ThatWe -->
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir[? immer; so oft;][? einfach;] [?in die [words/substantiv/geographic:sifeno];nach [words/substantiv/geographic:sineno]] [?abhauen;reisen;abhauen sollen]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir[? zu oft; dauernd; einmal zu oft; gerne] unsere [words/substantiv/nature/body/part:plac] [?[?aneinander ;;][?reiben;drücken];streicheln]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe,ThatWePast">wir etwas [Up[words/adjective/human][e]s] mit [sexYou?der [words/substantiv/person/profession:sifeda]:dem [words/substantiv/person/profession:simada]] [?vor hatten;gemacht haben;geplant haben]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe,ThatWePast">wir [sexMe?[?den;einen] [words/substantiv/person/profession:simaac]:[?die;eine] [words/substantiv/person/profession:sifeac]] [words/adjective/human] [?gemacht haben;verdroschen haben]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe,ThatWePast">wir uns [words/adjective/human:k2] [?gemacht haben]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe,ThatWePast">wir für uns[? wenigstens; zumindest;]  [words/adjective/human:k2] [?geworden sind]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir beide[? unbedingt;] [words/substantiv/person/profession:plno] werden möchten</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe,ThatWePast">wir[? unbedingt; unabsichtlich; damals] [?dem [words/substantiv/person/profession:simada];der [words/substantiv/person/profession:sifeda]] [?geholfen;mit [?[?viel ;]Geld;[words/substantiv/thing:plda]] ausgeholfen] haben</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir [?noch;immer;immer noch;täglich] [words/adjective/human/psychology:k2] werden</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir [? wieder[? einmal;];][? [words/adjective];] [words/verb:p1pl]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">wir versuchen, uns gegenseitig zu [words/verb/activity/transitive/create]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWe">[sentence:responseType=ThatWeDoBusiness]</sentence>
+		
+		
+		<!-- ThatWePast -->
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir[? immer; so oft;][? einfach;] [?in die [words/substantiv/geographic:sifeno];nach [words/substantiv/geographic:sineno]] [?gefahren;gereist;abgehauen] sind</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir[? zu oft; dauernd; einmal zu oft; gerne] unsere [words/substantiv/nature/body/part:plac] [?[?aneinander ;;][?gerieben;gedrückt];gestreichelt] haben</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir beide[? unbedingt;] [words/substantiv/person/profession:plno] werden wollten</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir [?noch;immer;immer noch;täglich] [words/adjective/human/psychology:k2] wurden</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir [? wieder[? einmal;];][? [adverb(v)];] [v=words/verb:p1plpa] [word(v):aupa]</sentence>
+		<sentence topic="INDIRECT" meaning="SUBORDINATE" responseType="ThatWePast">wir versucht haben, uns gegenseitig zu [words/verb/activity/transitive/create]</sentence>
+		
+		
+		<!-- ThatWeDoBusiness -->
+		<sentence topic="INDIRECT" responseType="ThatWeDoBusiness" probability="1">wir [words/substantiv/thing:plno] [words/adjective:k2] machen sollen</sentence>
+		<sentence topic="INDIRECT" responseType="ThatWeDoBusiness" probability="1">sich [words/adjective:k2][e] [words/substantiv/nature:plno] [?durchsetzen;verkaufen würden]</sentence>
+		<sentence topic="INDIRECT" responseType="ThatWeDoBusiness" probability="1">[words/adjective:k2][e] [words/substantiv/nature:plno] [?ein Renner wären;eine Marktlücke sind]</sentence>
+		
+		
+		<!-- ThatSomethingChanges -->
+		<sentence topic="INDIRECT" responseType="ThatSomethingChanges" probability="1">dass [words/article/the:(s)] [s=words/substantiv/bigImportant:no] [?[words/adjective/human:k2] wird;[words/article/a:(o)] [o=object(v):ac] [v=words/verb/activity/transitive/create:p3]]</sentence>
+		<sentence response="ThatSomethingChanges" meaning="QUESTION">Was [v=words/verb/modal:p2] du[?; eigentlich; [adverb(v)]]?</sentence>
+		
+		
+		<!-- WhichContact -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichContact">[?mein [words/substantiv/nature/body/part:simano];meine [words/substantiv/nature/body/part:sifeno];mein [words/substantiv/nature/body/part:sineno]] [?an;berührt;auf] [?deinen [words/substantiv/nature/body/part:simano];deine [words/substantiv/nature/body/part:sifeno];dein [words/substantiv/nature/body/part:sineno]]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichContact">Wenn mein Herz [?sieht;erkennt], wie [words/adjective/human/psychology/positive] du[? innerlich; in Wirklichkeit;] bist</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichContact">[?[words/adjective/human/psychology/negative] aber;[words/adjective/human/psychology/positive] und das] [?mit allen Sinnen;von Kopf bis Fuß;komplett;vollkommen]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichContact">[?Einfach nur ;Hmm, ;;][?ein Kuss;eine Berührung unserer [words/substantiv/nature/body/part:plno]]</sentence>
+		
+		
+		<!-- WhereMetaphorical -->
+		<sentence topic="INDIRECT" meaning="Answer" responseType="WhereMetaphorical">Dort, wo [?der [words/substantiv/bigImportant:simano];die [words/substantiv/bigImportant:sifeno];das [words/substantiv/bigImportant:sineno]] den [words/substantiv/nature/animals:plda] [?gute Nacht wünscht]</sentence>
+		<sentence topic="INDIRECT" meaning="Answer" responseType="WhereMetaphorical">im Glück mit [words/special/numbers/letters/plural] Kindern</sentence>
+		<sentence topic="INDIRECT" meaning="Answer" responseType="WhereMetaphorical">[?am Ende, aber;am Anfang weil] [sentence:topic=deep_statements]</sentence>
+		
+		
+		<!-- ChangeStatement -->
+		<sentence topic="INDIRECT" meaning="Answer" responseType="change">Deine [words/substantiv/thing/food:pl] [?müssten;könnten] [words/adjective/food:k2] [?werden;sein]</sentence>
+		
+		
+		
+		<!-- WhichTwoPeople -->
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichTwoPeople">[words/article/possessiv_pronomen/my:(o1)] [o1=words/substantiv/person:sino] und [words/article/possessiv_pronomen/your:(o2)] [o2=words/substantiv/person:sino]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichTwoPeople">[words/article/possessiv_pronomen/my:(o1)] [o1=words/substantiv/person:plno] und [words/article/possessiv_pronomen/your:(o2)] [o2=words/substantiv/person:plno]</sentence>
+		<sentence topic="INDIRECT" meaning="ANSWER" responseType="WhichTwoPeople">die [?Verlobten;zwei;Verliebten] [sentence:responseType=from Moviename]</sentence>
+		
+		<!-- two in love past -->
+		<sentence topic="INDIRECT" responseType="you two in love past" meaning="SUBORDINATE">[sexYou?sie:er] [?ist bei dir beglieben;hat zu dir gehalten], obwohl du [words/article/possessiv_pronomen/your:(o)] [o=words/substantiv/nature/body:ac] verloren hattest</sentence>
+		<sentence topic="INDIRECT" responseType="you two in love past" meaning="SUBORDINATE" probability="0.2">ihr seid zusammen durch viel dünn und wenig dick gegangen</sentence>
+		<sentence topic="INDIRECT" responseType="you two in love past" meaning="SUBORDINATE">ihr habt euch [?vertraut;[words/verb/state/person/positive:p2plpa]], obwohl ihr [words/article/no:(os)] [Genus(os)?gemeinsamen;gemeinsame;gemeinsames] [os=words/substantiv/bigImportant:ac] hattet</sentence>
+		
+		
+		<!-- WhatShouldISay -->
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatShouldISay">[?sage ;][?einfach, ;]dass [sentence:responseType=ThatYou]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatShouldISay">[?etwa: ;zum Beispiel: ;][Up[sentence:topic=deep_statements]]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatShouldISay">[?sage[? einfach;][? nur;]: ][Up[sentence:responseType=YesNo]]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatShouldISay">dass wir [sentence:responseType=WhatToDo]</sentence>
+		
+		
+		<!-- WhatToDo (central structure)-->
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[?wieder einmal ;endlich einmal ;zum Beispiel ;][?in die [words/substantiv/geographic:sifeac];nach [words/substantiv/geographic:sineac]] fahren</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">uns [words/verb/state/person:in]?</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[?einen [words/substantiv/thing/tool:simaac];eine [words/substantiv/thing/tool:sifeac];ein [words/substantiv/thing/tool:sineac]][? dafür;] [?verwenden;einsetzen;benutzen]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[?nebeneinander;miteinander] [words/verb/activity]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo" probability="0.5">etwas [Up[words/adjective][e]s] [?[words/verb/state:in];[words/verb/activity/transitive:in]]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo" probability="0.5">[?[?irgend;]etwas[? [Up[words/adjective][e]s];];alles] mit [words/substantiv:plda] [?[words/verb/state:in];[words/verb/activity/transitive:in]]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[?in [?einen [words/substantiv/location/general/in:simaac];eine [words/substantiv/location/general/in:sifeac];ein [words/substantiv/location/general/in:sineac]];auf [?einen [words/substantiv/location/general/on:simaac];eine [words/substantiv/location/general/on:sifeac];ein [words/substantiv/location/general/on:sineac]]] [words/verb/activity/intransitiv/move]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[?trauern;heulen;weinen;verzweifeln] [?aber;und] [sentence:topic=deep_statements]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[words/verb/activity]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[a=words/article/a:(o)][? [adjective(o)];;] [o=object(v):ac] [v=words/verb:in]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo" probability="0.2">[a=words/article/a:(o)] [o=words/substantiv/thing:ac] [words/verb/activity/transitive/create]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[words/substantiv/thing:plac] [words/verb/activity/transitive/create]</sentence>
+		<sentence topic="SPECIAL" meaning="ANSWER" responseType="WhatToDo">[words/article/a:(o)] [o=object(v):ac] [v=words/verb/activity/transitive/destroy/lösch]</sentence>
+		
+		<!-- WhatToDoPast (central structure)-->
+		<sentence response="WhatToDoPast,I did">Du schaust [words/adjective] aus, was hast du gemacht?</sentence>
+		<sentence topic="Relationship" response="WhatToDoPast">Was haben wir [?;früher;[words/adverb/temporal]] [?;so;immer;[words/adverb/modal]] gemacht?</sentence>
+		
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast">[?wieder einmal ;endlich einmal ;zum Beispiel ;][?in die [words/substantiv/geographic:sifeac];nach [words/substantiv/geographic:sineac]] gefahren</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast">uns [v=words/verb/state/person:pa]?</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast">[?einen [words/substantiv/thing/tool:simaac];eine [words/substantiv/thing/tool:sifeac];ein [words/substantiv/thing/tool:sineac]][? zum [Up[words/verb/activity:in]];;] [?verwendet;eingesetzt;benutzt]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="0.5">etwas [Up[words/adjective][e]s] [?gemacht;gekauft]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast">[?in [?einen [words/substantiv/location/general/in:simaac];eine [words/substantiv/location/general/in:sifeac];ein [words/substantiv/location/general/in:sineac]];auf [?einen [words/substantiv/location/general/on:simaac];eine [words/substantiv/location/general/on:sifeac];ein [words/substantiv/location/general/on:sineac]]] [words/verb/activity/intransitiv/move:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="0.01">[?getrauert;geheult;geweint;verzweifeln] [?aber;und] [sentence:topic=deep_statements]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="3">[v=words/verb/activity:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="1">[words/article/a:(o)] [o=words/substantiv/thing/food:ac] [v=words/verb/activity/transitive/sense/taste:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="1">[words/article/the:(big)] [big=words/substantiv/bigImportant:ac] [v=words/verb/activity/transitive/sense/feel:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="0.2">[?einen [words/substantiv/thing:simaac];eine [words/substantiv/thing:sifeac];ein [words/substantiv/thing:sineac]] [words/verb/activity/transitive/create:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast" probability="0.2">[words/substantiv/thing:plac] [words/verb/activity/transitive/create:pa]</sentence>
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="WhatToDoPast">[?uns;mich;[words/article/a:(op)][? [words/adjective/human:(op)];] [op=words/substantiv/person:ac]] vor [?[words/article/the:(big)] [big=words/substantiv/bigImportant:da];[words/article/a:(prof)] [prof=words/substantiv/person/profession:da]] [?gerettet;versteckt]</sentence>
+		
+		
+		<!-- Short Statement (central structure)-->
+		<sentence topic="SPECIAL" meaning="SUBORDINATE" responseType="Short Statement">[subject(v):plno] [v=words/verb:rxp3pl] sich [?[adverb(v)];[adverb(v):k2]]</sentence>
+		
+		
+		<!-- ZITATE UND SPRÜCHE -->
+		<sentence response="AnswerToStatement" topic="deep_statements, Philosophy, quotations" meaning="STATEMENT">fange [adv=?nie;[words/adverb/temporal]] an zu [v=words/verb], [word(v):p1im][? jedenfalls;] [word(adv)] [words/article/a:(o4)] [o4=object(v):ac]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, Family, quotations, deep_statements" meaning="STATEMENT">Zwei Dinge [?sind wichtig;braucht man;reichen;sollen die Kinder von ihren Eltern bekommen]: [words/article/the:(o1)] [o1=?[words/substantiv/bigImportant:ac];[words/substantiv/abstractum:ac]] und [words/article/the:(o2)] [o2=?[words/substantiv/bigImportant:ac];[words/substantiv/abstractum:ac]]</sentence>
+		<sentence response="AnswerToStatement" topic="Happiness, Philosophy, quotations, deep_statements" meaning="STATEMENT">glücklich ist[?,; nicht, wer anderen so vorkommt, sondern] wer [words/article/the:(o4)] [o4=object(v):ac] [v=words/verb:p3]</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS, Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [s=words/substantiv/abstractum] [?kann mehr;muss mehr aushalten;ist [words/adjective/abstractum:k2];ist [words/adjective/situation:k2]], als [words/article/the:(s2)] [s2=words/substantiv/abstractum]</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS, Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [s=words/substantiv/abstractum] hat [Genus(s)?seine;ihre;seine] [?Begründung;Vorteile;Art], die [words/article/the:(s2)] [s2=words/substantiv/abstractum] nicht [?braucht;haben [words/verb/modal:p3]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [s=words/substantiv/abstractum] ist [words/article/the:(o2)] [o2=words/substantiv/abstractum:ge] Anfang</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [adjective(s)] [s=words/substantiv/person] denkt an sich selbst [?zuletzt;[words/adverb/temporal]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">jede Minute die du [words/verb/activity:sip2], verlängert dein Leben um [words/substantiv/abstractum/time:plac].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">es ist [?sicherer;besser], auf [?einem [words/adjective/situation][e]n;dem] Weg zu [words/verb/activity], als auf der Stelle zu [words/verb/activity].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">es ist [?sicherer;besser], zu [words/verb/activity/intransitiv:in] als [words/article/a:(o)] [o=object(v):ac] zu [v=words/verb:in]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[?selbst;auch;sogar] der längste Weg [?beginnt;endet] [?manchmal;so manchesmal] mit [words/article/a:(o)] [o=words/substantiv/thing:da]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[?selbst;auch;sogar] der längste Weg [?beginnt;endet] [?manchmal;so manchesmal] in [words/article/a:(o)] [o=words/substantiv/location:da]</sentence>
+		<sentence response="AnswerToStatement" topic="Happiness, Philosophy, quotations, deep_statements" meaning="STATEMENT">[?;nur ;einzig ][words/article/the:(s)] [s=words/substantiv/bigImportant] [?verdoppelt;[words/verb:rxp3]] sich, wenn man [Genus(s)?ihn;sie;es] [words/verb/activity/transitive/use:p3]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[v=words/verb:p2im] [words/article/the:(o)] [o=object(v):ac], ehe du [words/article/the:(o2)] [o2=object(v2):ac] [v2=words/verb:p2]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[v=words/verb:p2im] [words/article/the:(o)] [o=object(v):ac], bevor du [?[words/verb/activity/intransitiv:p2];[words/verb/process:p2]]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">je [words/adjective/human:k2] du bist, desto [adverb(v):k2] [?kannst;wirst] du [v=?[words/verb/activity/intransitiv:in];[words/verb/process:in]]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(o)] [o=words/substantiv/bigImportant:ac] [?erlebt;überlebt;meistert] man [?[words/adverb/modal];[words/verb]d] oder [?überhaupt;gar] nicht</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">besser [words/substantiv/thing:pl] als [?nichts;[words/substantiv/abstractum]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(o)] [o=words/substantiv/bigImportant:ac] [adv=words/adverb/modal] nehmen ist leicht, [words/article/the:(o)] [word(o)] leicht nehmen ist [word(adv)] [adjective(o):in]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[words/article/the:(o)] [adjective(o)] [o=words/substantiv/person/profession:ac] erkennt man[? an [Genus(o)?[words/article/possessiv_pronomen/his:(o2)];[words/article/possessiv_pronomen/her:(o2)];[words/article/possessiv_pronomen/his:(o2)]]  [o2=words/substantiv/nature/body/part:da]; daran, wie [Genus(o)?er;sie;es] [verb(s):p3]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [Up[words/adjective/human:(s)dek2]] gibt nach</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [adjective(s)] [s=words/substantiv/abstractum:no] [?kommt von;liegt in] [words/article/the:(o2)] [adjective(o2)] [o2=words/substantiv/thing:plda] [words/article/the:(o)] [o=words/substantiv/bigImportant:ge]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/adverb/modal] währt [words/adverb:k3]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/substantiv/abstractum] ist der erste Schritt [Genus(o)?zum;zur;zum] [o=words/substantiv/abstractum:da]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/adverb/temporal] [words/article/the:(o)] [o=words/substantiv/abstractum], [words/adverb/temporal] [words/article/the:(o2)] [o2=words/substantiv/abstractum]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es gibt nichts [Up[words/adjective:neun]], außer man [?[words/verb/state:p3];[words/verb/activity/transitive:p3];[words/verb/modal:p3]] es</sentence>
+		
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es ist nicht alles Gold, was glänzt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="ANSWER">fragen kostet nichts</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">freunde erkennt man in der Not</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">früh übt sich, wer ein Meister werden will</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS, Philosophy, quotations, deep_statements" meaning="STATEMENT">Gegensätze ziehen sich an</sentence>
+		<sentence response="AnswerToStatement" topic="Luxury, Philosophy, quotations, deep_statements" meaning="STATEMENT">Geld macht nicht glücklich, aber es beruhigt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Gesundheit schätzt man erst, wenn man krank wird</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">in der Ruhe liegt die Kraft</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">kein Meister so gut, der nicht noch zu lernen hätte</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">keine Regel ohne Ausnahme.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">klug wird man nur aus Erfahrung</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[words/adjective] wird man [words/special/howOften] in [?einem [words/substantiv/location:simano];einer [words/substantiv/location:sifeno];einem [words/substantiv/location:sineno]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">lieber ein Ende mit Schrecken als ein Schrecken ohne Ende!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">nehmen sie die Menschen, wie sie sind, andere gibt´s nicht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">nehmen sie die Menschen, wie sie [words/verb:plp3], andere gibt´s nicht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">probieren geht über Studieren.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">säge nicht an dem Ast, auf dem du sitzt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/verb/activity:siim] nicht auf dem Ast, auf dem du [words/verb/activity:sip2]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer den Cent nicht ehrt, ist des Euros nicht wert.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">wer [?den [words/substantiv/nature:simaac];die [words/substantiv/nature:sifeac];das [words/substantiv/nature:sineac]] nicht ehrt, ist [?des [words/substantiv/thing:simage];der [words/substantiv/thing:sifege];des [words/substantiv/thing:sinege]] nicht wert.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer laut ist, muss nicht Recht haben. Und wer Recht hat, muss nicht laut sein</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">wer [a=words/adjective/human] ist, muss nicht Recht haben. Und wer Recht hat, muss nicht [word(a)] sein</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">hebt man den Blick, so sieht man keine Grenzen</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[?hebt man den Blick;schaut man weg;[?kneift;drückt] man seine Augen zu;befindet man sich in [?dunklen Höhlen;5:[words/adjective/situation:(loc)] [loc=words/substantiv/location/general/in:plda]];ist man [?wütend;[?;[words/preposition/adjectival] ][words/adjective/human]]], so sieht man[?3:[? manchmal; meistens; oft; öfters; hin und wieder][? keine;5:]; [words/special/howOften/notOften]] [words/substantiv:plac]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">eine Freude kann hundert Sorgen vertreiben</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?ein[? einzelner;] [words/substantiv/person:simano];eine[? einzelne;] [words/substantiv/person:sifeno]] kann hundert Sorgen vertreiben</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer lächelt, statt zu toben, ist immer der Stärkere</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer [words/verb:sip3], statt zu [words/verb], ist immer [sexYou?der:die] [?Stärkere;[words/adjective/human/positive][e]re]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">füge dich[? nie;] den Sitten, die in [?einem [words/substantiv/location:simano];einer [words/substantiv/location:sifeno];einem [words/substantiv/location:sineno]] herrschen!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer Großes will, muss zuerst das Kleine tun</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">wer [Up[words/adjective][e]s] will, muss zuerst das [Up[words/adjective][e]] tun!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer keine Zeit hat, ist ärmer als der ärmste Bettler.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">wer [?keinen [words/substantiv/nature:simaac];keine [words/substantiv/nature:sifeac];kein [words/substantiv/nature:sineac]] hat, ist ärmer als der ärmste Bettler.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Banken sind gefährlicher als Armeen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[s=?Banken;[words/substantiv/thing:plno]] sind[? noch;][? viel;] [?gefährlicher;[words/adjective:k2];[words/adjective/situation/negative:k2]] als [?[words/substantiv/thing/weapon:pl]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">ein Lügner muss [?ein gutes Gedächtnis haben;die Wahrheit kennen]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">der Baum fällt nicht beim ersten Hieb.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">die [?große;[words/adjective/situation:fede]] Liebe erkennt man nicht an ihrer [words/substantiv/abstractum/adjectivic:sifeda], sondern an ihrer [words/substantiv/abstractum/adjectivic:sifeda].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es ist alles schön, wonach man sich sehnt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es ist alles [words/adjective/situation/positive], wonach man sich sehnt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer singen will, findet immer ein Lied</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">wer [words/verb] will, findet immer die [words/substantiv/abstractum/adjectivic:sifeac]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">borgen macht Sorgen</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">mancher Baum ist schief und trägt dennoch süße Früchte.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">manche [words/substantiv/nature/plants:plno] sind [words/adjective/things] und tragen dennoch [words/adjective/things][e] Früchte.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer satt ist, wird nie einen Hungernden verstehen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer [words/adjective/human] ist, wird nie einen [Up[words/verb]den] verstehen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Ausdauer ist ein Talisman fürs Leben</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/substantiv/abstractum/adjectivic:si] ist [?ein Talisman;Glück;Pech] fürs Leben</sentence>
+		<!-- Literaturunkraut -->
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">etwas nicht zu können, ist kein Grund es nicht zu tun.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">etwas nicht zu [words/verb/activity/transitive], ist kein Grund es nicht zu [words/verb/activity/transitive].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">du kannst in deinem Leben nicht einfach die Stopptaste drücken.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?drücke;küsse;umarme] [?schnell;sofort;lange;nur;immer;;] [?den [words/substantiv/person:simaac], wenn er;die [words/substantiv/person:sifeac], wenn sie] [?bei der Tür hereinkommt;dir über den Weg läuft;neben dir im Bett liegt;dir vielsagend in die Augen blickt]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">du kannst in deinem Leben nicht [?nur;immer;dauernd;ausschließlich] [?den [words/substantiv/person:simaac];die [words/substantiv/person:sifeac]] drücken.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">du kannst in deinem Leben nicht [?nur;immer;dauernd;ausschließlich] [?den [words/substantiv/thing:simaac];die [words/substantiv/thing:sifeac];das [words/substantiv/thing:sineac]] drücken.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">du kannst in deinem Leben nicht [?nur;immer;dauernd;ausschließlich] [?den [words/substantiv/nature:simaac];die [words/substantiv/nature:sifeac];das [words/substantiv/nature:sineac]] drücken.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">mir bleibt immer noch [words/substantiv/geographic]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">manchmal verspeist man [words/article/the:(o)] [o=words/substantiv/nature/animals:siac], und manchmal wird man eben [Genus(o)?vom;von der;vom] [word(o):sida] verspeist</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">von jetzt an steht ihr alle in meinem Buch der [words/adjective/human][e]n Leute.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">eine kleine Revolution ab und zu ist eine gute Sache.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">eine [words/adjective][e] Revolution ab und zu ist eine [?schöne;mutige;gefährliche;wichtige;[words/adjective/human][e]] Sache.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">die Coolness muss im Subtext mitschwingen!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Dankbarkeit ist nicht[? unbedingt;] erforderlich.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das würde mich nur schläfrig machen und harmlos</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">hier ist Tristesse normal. Und das Normale trist.</sentence>
+		<sentence response="AnswerToStatement" topic="DISEASE, Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/adverb] [words/adjective/situation] und [words/adjective/situation] atmen hat [words/article/the:(s)] [s=words/substantiv/person:no] gesagt, als [Genus(s)?er;sie;es] [words/article/the:(o4)] [o4=?[words/substantiv/thing:ac];[words/substantiv/nature:ac]] [v=?[words/verb/activity/transitive/use:p3pa];[words/verb/activity/transitive/destroy:p3pa]] [word(v):au]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer einmal auf dem Meeresboden war, hat vor keiner Pfütze mehr Angst</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer einmal in [?[words/substantiv/geographic];einem [words/substantiv/location:simaac];einer [words/substantiv/location:sifeac];einem [words/substantiv/location:sineac]] war, hat vor [?keinem [words/substantiv:simada];keiner [words/substantiv:sifeda];keinem [words/substantiv:sineda]] mehr Angst</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS,Philosophy, quotations, deep_statements" meaning="STATEMENT">ich bin so vergnügt nach dir…</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS,Philosophy, quotations, deep_statements" meaning="STATEMENT">ich bin so [words/adjective] nach dir…</sentence>
+		<sentence response="AnswerToStatement" topic="COMPLIMENTS,Philosophy, quotations, deep_statements" meaning="STATEMENT">ich denke so [words/adjective] an dich …</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das ist [?meine;deine;die] [words/adjective][e] [words/substantiv/geographic/cities][e]r Seele, die da zuschlägt[? , quasi;]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das Leben ist lebensgefährlich.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">früher war[? eh;] alles besser und aus Holz</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">früher war[? eh;] alles [words/adjective:k2] und aus [words/substantiv/thing/material]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">gna gnu gnagnagnaa…</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">die Geräusche, die Sie hören, stammen wahrscheinlich von der extraterrestrischen Brut.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">die Geräusche[?, die Sie hören,;] stammen[? wahrscheinlich;] von [?dem [?extraterrestrischen;tödlichen;[words/adjective/human/psychology/negative][e]n] [words/substantiv/thing/material][Low[words/substantiv/nature/animals:simada]];der [?extraterrestrischen;tödlichen;[words/adjective/human/psychology/negative][e]n] [words/substantiv/thing/material][Low[words/substantiv/nature/animals:sifeda]];dem [?extraterrestrischen;tödlichen;[words/adjective/human/psychology/negative][e]n] [words/substantiv/thing/material][Low[words/substantiv/nature/animals:sineda]]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wir hingegen sind nicht autoritär. Wir sind auch nicht anti-autoritär. Wir wurschteln uns so durch</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">durchwurschteln finde ich klasse</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">um wirklich asozial zu sein, muss man Geld haben.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wo oben ist und wo unten entscheidet auch das Herz. </sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">bevor man seine eigene Meinung sagt ist es oftmals hilfreich diese mal zu prüfen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">so genug [?Unsortiertes;[words/substantiv/abstractum]]. Gute Nacht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">so, Genug [words/substantiv/abstractum/adjectivic]. Gute Nacht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">achso. Ich wollte den Knopf nicht drücken. Sorry.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[?Achso;Ohh;Oje]. Ich wollte [?den [words/substantiv/nature:simaac];die [words/substantiv/nature:sifeac];das [words/substantiv/nature:sineac]] nicht drücken. Sorry.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">nee, ich bin kein Pfarrer. Ich mache das Gleiche[? in meiner Freizeit;], bekomme aber kein Geld dafür.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">nein, ich bin [?kein [words/substantiv/person/profession:simano];keine [words/substantiv/person/profession:sifeno]]. Ich mache das Gleiche, bekomme aber kein Geld dafür.</sentence>
+		<sentence response="AnswerToStatement" topic="Dreams, Philosophy, quotations, deep_statements" meaning="STATEMENT">der Traum, in einer Geschichte zu sein, ist faszinierend sei, weil das Sein in der Geschichte so langweilig wäre</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">bleib erschütterbar und widersteh!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn ich groß bin, werde ich schweigen</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn ich groß bin, werde ich[? nur noch; nur mehr; hauptsächlich] [words/verb/activity]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">schlafe, falsche Flasche!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">soviele [?Menschen;[words/substantiv/bigImportant:pl]]. Bis es keine mehr gibt</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/this:(s)] [s=?Körper;[words/substantiv/nature/body]] war immer schon ein [?Klotz [Genus(o3)?am;auf der;am];Anhängsel [Genus(o3)?vom;von der;vom]] [o3=?Hirn;[words/substantiv/nature/body]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">unser Mangel an Character ist katastrophal.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Erfolg besteht darin, dass man genau die Fähigkeiten hat,die im Moment gefragt sind.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">man demütigt sich vor [o3=words/adjective/human:depl], nicht für [word(o3):unpl]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">teile [words/article/possessiv_pronomen/your:(o4)] [o4=words/substantiv/bigImportant:ac] mit anderen. Oder wundere dich nicht darüber, dass du [?einsam;[words/adjective/situation]] bist.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">da Kriege in den Köpfen der Menschen beginnen, ist es notwendig, in den Köpfen der Menschen Vorsorge für den Frieden zu treffen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">die Kinder finden im Nichts das Gesamte, die Erwachsenen im Gesamten das Nichts.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">Niemand ist Niemand.</sentence>
+		<sentence response="AnswerToStatement" topic="Joke, Philosophy, quotations, deep_statements" meaning="STATEMENT">alle Chirugen sind Aufschneider.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das Schöne an Deutschland ist, dass es da nicht so viele Moskitos gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">[?das [Up[words/adjective][e]]] an [?[words/substantiv/geographic:sineda]] ist, dass es da[?[? nicht;] so viele; keine; nur] [words/substantiv:plac] gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">bellermann hat entdeckt, dass von Sorgen Falten kommen - sorgfältig.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">der Eigennutz spricht jede Sprache und spielt jede Rolle, selbst die der Uneigennützigkeit.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">über das gegenwärtige Alter tröstet nur das zukünftige</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">der Sieger hat immer einen Plan, der Verlierer immer eine Ausrede!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">was ist am schwersten zu erreichen? - dass man sich selbst hinter die Schliche kommt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">meine Heiterkeit ist mein Arzt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?mein [words/substantiv/abstractum/adjectivic:simano];Meine [words/substantiv/abstractum/adjectivic:sifeno]] ist mein [?Arzt;Glück].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das Leben ist eine Bühne, aber das Stück ist schlecht besetzt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Optimismus und Pessimismus unterscheiden sich lediglich im Datum des Weltuntergangs.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="0.04">Mode kommt zwar dauernd aus der Mode. Seltsamerweise bleibt sie aber dauernd in Mode</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Hochverrat ist nur eine Frage des Datums.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es ist leichter, den Menschen zu kennen als einen Menschen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Ziele sind Träume mit einer "deadline".</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">alles verändert sich, sobald man sich selbst verändert.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">ich bete, weil ich glaube.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es gibt Leute, die springen sogar auf bremsende Züge auf.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das Genie ist der Fehler im System.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wo ist aber Ruhe? Nur dort, wo es keine Erinnerung gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">wo ist aber Ruhe? Nur dort, wo es[? überhaupt;][? gar;] keine [?[words/substantiv/abstractum/adjectivic:plac];[words/substantiv/games:plac];[words/substantiv/nature/animals:plac];[words/substantiv/thing/weapon:plac]] gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wehe dem Besiegten. Vae victis!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn das Herz blind ist, hilft auch das schärfste Auge nicht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">wenn das Herz [words/adjective] ist, hilft auch das [words/adjective:k3node] Auge nicht.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">lächle mehr als andere!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">lieber fünf Minuten lang feig als ein ganzes Leben lang tot.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">lieber fünf Minuten[? lang;] [words/adjective] als ein ganzes Leben[? lang;] [words/adjective].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es ist etwas sehr Großes, ein freies Herz und ein ruhiges Gewissen zu haben.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="5">es ist etwas sehr [Up[words/adjective/human][e]s], ein [words/adjective][e]s Herz und ein [words/adjective][e]s Gewissen zu haben</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?[words/substantiv/abstractum/adjectivic:simano];[words/substantiv/abstractum/adjectivic:sifeno];Das [words/substantiv/abstractum/adjectivic:sineno]] ist eine [?Liebeserklärung;Kampfansage] an [?den [words/substantiv/bigImportant:simaac];die [words/substantiv/bigImportant:sifeac];das [words/substantiv/bigImportant:sineac]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Zärtlichkeit ist eine Liebeserklärung an das Leben.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/the:(s)] [s=?Tragweite;[words/substantiv/abstractum/adjectivic]] unserer Gefühle hängt von deren [words/substantiv/abstractum/adjectivic] ab</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer oft in den Spiegel schaut, ist entweder sehr eitel oder sehr mutig.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer[? [words/special/howOften];] in den Spiegel schaut, ist entweder[? sehr;] [words/adjective/human] oder sehr [words/adjective/human].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer kein Ungemach ertragen kann, ist nicht zu großen Dingen berufen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer [?keinen [words/substantiv/abstractum/adjectivic:simaac];keine [words/substantiv/abstractum/adjectivic:sifeac];kein [words/substantiv/abstractum/adjectivic:sineac]] ertragen kann, ist nicht zu [?großen;wichtigen;bedeutsamen] [?Dingen;Aufgaben] berufen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">der König liebt den Verrat, nicht den Verräter.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?der [words/substantiv/person:simano];die [words/substantiv/person:sifeno]] liebt [?den [words/substantiv/abstractum/adjectivic:simaac];die [words/substantiv/abstractum/adjectivic:sifeac];das [words/substantiv/abstractum/adjectivic:sineac]], nicht [?den [words/substantiv/abstractum/adjectivic:simaac];die [words/substantiv/abstractum/adjectivic:sifeac];das [words/substantiv/abstractum/adjectivic:sineac]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?das Glück;Der [words/substantiv/abstractum/adjectivic:simano];die [words/substantiv/abstractum/adjectivic:sifeno];das [words/substantiv/abstractum/adjectivic:sineno]] eines Kindes beginnt [?im [words/substantiv/nature/body/part:simada];in der [words/substantiv/nature/body/part:sifeda];im [words/substantiv/nature/body/part:sineda]] [?der Mutter;der [words/substantiv/person/relative:sifeda]].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/verb/state:p2pa] wirst du, wo du [words/adjective/human] dich zeigen [words/verb/modal:p2]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">sichere [words/substantiv/person:pl] [invisible[Sachen]] sind meist klein.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn [?der [words/substantiv/person:simano];die [words/substantiv/person:sifeno]] preist den Wein, so wird es [words/adjective/things][?er [words/substantiv/thing:simano];e [words/substantiv/thing:sifeno];es [words/substantiv/thing:sineno]] sein.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">manche sehen mit dem rechten und dem linken Auge genau dasselbe. Und glauben, dies sei Objektivität.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">höre nicht auf die Ratschläge anderer Leute, schon gar nicht auf diesen!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/a:(s)] [adjective(s)] [s=words/substantiv/thing:no] bringt [?nix;[words/article/a:(o4)] [adjective(o4)] [o4=words/substantiv/person:plac]] zusammen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?ein [words/adjective/food][e]r [words/substantiv/thing/food:simano];eine [words/adjective/food][e] [words/substantiv/thing/food:sifeno];ein [words/adjective/food][e]s [words/substantiv/thing/food:sineno]] bringt [words/substantiv/person:plac] zusammen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">nie sollten wir uns durch etwas anderes [?lenken;[words/verb:rxin]] lassen, als durch [words/article/the:(o4)] [o4=?Klarheit;[words/substantiv/abstractum:ac]] [words/article/possessiv_pronomen/our:(o2)] [o2=?Vernunft;[words/substantiv/bigImportant:ge]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">ich [words/verb:sip1] also bin ich</sentence>
+		<sentence response="AnswerToStatement" topic="Politics, Philosophy, quotations, deep_statements" meaning="STATEMENT">wer dem Wähler immer hinterherläuft, sieht den Wähler auch immer nur von hinten.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer dem [pers=words/substantiv/person:simada] immer hinterher[words/verb/activity/intransitiv/move:sip3], sieht den [word(pers):ac] nur von hinten.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer der [pers=words/substantiv/person:sifeda] immer hinterher[words/verb/activity/intransitiv/move:sip3], sieht die [word(pers):ac] nur von hinten.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn ich trinke, [v=words/verb:sip1] ich und wenn ich [word(v):sip1], trinkst du.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">eine Millionen Steuerzahler verhalten sich vernünftiger als eine öffentliche Hand.</sentence>
+		<sentence response="AnswerToStatement" topic="ART, Philosophy, quotations, deep_statements" meaning="STATEMENT">die Sonne trommelt lautlos auf ein Weizenfeld. Der Wind spielt Flöte.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">was uns umgibt und die Weichen für die Zukunft stellt, ist so schwer zu erkennen wie diese selbst.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">auch [Genus(o4)?im;in der;im] vornehmsten [o4=?Stammbaum;[words/substantiv/bigImportant:da]] gibt es hin und wieder [?Astlöcher;[words/substantiv/nature:acpl]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer rechtzeitig gewarnt wurde, ist halb schon gerettet.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer [words/adjective] gewarnt wurde, [word(v):ausip3] halb schon [v=words/verb:sip3pa].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?der [words/adjective/things:k3node] [? und meistversprechendste;] [?Bereich;Körperteil], den;die [words/adjective/things:k3node] [? und meistversprechendste;] [?Rundung;Stelle], die] [words/article/a:(o)] [o=words/substantiv/person:sino] haben kann, ist [Genus(o)?sein;ihr;sein] [words/substantiv/nature/body/part:sino].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?Spontaneität;[words/substantiv/abstractum/adjectivic:no]] setzt [?Naivität;[words/substantiv/abstractum/adjectivic:ac]] oder [?Mut;[words/substantiv/abstractum/adjectivic:ac]] voraus</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">das [words/substantiv/abstractum/adjectivic:sineno] folgt [?dem [words/substantiv/abstractum/adjectivic:simada];der [words/substantiv/abstractum/adjectivic:sifeda];dem [words/substantiv/abstractum/adjectivic:sineda]]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Anerkennung ist wie eine Versicherungspolice. Sie muß von Zeit zu Zeit erneuert werden.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/article/possessiv_pronomen/our:(s)] [s=words/substantiv/bigImportant:no] blühte reicher, säten wir mehr [?Liebe; von [words/article/the:(o3)] [o3=words/substantiv/bigImportant:da]] aus</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?unser [words/substantiv/bigImportant:simano];Unsere [words/substantiv/bigImportant:sifeno];Unser [words/substantiv/bigImportant:sineno]] [?blühte [?reicher;bunter];pulsierte wilder;strahlte heller], säten wir mehr Liebe aus</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">die meisten Menschen überschreiten Grenzen nur wenn es keine Schranken gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[?die meisten ;][words/substantiv/person:plno] überschreiten Grenzen nur, wenn es [?keine [words/substantiv:plno]] gibt.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="2">das Geheimnis des Erfolges ist zu wissen, wie man [words/verb:sip3].</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wer [words/article/the:(o41)] [o41=words/substantiv/abstractum/adjectivic:siac] versteht, versteht [words/article/the:(o4)] [o4=words/substantiv/abstractum/adjectivic:siac] [?des Lebens; [words/article/the:(o2)] [o2=words/substantiv/bigImportant:ge]] besser</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">[words/adjective:k2] wird's immer, [words/adjective:k2] wird's nimmer.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es hilft immer, über einen Text zweimal nachzudenken.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">von zwei Möglichkeiten wähle man stets die dritte!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">von zwei [?Möglichkeiten;[words/substantiv:plfeda]] wähle man stets die [Up[words/adjective][e]]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">von zwei [words/substantiv:plmada] wähle man stets den [words/adjective][e]n!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">von zwei [words/substantiv:plneda] wähle man stets das [Up[words/adjective][e]]!</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">es gibt Leute, die können ihren Stammbaum bis zu denen zurückverfolgen, die noch drauf saßen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">jeder denkt nur an sich, keiner denkt an mich. Nur ich denk an mich.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">der Klügere gibt solange nach, bis er der Dumme ist.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT" probability="3">[?die [Up[words/adjective/human][e]] denkt solange nach, bis sie die [Up[words/adjective/human][e]] ist;Der [Up[words/adjective/human][e]] denkt solange nach, bis er der [Up[words/adjective/human][e]] ist]</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn die Klügeren immer nachgeben, geschieht nur das, was die Dummen wollen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">wenn die [Up[words/adjective/human:k2][e]n] immer [?nachgeben;[words/verb/activity:plp3]], geschieht nur das, was die [Up[words/adjective/human][e]n] wollen.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Pünktlichkeit ist die Kunst, richtig abzuschätzen, um wie viel sich der andere verspäten wird.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">die [words/adjective:k3] Zeiten [?des [words/substantiv/bigImportant:simage];der [words/substantiv/bigImportant:sifege];des [words/substantiv/bigImportant:sinege]] sind die [words/adjective/things][e]n Seiten im Geschichtsbuch.</sentence>
+		<sentence response="AnswerToStatement" topic="Philosophy, quotations, deep_statements" meaning="STATEMENT">Ein Leben [?ohne;mit] [?Mops;[words/substantiv/nature/animals:siac]] ist möglich[?, aber [?sinnlos;[words/adjective/situation/negative]]; und [words/adjective/situation/positive]]</sentence>
+		
+		
+		
+		
+		
+		<!-- YesNo -->
+		
+		<sentence responseType="statement" topic="NO_INFO" probability="2">äh.</sentence>
+		<sentence responseType="YesNo" topic="NO_INFO" probability="0.1">Ich weiß nicht</sentence>
+		<sentence responseType="YesNo" topic="NO_INFO" probability="0.1">Hmmm ..</sentence>
+		<sentence responseType="YesNo,statement" topic="NO_INFO" probability="0.2">???</sentence>
+		<sentence responseType="statement" topic="NO_INFO">Seufz ..</sentence>
+		
+		<sentence responseType="YesNo" probability="0.1">[?ja;nein], auch wenn ich [?total;komplett;furchtbar] [words/adjective/human] und [words/adjective/human] bin</sentence>
+		<sentence responseType="YesNo" probability="0.1">[?ja;nein], auch wenn du [?total;komplett;furchtbar] [words/adjective/human] und [words/adjective/human] bist</sentence>
+		<sentence responseType="YesNo,Yes" probability="0.1">Ja, ganz sicher!</sentence>
+		<sentence responseType="Yes,YesNo" probability="0.1">Ja[?, verdammt!!;;]</sentence>
+		<sentence responseType="YesNo,No" probability="0.1">Nein[?, verdammt!!;;]</sentence>
+		<sentence responseType="YesNo,No" probability="0.1">Nicht unbedingt</sentence>
+		<sentence responseType="YesNo,No" probability="0.1">[?Nöööö, ;]ich glaube nicht</sentence>
+		<sentence responseType="YesNo" probability="0.1">[?Kann;Könnte] ich mir [?nicht;[?sehr ;]gut;kaum;natürlich;] vorstellen</sentence>
+		<sentence responseType="YesNo,Yes" probability="0.1">Auf jeden Fall!</sentence>
+		<sentence responseType="YesNo,Yes" probability="0.1">Na klar!</sentence>
+		<sentence responseType="HowAreYou,YesNo,Yes" probability="0.1">[?Und wie!;hervorragend;super;ja, großartig!]</sentence>
+		<sentence responseType="YesNo,Yes" probability="0.05">[?[words/special/when] ;;]schon,[? aber .....;]</sentence>
+		<sentence responseType="YesNo" probability="0.3">[?nein,[? wohl;][? eher;][? sicher;] nicht; ja,[? wohl;][? eher;] schon]</sentence>
+		<sentence responseType="YesNo,No" probability="0.1">Niemals!</sentence>
+		<sentence responseType="YesNo" id="deep_statements" probability="3">[?Keine Ahnung;Schon;Ja;Ok;Na gut], aber: [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="YesNo" probability="0.1">[?Meinetwegen;Ausnahmsweise]</sentence>
+		<sentence responseType="ForWhat" probability="1">Für was? Na, [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="FromWhere" probability="1">[?egal;mir egal], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="How" probability="1">[?ein Bisschen ;etwas ;eher ][words/adjective:k2], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="How" probability="1">[words/adjective:k2]</sentence>
+		<sentence responseType="HowLong" probability="1">[?zu lange;Ewigkeiten;[words/special/numbers/letters/plural] [words/substantiv/abstractum/time:plac]], und [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="HowMany" probability="1">[words/special/numbers/letters], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="HowMany" probability="1">[?;soviele ]wie [words/substantiv:plno] in [words/article/a:(o)] [o=words/substantiv:ac] passen</sentence>
+		<sentence responseType="HowOften" probability="1">[words/special/howOften], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="When" probability="1">[words/special/when], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="Where" probability="2">[?im [words/substantiv/location/general/in:simaac];in der [words/substantiv/location/general/in:sifeac];im [words/substantiv/location/general/in:sineac];auf dem [words/substantiv/location/general/on:simaac];auf der [words/substantiv/location/general/on:sifeac];auf dem [words/substantiv/location/general/on:sineac]], aber [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="Where" probability="2">[?Versunken;Versteckt;Eingetaucht;Untergetaucht;Verschwunden] [Genus(o)?im;in der;im] [o=words/substantiv/abstractum]</sentence>
+		<sentence responseType="Who" probability="1">Wer? Ich sage es so: [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="because" probability="1">Weil[?10:;, also] [sentence:topic=deep_statements]</sentence>
+		<sentence responseType="YesNo" probability="0.5">Wie bitte? [words/adjective]?</sentence>
+		<sentence responseType="YesNo" probability="0.5">Ja, wie [words/article/the:(o)] [?[adjective(o)];] [o=words/substantiv/person/profession:no]</sentence>
+		
+		
+	</sentences> 
+</LocalizedText>

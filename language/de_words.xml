@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocalizedText language="GERMAN">
+	<words>
+		<special>
+			<fillers>
+				<word>also</word>
+				<word>Hmmm</word>
+				<word probability="0.5">ähh</word>
+				<word probability="0.5">äh</word>
+				<word>Naja</word>
+				<word>öh</word>
+			</fillers>
+			<and>
+				<word>und</word>
+			</and>
+			<myOutfit>
+				<!--word type="SUBSTANTIV" genus="MASCULINUM">[words/substantiv/thing/clothes:simano]</word>
+				<word type="SUBSTANTIV" genus="FEMININUM">[words/substantiv/thing/clothes:sifeno]</word>
+				<word type="SUBSTANTIV" genus="NEUTRUM">[words/substantiv/thing/clothes:sineno]</word-->
+			</myOutfit>
+			<yourOutfit>
+				<!--word type="SUBSTANTIV" genus="MASCULINUM">[words/substantiv/thing/clothes:simano]</word>
+				<word type="SUBSTANTIV" genus="FEMININUM">[words/substantiv/thing/clothes:sifeno]</word>
+				<word type="SUBSTANTIV" genus="NEUTRUM">[words/substantiv/thing/clothes:sineno]</word-->
+			</yourOutfit>
+			<names>
+				<word topic="UNDEFINED" id="name_of_the_witch" type="NOWORD">Hexe</word>
+			</names>
+			<gramatik>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="MASCULINUM" sequence="1">-,-s,-,-;-,-,-n,-</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="NEUTRUM" sequence="1">-,-s,-,-;-,-,-n,-</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="NEUTRUM" sequence="2">-,-n,-n,-;-n,-n,-n,-n</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="FEMININUM" sequence="1">-,-,-,-;-n,-n,-n,-n</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="FEMININUM" sequence="2">-,-,-,-;-nen,-nen,-nen,-nen</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="substantive" genus="FEMININUM" sequence="3">-,-,-,-;-en,-en,-en,-en</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="verb forms" sequence="1">-en;haben;-e,-st,-t,-en,-t,-en;ge-t;-e;-t</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="verb forms" sequence="2">-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+				<word topic="GRAMMATICAL" type="VERB" verb_category="REFLEXIV" id="haben" sequence="1" group="words/verb">hab;-en;haben;-e,hast,hat,-en,-t,-en;ge-t;-e;-t</word>
+				<word topic="GRAMMATICAL" type="VERB" id="sein" sequence="1" group="words/verb">sein;sein;sein;bin,bist,ist,sind,seid,sind,gewesen;sei;seid
+					<relation type="subject">[words/substantiv/event]</relation>
+				</word>
+				<word topic="GRAMMATICAL" type="VERB" id="werden" sequence="1" group="words/verb">werd;-en;sein;-e,wirst,wird,-en,-et,-en;geworden;-e;-et</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives" sequence="1">-er;-ste</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives" sequence="2">-r;-ste</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives" sequence="3">-er;-este</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives_adverb" sequence="1">-er;am -sten</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives_adverb" sequence="2">-r;am -sten</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="comparatives_adverb" sequence="3">-er;am -esten</word>
+				<!--fall1:fall2:fall3:fall4
+					fall = masculin singular, feminin singular, neutrum singular;  masculin plural, feminin plural, neutrum plural-->
+				<word topic="GRAMMATICAL" type="NOWORD" Declination_Type="WEAK">-e,-e,-e;-en,-en,-en:-en,-en,-en;-en,-en,-en:-en,-en,-en;-en,-en,-en:-en,-e,-e;-en,-en,-en</word>
+				<word topic="GRAMMATICAL" type="NOWORD" Declination_Type="STRONG">-er,-e,-es;-e,-e,-e:-en,-er,-en;-er,-er,-er:-em,-er,-em;-en,-en,-en:-en,-e,-es;-e,-e,-e</word>
+				<word topic="GRAMMATICAL" type="NOWORD" Declination_Type="MIXED">-er,-e,-es;-en,-en,-en:-en,-en,-en;-en,-en,-en:-en,-en,-en;-en,-en,-en:-en,-e,-es;-en,-en,-en</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="article casus" genus="MASCULINUM">-es,-em,-en;-e,-er,-en,-e</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="article casus" genus="FEMININUM">-r,-r,-;-,-r,-n,-</word>
+				<word topic="GRAMMATICAL" type="NOWORD" id="article casus" genus="NEUTRUM">-es,-em,-;-e,-er,-en,-e</word>
+			</gramatik>
+			<jokeOfTheDay>
+				<word>Witz des Tages</word>
+			</jokeOfTheDay>
+			<when>
+				<past>
+					<completed>
+						<word>[?gestern;letzte Woche;letztes Jahr;letzten Monat;zum letzten [words/special/occurrence]]</word>
+					</completed>
+					<ongoing>
+						<word>seit [?gestern;heute am Morgen;letzter Woche;langem;jeher;letztem [?Jahr;Monat];dem letzten [words/special/occurrence]]</word>
+					</ongoing>
+				</past>
+				<future>
+					<moment>
+						<word>[?morgen;übermorgen;nächste Woche;nächstes Jahr;nächsten Monat;2020]</word>
+					</moment>
+					<timespan>
+						<word>bis [?[words/special/when/future/moment];zum nächsten [words/special/occurrence]]</word>
+					</timespan>
+				</future>
+				<present>
+					<timespan>
+						<word probability="5">[?[words/special/when/past/ongoing];[words/special/when/future]]</word>
+						<word>andauernd</word>
+						<word probability="0.1">vorübergehend</word>
+						<word>meistens</word>
+						<word>[?fast ;;;]immer</word>
+						<word>dauernd</word>
+						<word>nie</word>
+					</timespan>
+				</present>
+				<moment>
+					<word>[?genau ;]jetzt</word>
+					<word>[?genau ;]um [?mitternacht;zwölf uhr mittags;die Abendstunde]</word>
+					<word>am [?Morgen;Abend]</word>
+					<word>um [words/special/numbers/letters] Uhr</word>
+					<word probability="0.003">um [?00;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23]:[?0;1;2;3;4;5][words/special/numbers/integer] Uhr</word>
+				</moment>
+				<possiblePresent>
+					<word>[?[words/special/when/past/ongoing];[words/special/when/present];[words/special/when/moment];[words/special/when/future/timespan]]</word>
+				</possiblePresent>
+			</when>
+			<occurrence>
+				<word>[?Regen;Schneefall;Sturm;Hagel]</word>
+				<word>[?Abendmahl;Mittagessen;Frühstück;Abendessen]</word>
+				<word>[?Winter;Sommer;Herbst;Frühling]</word>
+				<word>[?Silvester;Geburtstag]</word>
+				<word symbols="KERZE_WEIHNACHTEN, WEIHNACHTSBAUM_ANDERS, WEIHNACHTSBAUM, WEIHNACHTSMANN" probability="0.2">Weihnachten</word>
+				<word symbols="OSTEREI, OSTERHASE" probability="0.2">Ostern</word>
+			</occurrence>
+			<howOften>
+				<indifferent>
+					<word>[?manchmal;meistens;immer]</word>
+				</indifferent>
+				<notOften>
+					<word probability="1">[?fast;;;] nie</word>
+					<word probability="0.2">[?kaum;[?eher ;]selten]</word>
+				</notOften>
+				<often>
+					<word probability="1">oft</word>
+					<word probability="1">[?hunderttausendmal;irgendwann einmal;einige male]</word>
+				</often>
+				<word probability="0.05">[?ein;zwei;fünf;sieben;hundert]mal</word>
+			</howOften>
+			<numbers>
+				<integer>
+					<withzero>
+						<word probability="0.05">[?0;1;2;3;4;5;6;7;8;9]</word>
+					</withzero>
+					<nozero>
+						<word probability="0.05">[?1;2;3;4;5;6;7;8;9]</word>
+					</nozero>
+				</integer>
+				<letters>
+					<singular>
+						<word>eins</word>
+					</singular>
+					<plural>
+						<word probability="11">[?zwei;drei;vier;fünf;sechs;sieben;acht;neun;zehn;elf;zwölf]</word>
+					</plural>
+				</letters>
+			</numbers>
+			<dayOfMonth>
+				<word>[?ersten;zweiten;dritten;vierten;fünften;sechsten;siebenten;achten;neunten;zehnten;elften;zwölften;zwanzigsten;dreißigsten;einunddreißigsten;einundzwanzigsten;zweiundzwanzigsten]</word>
+				<word>[?drei;vier;fünf;sechs;sieben;acht;neun][?zehnten;undzwanzigsten]</word>
+			</dayOfMonth>
+			<howMany>
+				<plural>
+					<word probability="1">[?zwei;drei;vier;fünf;sechs;sieben;acht;neun;zehn;elf;zwölf]</word>
+					<!--word probability="1">[?[words/special/numbers/integer/nozero]][?[words/special/numbers/integer];][?[words/special/numbers/integer];;]</word-->
+					<word>[?alle;viele;keine]</word>
+					<word>[?hundert;tausend;zehntausend;hunderttausend;millionen;milliarden]</word>
+				</plural>
+				<singular>
+					<word probability="0.01">ein</word>
+				</singular>
+			</howMany>
+		</special>
+		<!-- SUBSTANTIV -->
+		<substantiv>
+			<geographic>
+				<continents>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Afrika;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Europa;-,-s,-,-;Europäer,Europäer,Europäern,Europäer</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Amerika;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Asien;-,-s,-,-;Asiaten,Asiaten,Asiaten,Asiaten</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Australien;-,-s,-,-;Australier,Australier,Australiern,Australier</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Südamerika;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Lateinamerika;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+					<word topic="TRAVEL" probability="0.1" genus="neutrum" article_type="NO_ARTICLE">Ozeanien;-,-s,-,-;Ozeanier,Ozeanier,Ozeaniern,Ozeanier</word>
+				</continents>
+				<countries>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Österreich;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Deutschland;-,-s,-,-;Deutschen,Deutschen,Deutschen,Deutschen</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Frankreich;-,-s,-,-;Franzosen,Franzosen,Franzosen,Franzosen</word>
+					<word topic="TRAVEL" genus="neutrum" symbols="CHINESISCHES_SYMBOL_1, CHINESISCHES_SYMBOL_2" article_type="NO_ARTICLE">China;-,-s,-,-;Chinesen,Chinesen,Chinesen,Chinesen</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Russland;-,-s,-,-;Russen,Russen,Russen,Russen</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Indien;-,-s,-,-;Inder,Inder,Indern,Inder</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Canada;-,-s,-,-;Canadier,Canadier,Canadiern,Canadier</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Italien;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+					<word topic="TRAVEL" genus="neutrum" article_type="NO_ARTICLE">Griechenland;-,-s,-,-;Griechen,Griechen,Griechen,Griechen</word>
+					<word topic="TRAVEL">die USA;-,-,-,-;Amerikaner,Amerikaner,Amerikanern,Amerikaner</word>
+					<word topic="TRAVEL">die Schweiz;-,-,-,-;-er,-er,-ern,-er</word>
+				</countries>
+				<cities>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Wien;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Salzburg;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das München;-,-s,-,-;Münchner,Münchner,Münchnern,Münchner</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Berlin;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Hintertupfing;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Graz;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Hamburg;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das New York;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Hong Kong;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="TRAVEL" article_type="NO_ARTICLE">das Bogota;-,-s,-,-;-ner,-ner,-nern,-ner</word>
+				</cities>
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</geographic>
+			<person>
+				<profession>
+					<!-- SUBSTANTIV: singular-cas1,cas2,cas3,cas4;plural-cas1,cas2,cas3,cas4-->
+					<!--wegen mit für-->
+					<word topic="DISEASE" symbols="STETOSKOP">der Arzt;-,-es,-,-;Ärzte,Ärzte,Ärzten,Ärzte</word>
+					<word topic="DISEASE" symbols="STETOSKOP">die Ärztin</word>
+					<word topic="SCIFI,WORK" type="SUBSTANTIV" genus="MASCULINUM">Astronaut;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word topic="SCIFI,WORK" type="SUBSTANTIV" genus="FEMININUM">Astronautin</word>
+					<word topic="POETRY">der Autor;-,-s,-,-;-en,-en,-en,-en</word>
+					<word topic="POETRY">die Autorin</word>
+					<word topic="CRIME, POLITICS">der Betrüger</word>
+					<word topic="CRIME, POLITICS">die Betrügerin</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Bettler;-,-s,-,-;-,-,-n,-</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="FEMININUM">Bettlerin</word>
+					<word topic="WORK">der Briefträger</word>
+					<word topic="POLITICS, WORK" type="SUBSTANTIV" genus="MASCULINUM">Bundeskanzler;-,-s,-,-;-,-,-n,-</word>
+					<word topic="POLITICS, WORK" type="SUBSTANTIV" genus="FEMININUM">Bundeskanzlerin</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Busfahrer</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Chef;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="WORK">die Chefin</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Clown;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="WORK">der Designer</word>
+					<word topic="WORK">die Designerin</word>
+					<word topic="POETRY">der Dichter</word>
+                    <word topic="POETRY">die Dichterin</word>
+                    <word topic="WORK,EDUCATION">die Direktorin</word>
+                    <word topic="WORK,EDUCATION">der Direktor;-,-s,-,-;-en,-en,-en,-en</word>
+					<word topic="RELIGION" symbols="ENGEL, ENGEL_ANDERS" group="words/substantiv/person/petname">der Engel</word>
+					<word topic="WORK">der Erfinder</word>
+					<word topic="WORK">die Erfinderin</word>
+					<word topic="WORK">der Frisör;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="WORK">die Frisörin</word>
+					<word topic="LUXURY, WORK">der Fürst;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="LUXURY, WORK">die Fürstin</word>
+					<word topic="WORK, NATURE" type="SUBSTANTIV" genus="MASCULINUM">Gärtner</word>
+					<word topic="WORK, NATURE" type="SUBSTANTIV" genus="FEMININUM">Gärtnerin</word>
+					<word topic="RELIGION" group="words/substantiv/bigImportant" article_type="NO_ARTICLE">der Gott;-,-es,-,-;Götter,Götter,Göttern,Götter</word>
+					<word topic="RELIGION">die Göttin</word>
+					<word topic="MADNESS,DREAMS">die Hexe</word>
+					<word topic="CRIME">der Henker</word>
+					<word topic="MEDIA">der Journalist;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word topic="MEDIA">die Journalistin</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Kammerjäger</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="FEMININUM">Kammerjägerin</word>
+					<word topic="FOOD,DREAMS,LIFESTYLE">der Kanibale;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word topic="TRAVEL, WORK" type="SUBSTANTIV" genus="MASCULINUM">Kapitän;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="WORK">der Kellner</word>
+					<word topic="WORK">die Kellnerin</word>
+					<word topic="LUXURY, WORK" symbols="KRONE_1, KRONE_2, KRONE_3, KRONE_4">der König;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="LUXURY, WORK" symbols="KRONE_1, KRONE_2, KRONE_3, KRONE_4">die Königin</word>
+					<word topic="EDUCATION,WORK">der Lehrer</word>
+                    <word topic="EDUCATION,WORK">die Lehrerin</word>
+                    <word topic="EDUCATION,WORK">die Lektorin</word>
+					<word topic="EDUCATION,WORK">der Lektor;-,-s,-,-;-en,-en,-en,-en</word>
+					<word topic="EDUCATION,WORK">der Mathematiker</word>
+					<word topic="EDUCATION,WORK">die Mathematikerin</word>
+					<word topic="CRIME, WORK">der Mörder</word>
+					<word topic="CRIME, WORK">die Mörderin</word>
+					<word topic="RELIGION">die Nonne</word>
+					<word topic="LUXURY" type="SUBSTANTIV" genus="MASCULINUM" symbols="KRONE_1, KRONE_2, KRONE_3, KRONE_4">Prinz;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word topic="LUXURY" symbols="KRONE_1, KRONE_2, KRONE_3, KRONE_4">die Prinzessin</word>
+					<word topic="RELIGION, WORK" type="SUBSTANTIV" genus="MASCULINUM">Priester</word>
+					<word topic="TRAVEL, WORK" type="SUBSTANTIV" genus="MASCULINUM">Pilot;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word topic="POLITICS, WORK" type="SUBSTANTIV" genus="MASCULINUM">Politiker</word>
+                    <word topic="POLITICS, WORK">die Politikerin</word>
+                    <word topic="EDUCATION, WORK">die Professorin</word>
+					<word topic="EDUCATION, WORK">der Professor;-,-s,-,-;-en,-en,-en,-en</word>
+					<word topic="SEX" type="SUBSTANTIV" genus="MASCULINUM">Prostituierte;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word topic="SEX">die Prostituierte;-,-n,-n,-;-n,-n,-n,-n</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="FEMININUM">Putzfrau</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Rauchfangkehrer</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Straßenkehrer</word>
+					<word topic="PSYCHOLOGY">der Therapeut;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word topic="PSYCHOLOGY">die Therapeutin</word>
+					<word topic="PARTY" type="SUBSTANTIV" genus="MASCULINUM">Tänzer</word>
+					<word topic="PARTY" type="SUBSTANTIV" genus="FEMININUM">Tänzerin</word>
+					<word topic="NATURE, WORK">der Urwaldforscher</word>
+					<word topic="NATURE, WORK">die Urwaldforscherin</word>
+					<word topic="CRIME" type="SUBSTANTIV" genus="MASCULINUM">Verbrecher</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="MASCULINUM">Zahnarzt;-,-es,-,-;Zahnärzte,Zahnärzte,Zahnärzten,Zahnärzte</word>
+					<word topic="WORK" type="SUBSTANTIV" genus="FEMININUM">Zahnärztin</word>
+				</profession>
+				<petname>
+					<word topic="RELATIONSHIP">die Augenweide</word>
+					<word topic="RELATIONSHIP">das Baby;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Bärli;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Bambi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Buschel</word>
+					<word topic="RELATIONSHIP">das Brummbärchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="RELATIONSHIP">das Bussibärchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="RELATIONSHIP">der Casanova;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Erdbeerhasi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Früchtchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="RELATIONSHIP">das Flauschibärchi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Goldschätzchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="RELATIONSHIP">das Grinsebärchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="RELATIONSHIP">die Grinsekatze</word>
+					<word topic="RELATIONSHIP">der Giftzwerg;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="RELATIONSHIP">das Hexlein;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">das Mausi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="RELATIONSHIP">die Sahneschnitte</word>
+					<word topic="RELATIONSHIP">das Schätzchen;-,-s,-,-;-,-,-,-</word>
+				</petname>
+				<relative>
+					<word topic="FAMILY">das Baby;-,Babies,-,-;Babies,Babies,Babies,Babies</word>
+					<word topic="FAMILY">der Bruder;-,-s,-,-;Brüder,Brüder,Brüdern,Brüder</word>
+					<word topic="FAMILY">der Cousin;-,-s,-,-;-en,-en,-en,-en</word>
+					<word topic="FAMILY">der Freund;-,-es,-,-;-e,-e,-en,-e</word>
+					<word topic="FAMILY">der Onkel</word>
+					<word topic="FAMILY">der Schwager;-,-s,-,-;Schwäger,Schwäger,Schwägern,Schwäger</word>
+					<word topic="FAMILY">der Vater;-,-s,-,-;Väter,Väter,Vätern,Väter</word>
+					<word topic="FAMILY">die Cousine</word>
+					<word topic="FAMILY, RELATIONSHIP">die Freundin</word>
+					<word topic="FAMILY">die Mutter;-,-,-,-;Mütter,Mütter,Müttern,Mütter</word>
+					<word topic="FAMILY">die Nichte</word>
+					<word topic="FAMILY">die Schwägerin</word>
+					<word topic="FAMILY">die Schwester;-,-,-,-;-n,-n,-n,-n</word>
+					<word topic="FAMILY">die Tante</word>
+					<word topic="FAMILY">die Tochter;-,-,-,-;Töchter,Töchter,Töchtern,Töchter</word>
+					<word topic="FAMILY">der Sohn;-,-s,-,-;Söhne;Söhne;Söhnen;Söhne</word>
+					<word topic="FAMILY">das Kind;-,-es,-,-;-er,-er,-ern,-er</word>
+					<word topic="RELATIONSHIP">der Liebhaber</word>
+					<word topic="RELATIONSHIP">die Liebhaberin</word>
+					<word topic="RELATIONSHIP">die Geliebte;-,-n,-n,-;-n,-n,-n,-n</word>
+				</relative>
+				<zodiac_sign>
+					<word topic="ASTROLOGY" symbols="VIRGO">die Jungfrau</word>
+					<word topic="ASTROLOGY" symbols="SCHUETZE">der Schütze;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word topic="ASTROLOGY" symbols="WAAGE_ANDERS, WAAGE">die Waage</word>
+					<word topic="ASTROLOGY" symbols="WASSERMANN">der Wassermann;-,-s,-,-;Wassermänner,Wassermänner,Wassermännern,Wassermänner</word>
+					<word topic="ASTROLOGY" symbols="WIDDER">der Widder</word>
+					<word topic="ASTROLOGY" symbols="ZWILLINGE_ANDERS, ZWILLINGE">der Zwilling;-,-s,-,-;-e,-e,-en,-e</word>
+				</zodiac_sign>
+				<word>die Angeberin</word>
+				<word type="SUBSTANTIV" genus="MASCULINUM">Angeber</word>
+				<word symbols="ALIEN">der Alien;-,-s,-,-;-s,-s,-s,-s</word>
+				<word symbols="FLASCHE">der Alkoholiker</word>
+				<word symbols="FLASCHE">die Alkoholikerin</word>
+				<word type="SUBSTANTIV" genus="MASCULINUM" symbols="HASE, OSTERHASE">Angsthase;-,-n,-n,-n;-n,-n,-n,-n</word>
+				<word type="SUBSTANTIV" genus="FEMININUM">Angsthäsin</word>
+				<word>der Bursche;-,-n,-n,-n;-n,-n,-n,-n</word>
+				<word topic="GENDER,LIFESTYLE">die Dame</word>
+				<word topic="SEX,KISSING">die Dirne</word>
+				<word topic="MADNESS">der Dummkopf;-,-s,-,-;Dummköpfe,Dummköpfe,Dummköpfen,Dummköpfe</word>
+				<word topic="GENDER" symbols="FRAU">die Frau</word>
+				<word topic="CINEMA" type="SUBSTANTIV" genus="MASCULINUM">Held;-,-en,-en,-en;-en,-en,-en,-en</word>
+				<word topic="CINEMA">die Heldin</word>
+				<word topic="GENDER" >der Herr;-,-n,-n,-n;-en,-en,-en,-en</word>
+				<word flags="NO_SINGULAR">die Leute;-,-,-,-;-,-,-n,-</word>
+				<word topic="GENDER"  symbols="MANN">der Mann;-,-es,-,-;Männer,Männer,Männern,Männer</word>
+				<word topic="GENDER"  symbols="FRAU">das Mädchen;-,-s,-,-;-,-,-,-</word>
+				<word topic="GENDER"  symbols="FRAU">das Mädel;-,-s,-,-;-,-,-,-</word>
+				<word topic="MADNESS">der Narr;-,-en,-en,-en;-en,-en,-en,-en</word>
+				<word topic="MADNESS">die Närrin</word>
+				<word topic="SCIFI,SCIENCE">der Nerd;-,-s,-,-;-s,-s,-s,-s</word>
+				<word topic="SADOMASO">der Sadist;-,-en,-en,-en;-en,-en,-en,-en</word>
+				<word topic="SADOMASO">die Sadistin;-,-,-,-;-nen,-nen,-nen,-nen</word>
+				<word topic="EDUCATION,AGE" type="SUBSTANTIV" genus="MASCULINUM">Student;-,-en,-en,-en;-en,-en,-en,-en</word>
+				<word topic="EDUCATION,AGE">die Studentin</word>
+				<word topic="EDUCATION,AGE" type="SUBSTANTIV" genus="MASCULINUM">Schüler</word>
+				<word topic="EDUCATION,AGE">die Schülerin</word>
+				<word topic="SPORT" type="SUBSTANTIV" genus="MASCULINUM">Sportler</word>
+				<word topic="SPORT">die Sportlerin</word>
+				<word >der Typ;-,-s,-,-;-en,-en,-en,-en</word>
+				<word topic="CRIME, POLITICS">die Verräterin</word>
+				<word topic="CRIME, POLITICS">der Verräter</word>
+				<word topic="MADNESS">die Wahnsinnige;-,-n,-n,-;-n,-n,-n,-n</word>
+				<word topic="MADNESS">der Wahnsinnige;-,-n,-n,-n;-n,-n,-n,-n</word>
+				<word topic="SEX,KISSING">das Weib;-,-es,-,-;-er,-er,-ern,-er</word>
+				<word topic="LIFESTYLE">der Wendehals;-,-es,-,-;Wendehälse,Wendehälse,Wendehälsen,Wendehälse</word>
+
+				<relation type="ADJECTIVE">[words/adjective/human]</relation>
+			</person>
+			<nature>
+				<animals>
+					<word symbols="ADLER_1, ADLER_2, ADLER_3">der Adler</word>
+					<word symbols="AFFE">der Affe;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word symbols="AFFE" group="words/substantiv/person/petname">das Äffchen;-,-s,-,-;-,-,-,-</word>
+					<word >der Aasgeier</word>
+					<word genus="FEMININUM" symbols="AMEISE">Ameise</word>
+					<word>die Assel</word>
+					<word symbols="BAER">der Bär;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word symbols="BAER" group="words/substantiv/person/petname">das Bärchen;-,-s,-,-;-,-,-,-</word>
+					<word genus="NEUTRUM">Beuteltier;-,-s,-,-;-e,-e,-en,-e</word>
+					<word genus="FEMININUM">Biene</word>
+					<word >die Brillenschlange</word>
+					<word symbols="BRACHIOSAURUS">der Dinosaurier</word>
+					<word symbols="DRACHE_2, DRACHE_4">der Drache;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word symbols="EICHHOERNCHEN">das Eichhörnchen;-,-s,-,-;-,-,-,-</word>
+					<word symbols="EIDECHSE, EIDECHSE_ANDERS">die Eidechse</word>
+					<word symbols="EINHORN, EINHORN_ANDERS">das Einhorn;-,-s,-,-;Einhörner,Einhörner,Einhörnern,Einhörner</word>
+					<word symbols="ELEPHANT, ELEPHANT_ANDERS">der Elefant;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word symbols="ENTE, ENTE_ANDERS">die Ente</word>
+					<word symbols="ELCH">der Elch;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>der Esel</word>
+					<word topic="ANIMALS">die Eule;-,-,-,-;-n,-n,-n,-n</word>
+					<word symbols="FLEDERMAUS">die Fledermaus;-,-,-,-;Fledermäuse,Fledermäuse,Fledermäusen,Fledermäuse</word>
+					<word topic="FOOD" symbols="FISCH_1, FISCH_2, FISCH_3, FISCH_4, FISCHE" group="words/substantiv/thing/food">der Fisch;-,-es,-,-;-e,-e,-en,-e</word>
+					<word symbols="FROSCH">der Frosch;-,-s,-,-;Frösche,Frösche,Fröschen,Frösche</word>
+					<word genus="NEUTRUM" symbols="GEIST">Gespenst;-,-es,-,-;-er,-er,-ern,-er</word>
+					<word >der Geier</word>
+					<word symbols="GIRAFFE, GIRAFFE_ANDERS">die Giraffe</word>
+					<word topic="RABBITS" id="name of topic" symbols="HASE" group="words/substantiv/person/petname">der Hase;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word symbols="HIRSCH, HIRSCH_ANDERS">der Hirsch;-,-en,-en,-en;-e,-e,-en,-e</word>
+					<word topic="DOGS" id="name of topic" symbols="HUND_1, HUND_2, HUND_3">der Hund;-,-es,-,-;-e,-e,-en,-e</word>
+					<word symbols="MARIENKAEFER_1, MARIENKAEFER_4">der Käfer</word>
+					<word probability="1">die Kakerlake</word>
+					<word topic="CATS" id="name of topic" symbols="KATZE_1, KATZE_2, KATZE_3, KATZE_GLUECKLICH, KATZE_VERLETZT">die Katze</word>
+					<word topic="CATS" symbols="KATZE_1, KATZE_2, KATZE_3, KATZE_GLUECKLICH, KATZE_VERLETZT" group="words/substantiv/person/petname">das Kätzchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="CATS" genus="NEUTRUM" symbols="KATZE_1, KATZE_2, KATZE_3, KATZE_GLUECKLICH, KATZE_VERLETZT">Katzenbaby;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="DROMEDAR, KAMEL">das Kamel;-,-s,-,-;-e,-e,-en,-e</word>
+					<word genus="NEUTRUM" symbols="KAENGURUH">Känguruh;-,-s,-,-;-s,-s,-s,-s</word>
+					<word probability="0.2" symbols="KRANICH">der Kranich;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="KREBS_1, KREBS_2, KREBS_3">der Krebs;-,-es,-,-;-e,-e,-en,-e</word>
+					<word symbols="FROSCH">die Kröte</word>
+					<word symbols="KOBRA">die Kobra;-,-,-,-;-s,-s,-s,-s</word>
+					<word symbols="KUH">die Kuh;-,-,-,-;Kühe,Kühe,Kühen,Kühe</word>
+					<word symbols="KUEKEN" group="words/substantiv/person/petname">das Küken;-,-s,-,-;-,-,-,-</word>
+					<word topic="NATURE">die Laus;-,-,-,-;Läuse,Läuse,Läusen,Läuse</word>
+					<word topic="DEATH,NATURE" genus="FEMININUM">Leiche</word>
+					<word symbols="LIBELLE">die Libelle</word>
+					<word topic="CATS, NATURE" symbols="LOEWE_MAENNLICH, LOEWE_ANDERS">der Löwe;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word topic="CATS, NATURE" symbols="LOEWE_WEIBLICH">die Löwin;-,-,-,-;-en,-en,-en,-en</word>
+					<word symbols="MARIENKAEFER_1, MARIENKAEFER_4">der Marienkäfer</word>
+					<word genus="FEMININUM" probability="2" group="words/substantiv/person/petname">Maus;-,-,-,-;Mäuse,Mäuse,Mäusen,Mäuse</word>
+					<word probability="2">die Mikrobe</word>
+					<word topic="DOGS">der Mops;-,-es,-,-;Möpse;Möpse;Möpsen;Möpse</word>
+					<word genus="FEMININUM" probability="2" symbols="MUSCHEL_1, MUSCHEL_2, MUSCHEL_3, MUSCHEL_4">Muschel;-,-,-,-;-n,-n,-n,-n</word>
+					<word symbols="SCHNECKE">die Nacktschnecke</word>
+					<word symbols="NASHORN, NASHORN_ANDERS">das Nashorn;-,-s,-,-;Nashörner,Nashörner,Nashörnern,Nashörner</word>
+					<word topic="RABBITS" symbols="HASE">der Osterhase;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word genus="MASCULINUM" symbols="PANDER">Panda;-,-s,-,-;-s,-s,-s,-s</word>
+					<word genus="MASCULINUM" symbols="PFERD_ANDERS, PFERD" group="words/substantiv/thing/vehicle">das Pferd;-,-s,-,-;-e,-e,-en,-e</word>
+					<word genus="MASCULINUM" symbols="PINGUIN">Pinguin;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="DOGS,NATURE">der Pudel</word>
+					<word topic="ANIMALS, NATURE">der Rabe;-,-ns,-n,-n;-n,-n,-n,-n</word>
+					<word symbols="REH">das Reh;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="BAER" group="words/substantiv/person">der Saubär;-,-en,-en,-en;-en,-en,-en,-en</word>
+					<word symbols="SCHILDKROETE">die Schildkröte</word>
+					<word symbols="KOBRA">die Schlange</word>
+					<word symbols="SCHNECKE">die Schnecke</word>
+					<word symbols="SCHNEEMANN">der Schneemann;-,-s,-,-;Schneemänner,Schneemänner,Schneemännern,Schneemänner</word>
+					<word topic="RABBITS" symbols="HASE" group="words/substantiv/person/petname">der Schokohase;-,-n,-n,-n;-n,-n,-n,-n</word>
+					<word symbols="SCHWALBE">die Schwalbe</word>
+					<word>das Schwein;-,-s,-,-;-e,-e,-en,-e</word>
+					<word group="words/substantiv/person/petname">das Schweinchen;-,-s,-,-;-,-,-,-</word>
+					<word symbols="SCHMETTERLING_1, SCHMETTERLING_2, SCHMETTERLING_3">der Schmetterling;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="SEEPFERDCHEN">das Seepferdchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="ASTROLOGY" symbols="SKORPION_ANDERS, SKORPION" group="words/substantiv/person/zodiac_sign">der Skorpion;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="SPINNE, SPINNENNETZ">die Spinne</word>
+					<word topic="ASTROLOGY" symbols="STEINBOCK" group="words/substantiv/person/zodiac_sign">der Steinbock;-,-s,-,-;Steinböcke,Steinböcke,Steinböcken,Steinböcke</word>
+					<word topic="ASTROLOGY" symbols="STIER, STIER_ANDERS" group="words/substantiv/person/zodiac_sign">der Stier;-,-s,-,-;-e,-e,-en,-e</word>
+					<word >das Sumpfhuhn;-,-s,-,-;Sumpfhühner,Sumpfhühner,Sumpfhühnern,Sumpfhühner</word>
+					<word symbols="TAUBE">die Taube</word>
+					<word genus="MASCULINUM">Tausendfüßler</word>
+					<word genus="MASCULINUM">Tiger</word>
+					<word genus="MASCULINUM" symbols="KRANICH, ADLER_1, ADLER_2, ADLER_3, SCHWALBE">Vogel;-,-s,-,-;Vögel,Vögel,Vögeln,Vögel</word>
+					<word symbols="WOLF">der Wolf;-,-s,-,-;Wölfe,Wölfe,Wölfen,Wölfe</word>
+					<word genus="MASCULINUM">Wurm;-,-s,-,-;Würmer,Würmer,Würmern,Würmer</word>
+					<relation type="ADJECTIVE">[words/adjective/human]</relation>
+				</animals>
+				<body>
+					<part>
+						<word topic="BODY">der Arm;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="BODY">die Achselhöhle</word>
+						<word topic="BODY">das Auge;-,-s,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY">die Augenbraue;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY,MADNESS" genus="NEUTRUM">Augenlid;-,-s,-,-;-er,-er,-ern,-er</word>
+						<word topic="BODY">der Bart;-,-s,-,-;Bärte,Bärte,Bärten,Bärte</word>
+						<word topic="BODY">der Bauch;-,-s,-,-;Bäuche,Bäuche,Bäuchen,Bäuche</word>
+						<word topic="BODY">die Bauchfalte</word>
+						<word topic="BODY">der Bauchnabel</word>
+						<word topic="BODY">das Bein;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="DISPUTE,SADOMASO,BODY">die Beule</word>
+						<word topic="BODY">die Ferse</word>
+						<word topic="BODY" genus="MASCULINUM">Finger</word>
+						<word topic="BODY" genus="MASCULINUM" symbols="FUSSABDRUCK_LINKS, FUSSABDRUCK_RECHTS">Fuß;-,-es,-,-;Füße,Füße,Füßen,Füße</word>
+						<word topic="BODY" symbols="GEHIRN">das Gehirn;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="SEX,BODY" genus="NEUTRUM">Geschlecht;-,-s,-,-;-steile,-steile,-steilen,-steile</word>
+						<word topic="BODY">das Grübchen;-,-s,-,-;-,-,-,-</word>
+						<word topic="BODY" genus="FEMININUM">Hand;-,-,-,-;Hände,Hände,Händen,Hände</word>
+						<word topic="BODY">der Hals;-,-es,-,-;Hälse,Hälse,Hälsen,Hälse</word>
+						<word topic="BODY">der Hängebauch;-,-s,-,-;Hängebäuche,Hängebäuche,Hängebäuchen,Hängebäuche</word>
+						<word topic="BODY">das Kinn;-,-s,-,-;Kinnläden,Kinnläden,Kinnläden,Kinnläden</word>
+						<word topic="BODY" genus="MASCULINUM" symbols="SCHAEDEL">Kopf;-,-s,-,-;Köpfe,Köpfe,Köpfen,Köpfe</word>
+						<word topic="BODY">das Knie</word>
+						<word topic="BODY">die Lippe</word>
+						<word topic="BODY">das Maul;-,-s,-,-;Mäuler,Mäuler,Mäulern,Mäuler</word>
+						<word topic="BODY">der Mittelfinger</word>
+						<word topic="BODY">der Mund;-,-s,-,-;Münder,Münder,Mündern,Münder</word>
+						<word topic="BODY" genus="FEMININUM">Nase</word>
+						<word topic="BODY">das Nasenhaar;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="BODY">das Nasenloch;-,-s,-,-;Nasenlöcher,Nasenlöcher,Nasenlöchern,Nasenlöcher</word>
+						<word topic="BODY">die Nasenspitze</word>
+						<word topic="BODY" genus="FEMININUM">Nasenspitze</word>
+						<word topic="BODY,SPORT" genus="MASCULINUM">Oberschenkel;-,-s,-,-;-,-n,-n,-</word>
+						<word topic="BODY">das Ohr;-,-s,-,-;-en,-en,-en,-en</word>
+						<word topic="BODY">das Ohrläppchen;-,-s,-,-;-,-,-,-</word>
+						<word topic="BODY">der Popo;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="BODY">der Popsch;-,-es,-,-;Pöpsche,Pöpsche,Pöpschen,Pöpsche</word>
+						<word topic="BODY">der Rücken;-,-s,-,-;-,-,-,-</word>
+						<word topic="SEX,BODY">das Schamhaar;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="SEX,BODY">die Schulter;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY,SPORT" genus="FEMININUM">Wade</word>
+						<word topic="BODY" genus="FEMININUM">die Wange</word>
+						<word topic="BODY">die Wampe</word>
+						<word topic="BODY" genus="NEUTRUM">Wimmerl</word>
+						<word topic="BODY">die Wimper;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY">der Zahn;-,-s,-,-;Zähne,Zähne,Zähnen,Zähne</word>
+						<word topic="BODY">der Zeh;-,-s,-,-;-en,-en,-en,-en</word>
+						<word topic="BODY">die Zunge</word>
+					</part>
+					<organs>
+						<word topic="BODY" genus="NEUTRUM">Hirn;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="BODY" genus="FEMININUM">Leber;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="NEUTRUM">Herz;-,-ens,-en,-;-en,-en,-en,-en</word>
+						<word topic="BODY" genus="FEMININUM">Ader;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="FEMININUM">Milz;-,-,-,-;-en,-en,-en,-en</word>
+						<word topic="BODY" genus="MASCULINUM">Nerv;-,-s,-,-;-en,-en,-en,-en</word>
+						<word topic="BODY" >der Nierenstein;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="BODY" genus="FEMININUM">Haarwurzel;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="FEMININUM">Haut;-,-,-,-;Häute,Häute,Häuten,Häute</word>
+						<!--word topic="BODY" genus="FEMININUM">Retina;-,-,-,-;-s,-s,-s,-s</word-->
+						<word topic="BODY" genus="FEMININUM">Speiseröhre;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="FEMININUM">Luftröhre;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="FEMININUM">Sehne;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="FEMININUM">Lunge;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="MASCULINUM">Muskel;-,-s,-,-;-n,-n,-n,-n</word>
+						<word topic="BODY" genus="MASCULINUM">Augapfel;-,-s,-,-;Augäpfel,Augäpfel,Augäpfeln,Augäpfel</word>
+						<word topic="BODY" genus="MASCULINUM">Darm;-,-s,-,-;Därme,Därme,Därmen,Därme</word>
+						<word topic="BODY" genus="MASCULINUM">Magen;-,-s,-,-;Mägen,Mägen,Mägen,Mägen</word>
+						<word topic="BODY,DEATH" genus="MASCULINUM">Knochen;-,-s,-,-;-,-,-,-</word>
+						<word topic="DEATH," genus="NEUTRUM">Skelett;-,-s,-,-;-e,-e,-en,-e</word>
+					</organs>
+				</body>
+				<plants>
+					<word symbols="BAUM" group="words/substantiv/location/general/in">der Apfelbaum;-,-s,-,-;Apfelbäume,Apfelbäume,Apfelbäumen,Apfelbäume</word>
+					<word genus="FEMININUM" symbols="BLUME_1, BLUME_2, BLUME_3, BLUME_4, BLUMENTOPF">Blume</word>
+					<word symbols="BAUM">der Baum;-,-s,-,-;Bäume,Bäume,Bäumen,Bäume</word>
+					<word symbols="BLATT_1, BLATT_2, BLATT_3">das Blatt;-,-s,-,-;Blätter,Blätter,Blättern,Blätter</word>
+					<word>die Brennnessel</word>
+					<word group="words/substantiv/location/general/in">der Busch;-,-es,-,-;Büsche,Büsche,Büschen,Büsche</word>
+					<word>die Distel</word>
+					<word group="words/substantiv/location/general/in">die Eiche</word>
+					<word symbols="EICHEL">die Eichel</word>
+					<word >der Fliegenpilz;-,-es,-,-;-e,-e,-en,-e</word>
+					<word>das Gänseblümchen;-,-s,-,-;-,-,-,-</word>
+					<word symbols="GRAS">das Gras;-,-es,-,-;Gräser,Gräser,Gräsern,Gräser</word>
+					<word >der Hanf;-,-s,-,-;-pflanzen,-pflanzen,-pflanzen,-pflanzen</word>
+					<word symbols="KAKTUS">der Kaktus;-,-,-,-;Kakteen,Kakteen,Kakteen,Kakteen</word>
+					<word symbols="ROSE">die Herbstrose</word>
+					<word>der Mangrovenbaum;-,-s,-,-;Mangrovenbäume,Mangrovenbäume,Mangrovenbäumen,Mangrovenbäume</word>
+					<word>das Mauerblümchen;-,-s,-,-;-,-,-,-</word>
+					<word genus="FEMININUM" symbols="PALME, PALME_ANDERS">Palme</word>
+					<word symbols="PILZ">der Pilz;-,-es,-,-;-e,-e,-en,-e</word>
+					<word genus="FEMININUM" symbols="ROSE">Rose</word>
+					<word>der Schimmel;-,-s,-,-;-pilze,-pilze,-pilzen,-pilze</word>
+					<word group="words/substantiv/location/general/in">die Schlingpflanze</word>
+					<word symbols="PILZ">das Schwammerl</word>
+					<word genus="MASCULINUM">Strauch;-,-s,-,-;Sträucher,Sträucher,Sträuchern,Sträucher</word>
+					<word symbols="TANNE_ANDERS, TANNE">die Tanne</word>
+					<word >das Veilchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="NATURE" group="words/substantiv/location/general/in">der Wald;-,-es,-,-;Wälder,Wälder,Wäldern,Wälder</word>
+					<word topic="NATURE">die Wurzel</word>
+				</plants>
+				<faekal>
+					
+					<word>die Pisse;-,-,-,-;Pisslöcher,Pisslöcher,Pisslöchern,Pisslöcher</word>
+				</faekal>
+
+				<relation type="ADJECTIVE">[words/adjective/things]</relation>
+			</nature>
+			<bigImportant>
+				<word flags="NO_PLURAL" topic="RELIGION" symbols="KREUZ">das Christentum;-,-s,-,-;-,-,-,-</word>
+				<word topic="PHILOSOPHY" group="words/substantiv/thing">das Ding;-,-s,-,-;-e,-e,-en,-e</word>
+				<word symbols="ERDBALL_1, ERDBALL_2" group="words/substantiv/thing/material">die Erde</word>
+				<word group="words/substantiv/abstractum">die Fantasie</word>
+				<word group="words/substantiv/abstractum" topic="FRIENDSHIP" id="name of topic">die Freundschaft</word>
+				<word flags="NO_PLURAL" group="words/substantiv/abstractum" symbols="PEACE_HANDZEICHEN, PEACE">der Frieden;-,-s,-,-;-,-,-,-</word>
+
+				<word topic="POETRY">das Gedicht;-,-s,-,-;-e,-e,-en,-e</word>
+				<word group="words/substantiv/abstractum">die Gesellschaft</word>
+				<word group="words/substantiv/abstractum">das Gesetz;-,-es,-,-;-e,-e,-en,-e</word>
+				<word topic="CRIME" group="words/substantiv/abstractum">die Gewalt;-,-,-,-;-taten,-taten,-taten,-taten</word>
+				<word flags="NO_PLURAL" topic="HAPPINESS" symbols="HUFEISEN_ANDERS, HUFEISEN, KLEEBLATT" id="name of topic" group="words/substantiv/abstractum/adjectivic">das Glück;-,-s,-,-;-;-;-;-</word>
+				<!--
+				<word topic="RELIGION" symbols="MOND_2">der Islam;-,-s,-,-;Moslems,Moslems,Moslems,Moslems</word>
+				<word topic="RELIGION" symbols="DAVIDSTERN, MENORAH">das Judentum;-,-s,-,-;Juden,Juden,Juden,Juden</word>
+				-->
+				<word topic="COMPLIMENTS" group="words/substantiv/event,words/substantiv/abstractum">die Liebe</word>
+				<word topic="EDUCATION,SCIENCE" group="words/substantiv/abstractum">die Lösung</word>
+				<word group="words/substantiv/nature/faekal">das Lulu;-,-s,-,-;-s,-s,-s,-s</word>
+				<word group="words/substantiv/abstractum">die Macht;-,-,-,-;Mächte,Mächte,Mächten,Mächte</word>
+				<word group="words/substantiv/nature/animals,words/substantiv/person">der Mensch;-,-en,-en,-en;-en,-en,-en,-en</word>
+				<word>die Menschheit</word>
+				<word flags="NO_PLURAL" topic="PHILOSOPHY,POLITICS" group="words/substantiv/abstractum">die Moral;-,-,-,-;-,-,-,-</word>
+				<word topic="LUXURY" group="words/substantiv/abstractum/adjectivic/human/positive">der Reichtum;-,-s,-,-;Reichtümer,Reichtümer,Reichtümern,Reichtümer</word>
+				<word topic="RELIGION" id="name of topic" symbols="KREUZ, KIRCHE, DAVIDSTERN">die Religion</word>
+				<word topic="POLITICS">die Revolution</word>
+				<word group="words/substantiv/nature/faekal">der Schaß;-,-es,-,-;-e,-e,-en,-e</word>
+				<word group="words/substantiv/nature/faekal">die Scheiße;-,-,-,-;Scheißpatzerl,Scheißpatzerl,Scheißpatzerln,Scheißpatzerl</word>
+				<word group="words/substantiv/abstractum">das Schicksal;-,-s,-,-;-e,-e,-en,-e</word>
+				<word group="words/substantiv/abstractum">der Sinn;-,-s,-,-;-e,-e,-en,-e</word>
+				<word flags="NO_PLURAL" group="words/substantiv/abstractum">das Sein;-,-s,-,-;-,-,-,-</word>
+				<word group="words/substantiv/abstractum">die Sprache</word>
+				<word >der Stammbaum;-,-s,-,-;Stammbäume,Stammbäume,Stammbäumen,Stammbäume</word>
+				<word group="words/substantiv/abstractum" topic="DREAMS" id="name of topic">der Traum;-,-s,-,-;Träume,Träume,Träumen,Träume</word>
+				<word topic="NATURE" flags="NO_PLURAL">die Umwelt;-,-,-,-;-,-,-,-</word>
+				<word group="words/substantiv/abstractum">die Unendlichkeit</word>
+				<word topic="SCIFI">das Universum;-,-s,-,-;Universen,Universen,Universen,Universen</word>
+				<word flags="NO_PLURAL">die Vernunft</word>
+				<word>die Welt</word>
+				<word flags="NO_PLURAL">das Weltall;-,-s,-,-;Weltalls,Weltalls,Weltalls,Weltalls</word>
+				<word topic="PHILOSOPHY" group="words/substantiv/abstractum">die Weltformel</word>
+				<word group="words/substantiv/abstractum" topic="SCIENCE" id="name of topic" symbols="DIPLOMHUT">die Wissenschaft</word>
+				<word group="words/substantiv/abstractum">die Zeit</word>
+				<word group="words/substantiv/abstractum">der Zufall;-,-s,-,-;Zufälle,Zufälle,Zufällen,Zufälle</word>
+
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</bigImportant>
+			<location>
+				<general>
+					<in>
+						<word topic="ALCOHOL">die Bar;-,-,-,-;-s,-s,-s,-s</word>
+						<word topic="LUXURY">der Ballsaal;-,-s,-,-;Ballsähle,Ballsähle,Ballsählen,Ballsähle</word>
+						<word topic="LUXURY" group="words/substantiv/thing/furniture">die Bank</word>
+                        <word topic="EDUCATION">die Baumschule</word>
+                        <word topic="EDUCATION">die Bibliothek</word>
+						<word topic="SEX" probability="3">das Bordell;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="LIFESTYLE">das Café;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="TRAVEL">der Dschungel</word>
+						<word>das Dorf;-,-s,-,-;Dörfer;Dörfer;Dörfern;Dörfer</word>
+						<word>das Einkaufszentrum;-,-s,-,-;Einkaufszentren,Einkaufszentren,Einkaufszentren,Einkaufszentren</word>
+						<word topic="WORK">die Fabrik</word>
+						<word topic="COMPLIMENTS" probability="0.3">die Flaniermeile</word>
+						<word topic="NATURE">das Gebirge</word>
+						<word>die Hauptstraße</word>
+						<word>die Hauptstadt;-,-,-,-;Hauptstädte,Hauptstädte,Hauptstädten,Hauptstädte</word>
+                        <word topic="EDUCATION">der Hörsaal;-,-s,-,-;Hörsäle,Hörsäle,Hörsälen,Hörsäle</word>
+						<word topic="WEDDING,RELIGION" symbols="KIRCHE">die Kirche</word>
+                        <word topic="EDUCATION">der Kindergarten;-,-s,-,-;Kindergärten,Kindergärten,Kindergärten,Kindergärten</word>
+						<word topic="CINEMA" id="name of topic">das Kino;-,-s,-,-;-s,-s,-s,-s</word>
+                        <word topic="EDUCATION">das Klassenzimmer</word>
+						<word>die Kleinstadt;-,-,-,-;Kleinstädte,Kleinstädte,Kleinstädten,Kleinstädte</word>
+                        <word topic="EDUCATION">die Krabbelstube</word>
+						<word>das Land;-,-es,-,-;Länder,Länder,Ländern,Länder</word>
+                        <word topic="EDUCATION">das Museum;-,-s,-,-;Museen,Museen,Museen,Museen</word>
+                        <word topic="EDUCATION">die Musikschule</word>
+						<word topic="RELIGION">die Pfarre;-,-,-,-;-n,-n,-n,-n</word>
+						<word topic="LIFESTYLE">der Pool;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="FOOD">das Restaurant;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="LUXURY">der Saal;-,-s,-,-;Sähle,Sähle,Sählen,Sähle</word>
+                        <word topic="EDUCATION, GAMES, AGE" group="words/substantiv/games">die Sandkiste</word>
+                        <word topic="EDUCATION">die Schule</word>
+                        <word topic="EDUCATION,FAMILY,GAMES,AGE" group="words/substantiv/games">der Spielplatz;-,-es,-,-;Spielplätze,Spielplätze,Spielplätzen,Spielplätze</word>
+						<word>die Stadt;-,-,-,-;Städte,Städte,Städten,Städte</word>
+						<!--word>der Stadtrand;-,-es,-,-;Stadtränder,Stadtränder,Stadträndern,Stadtränder</word-->
+						<word>die Shoppingmall;-,-,-,-;-s,-s,-s,-s</word>
+						<word>der Supermarkt;-,-s,-,-;Supermärkte,Supermärkte,Supermärkten,Supermärkte</word>
+						<word topic="SEX">die Stripbar;-,-,-,-;-s,-s,-s,-s</word>
+						<word>die Therme</word>
+                        <word topic="EDUCATION">der Turnsaal;-,-s,-,-;Turnsäle,Turnsäle,Turnsälen,Turnsäle</word>
+						<word topic="SCIENCE,EDUCATION">die Universität;-,-,-,-;-en,-en,-en,-en</word>
+						<word topic="GAMES">der Vergnügungspark;-,-s,-,-;-s,-s,-s,-s</word>
+                        <word topic="EDUCATION">die Volksschule</word>
+						<word topic="TRAVEL" symbols="WUESTE_ANDERS, WUESTE">die Wüste</word>
+                        <word topic="EDUCATION">der Zeichensaal;-,-s,-,-;Zeichensäle,Zeichensäle,Zeichensälen,Zeichensäle</word>
+						<housing>
+							<word topic="PSYCHOLOGY">die Anstalt</word>
+							<word topic="LIVING,TRAVEL" symbols="SCHLOSS">die Burg</word>
+							<word topic="LIVING">das Baumhaus;-,-es,-,-;Baumhäuser,Baumhäuser,Baumhäusern,Baumhäuser</word>
+							<word topic="SADOMASO" probability="0.3">die Folterkammer;-,-,-,-;-n,-n,-n,-n</word>
+							<word topic="TRAVEL">die Garage</word>
+							<word topic="CRIME">das Gefängnis;-,-ses,-,-;-se,-se,-sen,-se</word>
+							<word topic="LIVING" genus="FEMININUM">Großstadt;-,-,-,-;Großstädte,Großstädte,Großstädten,Großstädte</word>
+							<word topic="LIVING" genus="NEUTRUM">Hochhaus;-,-es,-,-;Hochhäuser,Hochhäuser,Hochhäusern,Hochhäuser</word>
+							<word topic="LIVING" genus="NEUTRUM" symbols="SCHLOSS">Schloss;-,-es,-,-;Schlösser,Schlösser,Schlössern,Schlösser</word>
+							<word topic="LIVING" symbols="HAUS">das Haus;-,-es,-,-;Häuser,Häuser,Häusern,Häuser</word>
+							<word topic="LIVING">das Hotel;-,-s,-,-;-s,-s,-s,-s</word>
+							<word topic="LIVING">die Hütte</word>
+							<word topic="LIVING">die Höhle</word>
+							<word topic="LIVING">die Hundehütte</word>
+							<word topic="MADNESS">das Irrenhaus;-,-es,-,-;Irrenhäuser,Irrenhäuser,Irrenhäusern,Irrenhäuser</word>
+							<word>die Kammer;-,-,-,-;-n,-n,-n,-n</word>
+							<word topic="CRIME" group="words/substantiv/event">der Kerker</word>
+							<word topic="CRIME">das Loch;-,-s,-,-;Löcher,Löcher,Löchern,Löcher</word>
+							<word topic="HAPPINESS">der Park;-,-s,-,-;-s,-s,-s,-s</word>
+							<word topic="PSYCHOLOGY,MADNESS">die Psychiatrie</word>
+							<word topic="LIVING">das Theater</word>
+							<word topic="LIVING">die Wohnung</word>
+							<word topic="LIVING">der Wolkenkratzer</word>
+						</housing>
+					</in>
+					<on>
+						<word topic="NATURE">der Berg;-,-es,-,-;-e,-e,-en,-e</word>
+						<test>
+						<word topic="NATURE" group="words/substantiv/location/general/in" probability="0.2">das Maisfeld;-,-es,-,-;-er,-er,-ern,-er</word>
+						<word topic="NATURE" group="words/substantiv/location/general/in" probability="0.2">das Reisfeld;-,-es,-,-;-er,-er,-ern,-er</word>
+						<word topic="NATURE" group="words/substantiv/location/general/in" probability="0.2">das Weizenfeld;-,-es,-,-;-er,-er,-ern,-er</word>
+						<word topic="NATURE" group="words/substantiv/location/general/in" probability="0.2">das Sonnenblumenfeld;-,-es,-,-;-er,-er,-ern,-er</word>
+						<word topic="NATURE" group="words/substantiv/location/general/in" probability="0.2">das Gemüsefeld;-,-es,-,-;-er,-er,-ern,-er</word>
+						</test>
+						<word topic="DEATH">der Friedhof;-,-s,-,-;Friedhöfe,Friedhöfe,Friedhöfen,Friedhöfe</word>
+						<word group="words/substantiv/event">das Konzert;-,-s,-,-;-e,-e,-en,-e</word>
+						<word symbols="MISTKUEBEL">die Müllhalde</word>
+						<word >der Müllhaufen;-,-s,-,-;Müllhäufen,Müllhäufen,Müllhäufen,Müllhäufen</word>
+						<!-- commented, because planet is too often not fitting. word symbols="PLANET, SATURN_1, SATURN_2">der Planet;-,-en,-en,-en;-en,-en,-en,-en</word-->
+						<word topic="GAMES,FAMILY">der Rummelplatz;-,-es,-,-;Rummelplätze,Rummelplätze,Rummelplätzen,Rummelplätze</word>
+						<word>der Strand;-,-es,-,-;Strände,Strände,Stränden,Strände</word>
+						<word group="words/substantiv/location/general/in">der See;-,-s,-,-;-n,-n,-n,-n</word>
+						<word group="words/substantiv/location/general/in">die Wiese</word>
+						<word group="words/substantiv/location/general/in">der Wulkan;-,-s,-,-;-e,-e,-en,-e</word>
+					</on>
+				</general>
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</location>
+			<thing>
+				<beverage>
+					<alcohol>
+						<word topic="ALCOHOL" id="name of topic" symbols="FLASCHE">der Alkohol;-,-s,-,-;-ika,-ika,-ika,-ika</word>
+						<word topic="ALCOHOL">das Bier;-,-s,-,-;-e,-e,-en,-e</word>
+						<word topic="ALCOHOL">die Bowle</word>
+						<word topic="ALCOHOL, FOOD" symbols="COCKTAIL">der Cocktail;-,-s,-,-;-s,-s,-s,-s</word>
+						<word topic="ALCOHOL">der Schnaps;-,-,-,-;Schnäpse,Schnäpse,Schnäpsen,Schnäpse</word>
+						<word topic="ALCOHOL" symbols="SEKT, SEKTGLAS">der Sekt;-,-s,-,-;-flaschen,-flaschen,-flaschen,-flaschen</word>
+						<word topic="ALCOHOL" symbols="WEIN, FLASCHE">der Wein;-,-s,-,-;-e,-e,-en,-e</word>
+					</alcohol>
+					<word symbols="FLASCHE">der Apfelsaft;-,-s,-,-;Apfelsäfte,Apfelsäfte,Apfelsäften,Apfelsäfte</word>
+					<word topic="DISEASE">die Drecksbrühe;-,-,-,-;-n,-n,-n,-n</word>
+					<word symbols="FLASCHE">das Getränk;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="KAFFEETASSE">der Kaffee;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="KAFFEETASSE_ANDERS">der Kakao;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="FLASCHE">der Orangensaft;-,-s,-,-;Orangensäfte,Orangensäfte,Orangensäften,Orangensäfte</word>
+					<word symbols="FLASCHE">der Saft;-,-s,-,-;Säfte,Säfte,Säften,Säfte</word>
+					<word genus="NEUTRUM" group="words/substantiv/thing/material">Wasser;-,-s,-,-;Gewässer,Gewässer,Gewässern,Gewässer</word>
+				</beverage>
+				<clothes>
+					<word>das Hemd;-,-s,-,-;-en,-en,-en,-en</word>
+					<word>die Hose</word>
+					<word symbols="DAMENHUT, ZYLINDER">der Hut;-,-s,-,-;Hüte,Hüte,Hüten,Hüte</word>
+					<word>das Leibchen;-,-s,-,-;-,-,-,-</word>
+					<word>der Mantel;-,-s,-,-;Mäntel,Mäntel,Mänteln,Mäntel</word>
+					<word topic="SADOMASO">die Maske</word>
+					<word topic="WEDDING,LUXURY" symbols="RING">der Ring;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>der Schuh;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="SONNENBRILLE">die Sonnenbrille</word>
+					<word>das Tshirt;-,-s,-,-;-s,-s,-s,-s</word>
+					<!-- Julian -->
+					<word>der Socken;-,-s,-,-;-,-,-,-</word>
+					<word>die Unterhose;-,-,-,-;-n,-n,-n,-n</word>
+					<word>der Pullover;-,-s,-,-;-,-,-n,-</word>
+					<word>die Bluse;-,-,-,-;-n,-n,-n,-n</word>
+					<word>das Unterhemd;-,-s,-,-;-en,-en,-en,-en</word>
+					<word>die Jacke;-,-,-,-;-n,-n,-n,-n</word>
+					<word>der Kapuzenpullover;-,-s,-,-;-,-,-n,-</word>
+				</clothes>
+				<container>
+					<word>der Beutel</word>
+					<word symbols="FLASCHE">die Flasche</word>
+					<word symbols="KISTE">die Kiste</word>
+					<word symbols="KISTE">das Kisterl</word>
+					<word symbols="KRUG">der Krug;-,-s,-,-;Krüge,Krüge,Krügen,Krüge</word>
+					<word symbols="POKAL_1, POKAL_2, POKAL_3">der Pokal;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="RUCKSACK">der Rucksack;-,-s,-,-;Rucksäcke,Rucksäcke,Rucksäcken,Rucksäcke</word>
+					<word symbols="TOPF">der Topf;-,-s,-,-;Töpfe,Töpfe,Töpfen,Töpfe</word>
+					<word>der Kübel</word>
+					<word>der Sack;-,-s,-,-;Säcke,Säcke,Säcken,Säcke</word>
+					<word>die Tasche</word>
+				</container>
+				<food>
+					<word symbols="APFEL">der Apfel;-,-s,-,-;Äpfel,Äpfel,Äpfeln,Äpfel</word>
+					<word topic="FOOD" symbols="BANANE">die Banane</word>
+					<word topic="FOOD" symbols="BIRNE">die Birne</word>
+					<word topic="FOOD" genus="NEUTRUM" symbols="BROT">Brot;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="FOOD" symbols="BURGER, BURGERMENUE">der Burger</word>
+					<word topic="FOOD" symbols="CHILI">die Chili;-,-,-,-;-s,-s,-s,-s</word>
+					<word topic="FOOD" symbols="CANNABIS">die Droge</word>
+					<word topic="FOOD" symbols="EI">das Ei;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="FOOD" symbols="ERDBEERE">die Erdbeere</word>
+					<word topic="FOOD" genus="NEUTRUM">Essiggurkerl</word>
+					<word group="words/substantiv/thing/material">das Fleisch;-,-es,-,-;Fleischsorten,Fleischsorten,Fleischsorten,Fleischsorten</word>
+					<word topic="FOOD">das Jogurt;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="FOOD" symbols="KAROTTE">die Karotte</word>
+					<word topic="FOOD" genus="MASCULINUM">Kohlkopf;-,-s,-,-;Kohlköpfe,Kohlköpfe,Kohlköpfen,Kohlköpfe</word>
+					<word topic="FOOD" genus="FEMININUM">Kastanie</word>
+					<word topic="FOOD" symbols="KAESE, KAESE_ANDERS">der Käse</word>
+					<word topic="FOOD">der Kartoffel;-,-s,-,-;-n,-n,-n,-n</word>
+					<word topic="FOOD" symbols="KIRSCHE, KIRSCHE_ANDERS">die Kirsche</word>
+					<word topic="FOOD" symbols="LEBKUCHENMANN" group="words/substantiv/thing/material">der Lebkuchen;-,-s,-,-;-,-,-,-</word>
+					<word topic="FOOD" symbols="MAIS">der Mais;-,-es,-,-;Maiskolben,Maiskolben,Maiskolben,Maiskolben</word>
+					<word topic="FOOD" symbols="NUDELWALKER">die Nudel</word>
+					<word topic="FOOD">die Pasta Asciutta;-,-,-,-;Pasta Asciutta Portionen,Pasta Asciutta Portionen,Pasta Asciutta Portionen,Pasta Asciutta Portionen</word>
+					<word topic="FOOD" symbols="PIZZA">die Pizza;-,-,-,-;Pizzen,Pizzen,Pizzen,Pizzen</word>
+					<word topic="FOOD">das Pommes Frites;-,-,-,-;-,-,-,-</word>
+					<word topic="FOOD">der Reis;-,-es,-,-;Reiskörner,Reiskörner,Reiskörnern,Reiskörner</word>
+					<word topic="FOOD" group="words/substantiv/thing/material">die Schokolade</word>
+					<word topic="FOOD">der Salat;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="FOOD">die Suppe</word>
+					<word topic="FOOD">der Strudel</word>
+					<word topic="FOOD" group="words/substantiv/thing/material">der Teig;-,-s,-,-;-klumpen,-klumpen,-klumpen,-klumpen</word>
+					<word topic="FOOD" probability="0.5" symbols="TOMATE">die Tomate</word>
+					<word topic="FOOD">das Vitamin;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="FOOD" genus="FEMININUM">Wurst;-,-,-,-;Würste,Würste,Würsten,Würste</word>
+					<word topic="FOOD" group="words/substantiv/thing/material">der Zucker;-,-s,-,-;-würfel,-würfel,-würfeln,-würfel</word>
+				</food>
+				<furniture>
+					<word genus="NEUTRUM" symbols="BETT">Bett;-,-s,-,-;-en,-en,-en,-en</word>
+					<word group="words/substantiv/location/general/in">die Badewanne</word>
+					<word group="words/substantiv/location/general/in">die Dusche</word>
+					<word symbols="LAMPE">die Lampe</word>
+					<word symbols="MISTKUEBEL">der Mistkübel</word>
+					<word>das Nachtkästchen;-,-s,-,-;-,-,-,-</word>
+					<word>das Regal;-,-s,-,-;-e,-e,-en,-e</word>
+					<word group="words/substantiv/location/general/in">der Schrank;-,-s,-,-;Schränke,Schränke,Schränken,Schränke</word>
+					<word>der Sessel</word>
+					<word genus="NEUTRUM">Sofa;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>der Stuhl;-,-es,-,-;Stühle,Stühle,Stühlen,Stühle</word>
+					<word>der Tisch;-,-es,-,-;-e,-e,-en,-e</word>
+					<word>die Tür;-,-,-,-;-en,-en,-en,-en</word>
+				</furniture>
+				<tool>
+					<word topic="CRIME" symbols="AXT" group="words/substantiv/thing/weapon">die Axt;-,-,-,-;Äxte,Äxte,Äxten,Äxte</word>
+					<word topic="WORK" symbols="BAGGER">der Bagger</word>
+					<word topic="LIFESTYLE" symbols="BESTECK">das Besteck;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="BLEISTIFT">der Bleistift;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="LUXURY, ART" symbols="FILMKAMERA">die Filmkamera;-,-,-,-;-s,-s,-s,-s</word>
+					<word topic="LUXURY, ART" symbols="KAMERA">der Fotoapparat;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="FOOD">die Gabel</word>
+					<word symbols="GIESSKANNE">die Gießkanne</word>
+					<word symbols="HAARBUERSTE">die Haarbürste</word>
+					<word group="words/substantiv/thing/weapon">die Hacke</word>
+					<word group="words/substantiv/thing/weapon">der Haken</word>
+					<word topic="WORK" symbols="HAMMER">der Hammer;-,-s,-,-;Hämmer,Hämmer,Hämmern,Hämmer</word>
+					<word topic="SCIENCE" symbols="HANDY">das Handy;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="HERD">der Herd;-,-s,-,-;-platten,-platten,-platten,-platten</word>
+					<word topic="SCIENCE" symbols="IPHONE">das Iphone;-,-s,-,-;-s,-s,-s,-s</word>
+					<word genus="MASCULINUM">Löffel</word>
+					<word topic="SCIENCE" symbols="MAGNET">der Magnet;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="MEGAPHON">das Megafon;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="MIKROPHON">das Mikrofon;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="MIKROSKOP">das Mikroskop;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="SADOMASO" group="words/substantiv/thing/weapon">die Nadel</word>
+					<word topic="SCIENCE" symbols="LAPTOP">das Notebook;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="ART">der Pinsel</word>
+					<word genus="MASCULINUM" topic="GENDER">Putzeimer</word>
+					<word genus="MASCULINUM" symbols="REGENSCHIRM">Regenschirm;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="PINSEL_FARBE, PINSEL">der Pinsel</word>
+					<word>die Pinzette</word>
+					<word symbols="SANDUHR">die Sanduhr</word>
+					<word genus="FEMININUM">Säge</word>
+					<word genus="MASCULINUM">Saugnapf;-,-s,-,-;Saugnäpfe,Saugnäpfe,Saugnäpfen,Saugnäpfe</word>
+					<word genus="FEMININUM" symbols="SCHAUFEL">Schaufel</word>
+					<word genus="FEMININUM" symbols="SCHERE">Schere</word>
+					<word symbols="SCHLUESSE_ZUM_HERZEN, SCHLUESSEL_ANDERS, SCHLUESSELBUND, SCHLUESSEL">der Schlüssel</word>
+					<word genus="FEMININUM" symbols="SCHRAUBE">Schraube</word>
+					<word topic="WORK" symbols="SCHRAUBENZIEHER">der Schraubenzieher</word>
+					<word topic="WORK" symbols="SCHRAUBENSCHLUESSEL">der Schraubenschlüssel</word>
+					<word topic="WORK" symbols="SEITENSCHNEIDER">der Seitenschneider</word>
+					<word topic="WORK" symbols="SPITZHACKE" group="words/substantiv/thing/weapon">die Spitzhacke</word>
+					<word topic="SADOMASO" group="words/substantiv/thing/weapon">das Seil;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="DISEASE">die Spritze</word>
+					<word genus="MASCULINUM">Staubsauger</word>
+					<word symbols="MALSTIFT">der Stift;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="SANDUHR, UHR">die Uhr</word>
+				</tool>
+				<!-- Julian -->
+				<instrument>
+					<word topic="MUSIC">das Akkordeon;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="MUSIC">der Bass;-,-es,-,-;Bässe,Bässe,Bässen,Bässe</word>
+					<word topic="MUSIC">das Didgeridoo;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="MUSIC">die Flöte;-,-,-,-;-n,-n,-n,-n</word>
+					<word topic="MUSIC">die Geige;-,-,-,-;-n,-n,-n,-n</word>
+					<word topic="MUSIC" genus="FEMININUM" symbols="GITARRE_1, GITARRE_2, GITARRE_3">Gitarre</word>
+					<word topic="MUSIC" symbols="GLOCKE, GLOCKEN">die Glocke</word>
+					<word topic="MUSIC">die Harfe;-,-,-,-;-n,-n,-n,-n</word>
+					<word topic="MUSIC">die Harmonika;-,-,-,-;-s,-s,-s,-s</word>
+					<word topic="MUSIC">das Horn;-,-s,-,-;Hörner,Hörner,Hörnern,Hörner</word>
+					<word topic="MUSIC">das Keyboard;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="MUSIC" symbols="KLAVIERE">das Klavier;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="MUSIC">der Kontrabass;-,-es,-,-;Kontrabässe,Kontrabässe,Kontrabässen,Kontrabässe</word>
+					<word topic="MUSIC">die Mundharmonika;-,-,-,-;-s,-s,-s,-s</word>
+					<word topic="MUSIC" symbols="SAXOPHON">das Saxophon;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="MUSIC">das Schlagzeug;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="MUSIC" genus="FEMININUM" symbols="TROMMEL_1, TROMMEL_2, TROMMEL_3">Trommel</word>
+					<word topic="MUSIC" genus="FEMININUM" symbols="TROMPETE_1, TROMPETE_2">Trompete</word>
+					<word topic="MUSIC">die Violine;-,-,-,-;-n,-n,-n,-n</word>
+				</instrument>
+				<vehicle>
+					<word symbols="AUTO_1, AUTO_2">das Auto;-,-s,-,-;-s,-s,-s,-s</word>
+					<!--word symbols="OMNIBUS">der Bus;-,-sses,-,-;-se,-se,-sen,-se</word-->
+					<word topic="SCIFI,SCIENCE" symbols="JET">der Düsenjäger</word>
+					<word topic="SPORT" symbols="FAHRRAD, RADFAHREN">das Fahrrad;-,-s,-,-;Fahrräder,Fahrräder,Fahrrädern,Fahrräder</word>
+					<word symbols="FLUGZEUG_1, FLUGZEUG_2, FLUGZEUG_3, JET">das Flugzeug;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>der Heißluftballon;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="HELIKOPTER_1, HELIKOPTER_2">der Hubschrauber</word>
+					<word symbols="KINDERWAGEN">der Kinderwagen;-,-s,-,-;Kinderwägen,Kinderwägen,Kinderwägen,Kinderwägen</word>
+					<word symbols="LASTWAGEN">der Lastwagen;-,-s,-,-;Lastwägen,Lastwägen,Lastwägen,Lastwägen</word>
+					<word symbols="MOTORBOOT">das Motorboot;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="MOTORRAD">das Motorrad;-,-s,-,-;Motorräder,Motorräder,Motorrädern,Motorräder</word>
+					<word symbols="PLANWAGEN" probability="0.2">der Planwagen;-,-s,-,-;Planwägen;Planwägen;Planwägen;Planwägen</word>
+					<word symbols="POLIZEIWAGEN" probability="0.2">das Polizeiauto;-,-s,-,-;-s,-s,-s,-s</word>
+					<word topic="SCIFI" genus="NEUTRUM">Raumschiff;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="SPORT">der Rennwagen;-,-s,-,-;Rennwägen,Rennwägen,Rennwägen,Rennwägen</word>
+					<word symbols="AESCULAP, AMBULANZ">die Rettung</word>
+					<word>der Roller</word>
+					<word>der Schulbus;-,-ses,-,-;-se,-se,-sen,-se</word>
+					<word symbols="SEGELBOOT_1, SEGELBOOT_2">das Segelboot;-,-s,-,-;-e,-e,-en,-e</word>
+					<word symbols="ANKER_1, ANKER_2, SEGELSCHIFF_1, SEGELSCHIFF_2">das Schiff;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>die Straßenbahn</word>
+					<word>das Surfbrett;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word>das Taxi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word symbols="TRAKTOR">der Traktor;-,-s,-,-;-en,-en,-en,-en</word>
+					<word>die U-Bahn</word>
+					<word topic="SCIFI" symbols="UFO">das UFO;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>der Wagen;-,-s,-,-;Wägen,Wägen,Wägen,Wägen</word>
+					<word>die Yacht</word>
+					<word symbols="ZUG">der Zug;-,-s,-,-;Züge,Züge,Zügen,Züge</word>
+				</vehicle>
+				<weapon>
+					<word topic="CRIME" symbols="BOMBE, BOMBE_ANDERS">die Bombe;-,-,-,-;-n,-n,-n,-n</word>
+					<word topic="CRIME">das Beil;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="CRIME">der Degen;-,-s,-,-;-,-,-,-</word>
+					<word topic="CRIME" symbols="GIFT">das Gift;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="CRIME">der Giftpfeil;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="CRIME">das Hackbeil;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="CRIME">die Kanone</word>
+					<word topic="CRIME" genus="FEMININUM">Maschinenpistole</word>
+					<word topic="CRIME">das Messer</word>
+					<word topic="CRIME">die Mistgabel</word>
+					<word topic="SADOMASO">die Peitsche</word>
+					<word topic="CRIME">der Pfeil;-,-s,-,-;-e,-e,-en,-e</word>
+					<word topic="CRIME" genus="FEMININUM">Pistole</word>
+					<word topic="CRIME">der Raketenwerfer</word>
+					<word topic="CRIME">der Revolver</word>
+					<word topic="CRIME">der Schürhaken;-,-s,-,-;-,-,-,-</word>
+					<word topic="CRIME" symbols="SCHWERT">das Schwert;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word topic="KISSING">der Todeskuss;-,-ses,-,-;Todesküsse,Todesküsse,Todesküssen,Todesküsse</word>
+					<word topic="CRIME">die Waffe</word>
+				</weapon>
+				<material>
+					<word>der Aspest;-,-s,-,-;-wolken,-wolken,-wolken,-wolken</word>
+					<word>der Beton;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>die Baumwolle</word>
+					<word group="words/substantiv/nature/faekal">der Dreck;-,-s,-,-;-sorten,-sorten,-sorten,-sorten</word>
+					<word group="words/substantiv/thing/food">das Eis;-,-es,-,-;-sorten,-sorten,-sorten,-sorten</word>
+					<word group="words/substantiv/thing/food">das Fett;-,-s,-,-;-wülst,-wülst,-wülstn,-wülst</word>
+					<word genus="NEUTRUM" symbols="FEUER, LAGERFEUER">Feuer</word>
+					<word group="words/substantiv/thing/weapon">das Gas;-,-es,-,-;-e,-e,-en,-e</word>
+					<word>das Holz;-,-es,-,-;Hölzer,Hölzer,Hölzern,Hölzer</word>
+					<word>der Stein;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>der Gummi;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>das Metall;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>das Eisen;-,-s,-,-;-,-,-,-</word>
+					<word topic="LUXURY">das Gold;-,-s,-,-;Goldmünzen,Goldmünzen,Goldmünzen,Goldmünzen</word>
+					<word>das Glas;-,-es,-,-;Gläser,Gläser,Gläsern,Gläser</word>
+					<word topic="LUXURY">der Kristall;-,-s,-,-;-e,-e,-en,-e</word>
+					<word genus="FEMININUM">Luft;-,-,-,-;Lüfte,Lüfte,Lüften,Lüfte</word>
+					<word>das Papier;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>das Plastik;-,-s,-,-;-en,-en,-en,-en</word>
+					<word>der Rauch;-,-s,-,-;-wolken,-wolken,-wolken,-wolken</word>
+					<word>der Schaum;-,-s,-,-;-kronen,-kronen,-kronen,-kronen</word>
+					<word>das Silber;-,-s,-,-;-münzen,-münzen,-münzen,-münzen</word>
+					<word>das Styropor;-,-s,-,-;-kugeln,-kugeln,-kugeln,-kugeln</word>
+					<word>die Wolle</word>
+					<word>die Watte</word>
+					<word topic="LUXURY" symbols="DIAMANT" probability="0.1">der Diamant;-,-s,-en,-en;-en,-en,-en,-en</word>
+				</material>
+				<media>
+					<word>der Blog;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>das Buch;-,-s,-,-;Bücher,Bücher,Büchern,Bücher</word>
+					<word>das Fernsehen;-,-s,-,-;Fernsehsender,Fernsehsender,Fernsehsendern,Fernsehsender</word>
+					<word>das Fernsehprogramm;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>das Foto;-,-s,-,-;-s,-s,-s,-s</word>
+					<word>das Internet;-,-s,-,-;Netzwerke,Netzwerke,Netzwerken,Netzwerke</word>
+					<word id="name of topic">das Medium;-,-s,-,-;Medien,Medien,Medien,Medien</word>
+					<word>die Nachricht</word>
+					<word>die Presse;-,-,-,-;-leute;-leute,-leuten,-leute</word>
+					<word>das Radio;-,-s,-,-;-sender;-sender,-sendern,-sender</word>
+					<word>das Schundblatt;-,-s,-,-;Schundblätter,Schundblätter,Schundblättern,Schundblätter</word>
+					<word group="words/substantiv/event">die Werbung</word>
+					<word>die Zeitung</word>
+					<word>die Zeitschrift</word>
+				</media>
+				<word topic="SCIENCE" symbols="ATOM">das Atom;-,-s,-,-;-e,-e,-en,-e</word>
+				<word genus="MASCULINUM">Bömmel</word>
+				<word genus="MASCULINUM" symbols="BRIEF">Brief;-,-s,-,-;-e,-e,-en,-e</word>
+				<word symbols="BUCH_GESCHLOSSEN, BUCH_OFFEN, BUCHSTAPEL">das Buch;-,-es,-,-;Bücher,Bücher,Büchern,Bücher</word>
+				<word topic="SCIENCE" genus="MASCULINUM" symbols="COMPUTERMAUS">Computer</word>
+				<word topic="LUXURY" symbols="EURO">der Euro;-,-s,-,-;-,-,-,-</word>
+				<word symbols="FAHNE">die Fahne</word>
+				<word symbols="FALLSCHIRM_ANDERS">der Fallschirm;-,-s,-,-;-e,-e,-en,-e</word>
+				<word symbols="FERNSEHER">der Fernseher</word>
+				<word symbols="FILMBAND_ANDERS, FILMBAND, FILMROLLE">der Film;-,-s,-,-;-e,-e,-en,-e</word>
+				<word genus="MASCULINUM" group="words/substantiv/nature/faekal">Furz;-,-es,-,-;Fürze,Fürze,Fürzen,Fürze</word>
+				<word topic="LUXURY" symbols="GESCHENK_1, GESCHENK_2">das Geschenk;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="LUXURY" symbols="DOLLAR, EURO">das Geld;-,-es,-,-;-er,-er,-ern,-er</word>
+				<word symbols="KALENDER">der Kalender</word>
+				<word symbols="KERZE_WEIHNACHTEN, KERZE">die Kerze</word>
+				<word genus="MASCULINUM">Nachttopf;-,-s,-,-;Nachttöpfe,Nachttöpfe,Nachttöpfen,Nachttöpfe</word>
+				<word topic="AGE" genus="MASCULINUM" symbols="BALLOON">Luftballon;-,-s,-,-;-s,-s,-s,-s</word>
+				<word symbols="MOND_1, MOND_2, MOND_3, MOND_4, MOND_5">der Mond;-,-s,-,-;-e,-e,-en,-e</word>
+				<word genus="MASCULINUM">Rauchfang;-,-s,-,-;Rauchfänge,Rauchfänge,Rauchfängen,Rauchfänge</word>
+				<word genus="FEMININUM">Regenrinne</word>
+				<word topic="NATURE" genus="NEUTRUM">Sandkorn;-,-s,-,-;Sandkörner,Sandkörner,Sandkörnern,Sandkörner</word>
+				<word topic="SCIFI" genus="MASCULINUM">Stern;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="NATURE" genus="FEMININUM">Welle</word>
+				<word topic="NATURE" genus="FEMININUM" symbols="REGENWOLKE_ANDERS, REGENWOLKE">Wolke</word>
+				<relation type="ADJECTIVE">[words/adjective/things]</relation>
+			</thing>
+			<games>
+				<word topic="SPORT, GAMES" symbols="BALL, BASKETBALL, BEACHBALL, FUSSBALL">der Ball;-,-s,-,-;Bälle,Bälle,Bällen,Bälle</word>
+				<word topic="GAMES" symbols="BOWLING">das Bowling;-,-s,-,-;-kugeln,-kugeln,-kugeln,-kugeln</word>
+				<word topic="GAMES" symbols="CONTROLLER">das Computerspiel;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="GAMES" symbols="DART">das Dart-Spiel;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="SPORT" symbols="EISHOCKEY, HOCKEY">der Eishockeyschläger;-,-s,-,-;-,-,-n,-</word>
+				<word topic="SPORT, GAMES" symbols="FUSSBALL, FUSSBALLSPIELEN, SPRINGENDER_FUSSBALL">der Fußball;-,-s,-,-;Fußbälle,Fußbälle,Fußbällen,Fußbälle</word>
+				<word topic="SPORT, GAMES" symbols="FOOTBALL_HELM, FOOTBALL">der Football;-,-s,-,-;-s,-s,-s,-s</word>
+				<word topic="GAMES">das Lego;-,-s,-,-;-steine,-steine,-steinen,-steine</word>
+				<word topic="GAMES" symbols="PUZZLESTEIN">das Puzzle;-,-s,-,-;-s,-s,-s,-s</word>
+				<word topic="GAMES" symbols="PINGPONG">der Tischtennistisch;-,-es,-,-;-e,-e,-en,-e</word>
+				<word topic="GAMES" symbols="SCHACH_BAUER, SCHACH_DAME, SCHACH_KOENIG, SCHACH_LAEUFER, SCHACH_SPRINGER, SCHACH_TURM">das Schach;-,-s,-,-;-spiele,-spiele,-spielen,-spiele</word>
+				<word topic="SPORT" symbols="SKATEBOARD">das Skateboard;-,-s,-,-;-s,-s,-s,-s</word>
+				<word topic="GAMES" id="name of topic" symbols="BOWLING, DART" group="words/substantiv/event">das Spiel;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="GAMES" symbols="CONTROLLER">die Spielkonsole</word>
+				<word topic="AGE">das Stofftier;-,-s,-,-;-e,-e,-en,-e</word>
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</games>
+			<abstractum>
+				<adjectivic>
+					<!--word probability="10">das [Up[words/adjective]][e]</word-->
+					<colors>
+						<word>die Bräune;-,-,-,-;Braunen,Braunen,Braunen,Braunen</word>
+						<word>die Schwärze;-,-,-,-;Schwarzen,Schwarzen,Schwarzen,Schwarzen</word>
+						<word>die Blässe;-,-,-,-;Blassen,Blassen,Blassen,Blassen</word>
+					</colors>
+					<human>
+						<psychology>
+							<positive>
+								<word>die Augenweide</word>
+								<word>die Coolheit</word>
+								<word topic="PSYCHOLOGY">die Ehrlichkeit</word>
+								<word>die Ernsthaftigkeit</word>
+								<word>der Ernst;-,-es,-,-;-en,-en,-en,-en</word>
+								<word>die Freigiebigigkeit</word>
+								<word>die Geschicklichkeit</word>
+								<word>die Höflichkeit</word>
+								<word topic="PSYCHOLOGY" probability="2">die Hilfsbereitschaft</word>
+								<word topic="JOKE, PSYCHOLOGY" probability="2">der Humor;-,-s,-,-;Lustigen,Lustigen,Lustigen,Lustigen</word>
+								<word topic="PSYCHOLOGY" probability="2">die Intelligenz</word>
+								<word topic="JOKE, PSYCHOLOGY" probability="2">der Spaß;-,-es,-,-;Späße,Späße,Späßen,Späße</word>
+								<word topic="PSYCHOLOGY" probability="2">die Menschlichkeit</word>
+								<word topic="PSYCHOLOGY">der Mut;-,-es,-,-;Mutigen,Mutigen,Mutigen,Mutigen</word>
+								<word topic="PSYCHOLOGY">die Normalität</word>
+								<word topic="PSYCHOLOGY">die Ordnung</word>
+								<word topic="PSYCHOLOGY">die Pünktlichkeit</word>
+								<word topic="COMPLIMENTS,PSYCHOLOGY">die Romantik</word>
+								<!--word>die Schnelligkeit</word-->
+								<word topic="SCIENCE, PHILOSOPHY">die Weisheit</word>
+								<word topic="GENDER, PSYCHOLOGY" symbols="WEIBLICH">die Weiblichkeit</word>
+							</positive>
+							<negative>
+								<word group="words/substantiv/event">der Ärger</word>
+								<word topic="CRIME,DISPUTE,PSYCHOLOGY">die Brutalität</word>
+								<word>die Berechnung</word>
+								<word topic="PSYCHOLOGY">die Depression</word>
+								<word>die Einfachheit</word>
+								<word symbols="DAUMEN_RUNTER">die Erfolglosigkeit</word>
+								<word topic="CRIME,DISPUTE" symbols="DAUMEN_RUNTER">die Fiesheit</word>
+								<word topic="LUXURY, PSYCHOLOGY">der Geiz;-,-es,-,-;Geizkrägen,Geizkrägen,Geizkrägen,Geizkrägen</word>
+								<word topic="DISPUTE">die Gemeinheit</word>
+								<word topic="DISPUTE">die Grobheit</word>
+								<word topic="DISPUTE">die Hinterhältigkeit</word>
+								<!--word topic="JOKE">die Komik</word-->
+								<word topic="PSYCHOLOGY" group="words/substantiv/event">die Langeweile</word>
+								<word>die Melancholie</word>
+								<word>die Naivität</word>
+								<word topic="PSYCHOLOGY">die Sturheit</word>
+								<word topic="SADNESS,PSYCHOLOGY" id="name of topic">die Traurigkeit</word>
+								<word topic="PSYCHOLOGY">die Dummheit</word>
+								<word topic="PSYCHOLOGY">die Unordentlichkeit</word>
+								<word topic="MADNESS,PSYCHOLOGY" id="name of topic" group="words/substantiv/event">die Verrücktheit</word>
+								<word topic="PSYCHOLOGY">die Wildheit</word>
+								<!--word>die Langsamheit</word-->
+							</negative>
+						</psychology>
+						<positive>
+							<word topic="LUXURY, LIFESTYLE, CINEMA">die Berühmtheit</word>
+							<word topic="EDUCATION" id="name of topic">die Bildung;-,-,-,-;Ausbildungen;Ausbildungen;Ausbildungen;Ausbildungen</word>
+							<word>die Pracht</word>
+							<word>die Reinheit</word>
+							<word topic="BODY, LIFESTYLE, LUXURY">die Schönheit</word>
+							<word topic="BODY">die Stärke</word>
+							<word>die Wichtigkeit</word>
+						</positive>
+					</human>
+					<things>
+						<word topic="NATURE">die Feuchtigkeit</word>
+						<word topic="NATURE" group="words/substantiv/event,words/substantiv/abstractum/feeling">die Hitze</word>
+						<word topic="NATURE" group="words/substantiv/event,words/substantiv/abstractum/feeling">die Kälte</word>
+						<word>die Klarheit</word>
+						<word probability="2">die Kleinigkeit</word>
+						<word topic="BODY" probability="2">die Größe;-,-,-,-;Großen,Großen,Großen,Großen</word>
+						<word topic="SCIENCE">die Komplexität</word>
+						<word topic="LIFESTYLE">die Leichtigkeit</word>
+						<word topic="SADNESS">die Schwere</word>
+						<word topic="DEATH, TOILET" group="words/substantiv/nature/faekal">der Gestank;-,-s,-,-;Gestänke,Gestänke,Gestänken,Gestänke</word>
+						<word group="words/substantiv/abstractum/feeling">die Wärme;-,-,-,-;Warmen,Warmen,Warmen,Warmen</word>
+					</things>
+					<word>der Duft;-,-s,-,-;Düfte;Düfte;Düften;Düfte</word>
+					<word>die Faulheit</word>
+					<word>die Fäulnis;-,-,-,-;-se,-se,-sen,-se</word>
+					<word>der Gammel</word>
+					<word>die Leidenschaft</word>
+					<word flags="NO_PLURAL">die Tragweite</word>
+					<word group ="words/substantiv/thing/food">die Würze;-,-,-,-;Gewürze,Gewürze,Gewürzen,Gewürze</word>
+					<situation>
+						<positive>
+							<word topic="HAPPINESS,LIFESTYLE">die Gemütlichkeit</word>
+							<word topic="HAPPINESS">das Interesse;-,-s,-,-;-n,-n,-n,-n</word>
+							<word topic="SEX">die Lust;-,-,-,-;Gelüste,Gelüste,Gelüsten,Gelüste</word>
+							<word topic="CINEMA">die Spannung</word>
+						</positive>
+						<negative>
+							<word topic="NOITEM,SADNESS" group="words/substantiv/event">die Einsamkeit</word>
+							<word topic="SADNESS">die Fadheit</word>
+							<word topic="PARTY">der Lärm;-,-s,-,-;Lärmquellen,Lärmquellen,Lärmquellen,Lärmquellen</word>
+							<word topic="NOITEM, RELIGION">die Leere;-,-,-,-;Leerräume,Leerräume,Leerräumen,Leerräume</word>
+							<word topic="NOITEM, RELIGION" group="words/substantiv/event">die Stille</word>
+							<word topic="PSYCHOLOGY, SADNESS" group="words/substantiv/event">die Peinlichkeit</word>
+							<word topic="PSYCHOLOGY, SADNESS" group="words/substantiv/event">die Trostlosigkeit</word>
+							<word topic="SADOMASO,DISEASE">der Schmerz;-,-es,-,-;-en,-en,-en,-en</word>
+						</negative>
+					</situation>
+					<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+				</adjectivic>
+				<time>
+					<word>die Sekunde</word>
+					<word>die Minute</word>
+					<word>die Stunde</word>
+					<word>der Tag;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>die Woche</word>
+					<word>der Monat;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>das Jahr;-,-s,-,-;-e,-e,-en,-e</word>
+				</time>
+				<feeling>
+					<!--Wärme, Kälte-->
+				</feeling>
+				<word probability="0.05" topic="DISEASE" genus="NEUTRUM" symbols="SCHLEIFE_ANDERS" article_type="NO_ARTICLE">Aids;-,-,-,-;-kranken,-kranken,-kranken,-kranken</word>
+				<word group="words/substantiv/bigImportant" genus="NEUTRUM">Alles;-,-,-,-;Vollständigen,Vollständigen,Vollständigen,Vollständigen</word>
+				<word topic="WORK" id="name of topic" symbols="BUEROKLAMMER">die Arbeit</word>
+				<word topic="DISEASE" symbols="BEHINDERT">die Behinderung</word>
+				<word>der Begriff;-,-s,-,-;-e,-e,-en,-e</word>
+				<word>das Benehmen;-,-s,-,-;Umgangsformen,Umgangsformen,Umgangsformen,Umgangsformen</word>
+				<word topic="POETRY" id="name of topic">die Dichtkunst;-,-,-,-;Dichtkünste,Dichtkünste,Dichtkünsten,Dichtkünste</word>
+				<word genus="NEUTRUM">Gefühl;-,-s,-,-;-e,-e,-en,-e</word>
+				<word group="words/substantiv/bigImportant">die Gerechtigkeit</word>
+				<word genus="FEMININUM">Himmelsbotschaft</word>
+				<word topic="PHILOSOPHY" symbols="GLUEHBIRNE, LEUCHTENDE_GLUEHBIRNE">die Idee</word>
+				<word>der Inbegriff;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="JOKE">die Ironie</word>
+				<word topic="ART" id="name of topic" genus="FEMININUM" symbols="FARBPALETTE">Kunst;-,-,-,-;Künste,Künste,Künsten,Künste</word>
+				<word topic="COMPLIMENTS" genus="MASCULINUM">Liebesbeweis;-,-es,-,-;-e,-e,-en,-e</word>
+				<word group="words/substantiv/bigImportant">die Lüge</word>
+				<word group="words/substantiv/bigImportant">das Märchen;-,-s,-,-;-,-,-,-</word>
+				<word group="words/substantiv/bigImportant">die Neugier;-,-,-,-;-igen,-igen,-igen,-igen</word>
+				<word genus="NEUTRUM">Nichts;-,-,-,-;Nichtigkeiten,Nichtigkeiten,Nichtigkeiten,Nichtigkeiten</word>
+				<word >der Schlaf;-,-s,-,-;Schläfchen,Schläfchen,Schläfchen,Schläfchen</word>
+				<word>der Spielraum;-,-s,-,-;Spielräume,Spielräume,Spielräume,Spielräume</word>
+				<word topic="SPORT" id="name of topic" symbols="BASEBALL_ANDERS, BASEBALL">der Sport;-,-s,-,-;Sportarten,Sportarten,Sportarten,Sportarten</word>
+				<word topic="WORK">der Stress;-,-es,-,-;-zeiten,-zeiten,-zeiten,-zeiten</word>
+				<word topic="SCIENCE" symbols="STECKER">der Strom;-,-s,-,-;Ströme,Ströme,Strömen,Ströme</word>
+				<word topic="SPORT" symbols="MARKER">das Ziel;-,-s,-,-;-e,-e,-en,-e</word>
+				<word>der Zweifel</word>
+
+					<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</abstractum>
+			<event>
+				<word topic="FOOD">das Abendessen</word>
+				<word>die Aufführung</word>
+				<word topic="NATURE" symbols="BLITZ, BLITZ_ANDERS" group="words/substantiv/thing/weapon">der Blitz;-,-es,-,-;-e,-e,-en,-e</word>
+				<word>das Date;-,-s,-,-;-s,-s,-s,-s</word>
+				<word group="words/substantiv/abstractum/adjectivic/human/psychology/positive">der Erfolg;-,-s,-,-;-e,-e,-en,-e</word>
+				<!--word topic="FOOD" id="name of topic" group="words/substantiv/event">das Essen</word-->
+				<word>die Feier;-,-,-,-;-n,-n,-n,-n</word>
+				<word topic="TRAVEL">die Ferienreise;-,-,-,-;Ferien,Ferien,Ferien,Ferien</word>
+				<word>das Fest;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="FOOD">das Frühstück</word>
+				<word symbols="SPRECHBLASE, SPRECHBLASEN">das Gespräch;-,-es,-,-;-e,-e,-en,-e</word>
+				<word symbols="LORBEERKRANZ, MEDAILLE_1, MEDAILLE_2, MEDAILLE_3, POKAL_1, POKAL_2, POKAL_3">der Gewinn;-,-s,-,-;-e,-e,-en,-e</word>
+				<word genus="MASCULINUM">Hunger;-,-s,-,-;Hungeranfälle,Hungeranfälle,Hungeranfällen,Hungeranfälle</word>
+				<word group="words/substantiv/location/general/in">die Messe</word>
+				<word symbols="REGENSCHIRM, REGENTROPFEN_1, REGENTROPFEN_2, REGENTROPFEN_3, REGENWOLKE_ANDERS, REGENWOLKE">der Regen;-,-s,-,-;-tropfen,-tropfen,-tropfen,-tropfen</word>
+				<word>die PARTY;-,-,-,-;-s,-s,-s,-s</word>
+				<word>die Prüfung</word>
+				<word>das Treffen</word>
+				<word topic="TRAVEL">der Urlaub;-,-s,-,-;-e,-e,-en,-e</word>
+
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+				<!--relation type="verb">[words/verb/activity]</relation-->
+			</event>
+			<birthday>
+				<word topic="BIRTHDAY" id="name of topic" group="words/substantiv/event" probability="5">der Geburtstag;-,-s,-,-;-e,-e,-en,-e</word>
+				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
+			</birthday>
+			<word genus="NEUTRUM" symbols="AT">Email;-,-s,-,-;-s,-s,-s,-s</word>
+			<word genus="NEUTRUM" symbols="FACEBOOK">Facebook;-,-s,-,-;-s,-s,-s,-s</word>
+			<word topic="MUSIC" id="name of topic" symbols="MUSIKNOTE_1, MUSIKNOTE_2, MUSIKNOTE_3">die Musik</word>
+			<word topic="SADOMASO">die Folter;-,-,-,-;-n,-n,-n,-n</word>
+			<topics>
+				<word topic="LUXURY" id="name of topic">der Luxus;-,-,-,-;-güter;-güter;-gütern;-güter</word>
+				<word topic="BODY" id="name of topic" group="words/substantiv/nature/body/part">der Körper</word>
+				<word topic="TOILET" id="name of topic" group="words/substantiv/location/general/in/housing">die Toilette</word>
+				<word topic="JOKE" id="name of topic" group="words/substantiv/abstractum">der Witz;-,-es,-,-;-e,-e,-en,-e</word>
+				<word topic="CRIME" id="name of topic" group="words/substantiv/event">das Verbrechen;-,-s,-,-;-,-,-,-</word>
+				<word topic="TRAVEL" id="name of topic" group="words/substantiv/event">die Reise</word>
+				<word topic="FOOD" id="name of topic" group="words/substantiv/event">das Essen;-,-s,-,-;-,-,-,-</word>
+				<word topic="WEDDING" id="name of topic" group="words/substantiv/event,words/substantiv/bigImportant">die Hochzeit</word>
+				<word topic="CHRISTMAS" id="name of topic" group="words/substantiv/event">das Weihnachten</word>
+				<word topic="NEW_YEAR" id="name of topic" group="words/substantiv/event">das Sylvester</word>
+				<word topic="EASTERN" id="name of topic" group="words/substantiv/event">das Osterfest;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="FAMILY" id="name of topic">die Familie</word>
+				<word topic="AGE" id="name of topic" group="words/substantiv/abstractum">das Alter;-,-s,-,-;Zeitalter,Zeitalter,Zeitaltern,Zeitalter</word>
+				<word topic="GENDER" id="name of topic" group="words/substantiv/abstractum">die Geschlechterfrage</word>
+				<word topic="DISEASE" id="name of topic" group="words/substantiv/event">die Krankheit</word>
+				<word topic="DEATH" id="name of topic" group="words/substantiv/event">der Tod;-,-es,-,-;-e,-e,-en,-e</word>
+				<word topic="POLITICS" id="name of topic" group="words/substantiv/abstractum">die Politik</word>
+				<word topic="PSYCHOLOGY" id="name of topic" group="words/substantiv/abstractum">die Psychologie;-,-,-,-;Psychiatrien,Psychiatrien,Psychiatrien,Psychiatrien</word>
+				<word topic="SCIENCE, PHILOSOPHY" id="name of topic" group="words/substantiv/abstractum">die Philosophie</word>
+				<word topic="ASTROLOGY" id="name of topic">das Horoskop;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="SCIFI" id="name of topic" group="words/substantiv/abstractum">das SCIENCE-Fiction;-,-,-,-;Scifibücher,Scifibücher,Scifibüchern,Scifibücher</word>
+				<word topic="ANIMALS" id="name of topic">das Tier;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="NATURE" id="name of topic" group="words/substantiv/bigImportant,words/substantiv/abstractum">die Natur;-,-,-,-;-elle,-elle,-ellen,-elle</word>
+				<word topic="DISPUTE" id="name of topic" group="words/substantiv/abstractum">der Streit;-,-s,-,-;-gespräche,-gespräche,-gesprächen,-gespräche</word>
+				<word topic="COMPLIMENTS" id="name of topic" group="words/substantiv/abstractum">das Kompliment;-,-s,-,-;-e,-e,-en,-e</word>
+				<word topic="RELATIONSHIP" id="name of topic" group="words/substantiv/abstractum">die Beziehung</word>
+				<word topic="KISSING" id="name of topic" group="words/substantiv/event">der Kuss;-,-es,-,-;Küsse,Küsse,Küssen,Küsse</word>
+				<word topic="SEX" id="name of topic" group="words/substantiv/event">der Sex;-,-,-,-;-abenteuer,-abenteuer,-abenteuern,-abenteuer</word>
+				<word topic="MARRIAGE" id="name of topic" group="words/substantiv/event,words/substantiv/abstractum,words/substantiv/bigImportant">die Ehe</word>
+				<word topic="MY_TOPIC" id="name of topic" probability="0">der Mintytest;-,-s,-,-;-s,-s,-s,-s</word>
+			</topics>
+			<relation type="verb">[words/verb/state/universal]</relation>
+		</substantiv>
+
+
+
+		<!-- VERB -->
+		<verb>
+			<!-- form:
+			wortstamm;nennform;hilfsverb;prsp1,prsp2,prsp3,prpp1,prpp2,prpp3;past;single imperativ;plural imperativ
+			-en;hab;-e,-st,-t,-en,-en,-t;ge-t;-e;-t
+			-->
+
+			<state>
+				<universal>
+					<!-- zum beispiel "mögen". jedes substantiv kann irgendwie gemoch werden. -->
+				</universal>
+				<person>
+					<positive>
+						<word topic="RELATIONSHIP, COMPLIMENTS" group="words/verb/state/universal" like="3:5">acht;-en;haben;-e,-est,-et,-en,-et,-en;geachtet;-e;-et
+							<relation type="object">[words/substantiv/nature:ac]</relation>
+							<relation type="object">[words/substantiv/abstractum:ac]</relation>
+							<relation type="object" needs="FLAGS=SINGLE">auf [words/substantiv:ac]</relation></word>
+						<word topic="RELATIONSHIP, COMPLIMENTS" like="5,6">begehr;-en,haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation></word>
+<test>
+						<word topic="KISSING, RELATIONSHIP, COMPLIMENTS" like="6" probability="2">küss;-en;haben;-e,-t,-t,-en,-t,-en;ge-t;-e;-t
+							<relation name="kuess_auf_body" type="object" needs="da">auf [words/substantiv/nature/body/part:ac]</relation>
+							<relation type="object" needs="INCLUDE=kuess_auf_body">[words/substantiv/person:da]</relation>
+						</word>
+</test>
+						<word topic="RELATIONSHIP, COMPLIMENTS" like="6">lieb</word>
+						<word topic="RELATIONSHIP, COMPLIMENTS" group="words/verb/state/universal" like="3,4" verb_category="REFLEXIV">mag;mögen;haben;-,-st,-,mögen,mögt,mögen;gemocht;-;mögt</word>
+						<word topic="FAMILY, COMPLIMENTS" like="3:5" verb_category="REFLEXIV">respektier</word>
+						<word topic="FAMILY, COMPLIMENTS" group="words/verb/state/universal" like="4,5">schätz</word>
+						<word topic="FAMILY, RELATIONSHIP, COMPLIMENTS" like="5,6">vermiss;-en,haben;-e,-t,-t,-en,-t,-en,-t;-e;-t</word>
+					</positive>
+					<negative>
+						<word topic="RELATIONSHIP, DISPUTE" group="words/verb/state/universal" like="1" verb_category="REFLEXIV">hass;-en;haben;-e,-t,-t,-en,-t,-en;ge-t;-e;-t</word>
+						<word topic="DISPUTE" like="1,2" verb_category="REFLEXIV">verabscheu;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word topic="DISPUTE" like="1,2" verb_category="REFLEXIV">veracht;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et</word>
+					</negative>
+					<relation type="object" needs="FLAGS=SINGLE">[words/substantiv/person:ac]</relation>
+					<relation type="object" needs="FLAGS=SINGLE">[words/substantiv/bigImportant:ac]</relation>
+				</person>
+				<word topic="RELIGION" verb_category="REFLEXIV">glaub
+					<relation type="object" casus="DATIV">[words/substantiv/person]</relation>
+					<relation type="object" needs="FLAGS=SINGLE">an [words/substantiv/person:ac]</relation>
+					<relation type="object" needs="FLAGS=SINGLE">an [words/substantiv/bigImportant:ac]</relation>
+					<!--relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum/adjectivic]</relation--></word>
+				<word verb_category="REFLEXIV">gehör;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-et
+					<relation type="object" casus="DATIV">[words/substantiv/person]</relation></word>
+				
+				<relation type="object" needs="da">wegen [words/substantiv/bigImportant:ge]</relation>
+
+				<relation type="subject" needs="ac">[words/substantiv/person]</relation>
+				<relation type="ADVERB">[words/adverb/modal]</relation>
+			</state>
+			<process>
+				<word verb_category="REFLEXIV">brenn;-en;haben;-e,-st,-t,-en,-t,-en;gebrannt;-e;-t
+					<relation type="subject">[words/substantiv/bigImportant]</relation>
+					<relation type="subject">[words/substantiv/thing]</relation>
+					<relation type="object">für [words/substantiv/bigImportant:ac]</relation>
+				</word>
+				<word topic="CRIME,DEATH">explodier;-en;sein;-e,-st,-t,-en,-t,-en;-t;-e;-t
+					<relation type="subject">[words/substantiv/bigImportant]</relation>
+					<relation type="subject">[words/substantiv/thing]</relation></word>
+				<word topic="DREAMS">schmelz;-en;sein;-e,schmilzt,schmilzt,-en,-t,-en;geschmolzen;-e;-t</word>
+				<word topic="DEATH">sterb;-en;sein;-e,stirbst,stirbt,-en,-t,-en;gestorben;stirb;-t</word>
+				<word topic="PARTY">wackel;-n;haben;wackle,-st,-t,-n,-t,-n;gewackelt;wackle;-t</word>
+				<word topic="EDUCATION, PHILOSOPHY">denk;-en;haben;-e,-st,-t,-en,-t,-en;gedacht;-e;-t
+					<relation type="object">an [words/substantiv:ac]</relation></word>
+				<word topic="LIFESTYLE">schlaf;-en;haben;-e,schläfst,schläft,-en,-t,-en;geschlafen;-e;-t</word>
+				<word topic="PHILOSOPHY">sinnier</word>
+				<word topic="DISEASE">rauch</word>
+				<word topic="NATURE">wachs;-en;sein;-e,-t,-t,-en,-t,-en;ge-en;-e;-t</word>
+				<word topic="DISEASE">zitter;-n;haben;-e,-st,-t,-n,-t,-n;ge-t;-e;-t</word>
+
+				<relation type="subject">[words/substantiv/person]</relation>
+				<relation type="ADVERB">[words/adverb/modal]</relation>
+			</process>
+			<activity>
+				<transitive>
+					<!-- transitive werben brauchen ein accusativ-objekt -->
+					<judge>
+						<word topic="EDUCATION" verb_category="REFLEXIV">beurteil;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word verb_category="REFLEXIV" group="words/verb/activity/transitive/sense/see">bestaun;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word verb_category="REFLEXIV">bewunder;-n;haben;-e,-st,-t,-n,-t,-en;-t;-e;-t</word>
+						<word verb_category="REFLEXIV">belächel;-n;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation>
+					</judge>
+					<destroy>
+						<word>lösch
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/plants]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/furniture]</relation></word>
+						<word topic="CRIME">ermord;-en;haben;-e,-est,-et,-en,-et,-en;-et,-e,-et</word>
+						<word verb_category="REFLEXIV">ruinier</word>
+						<word topic="CRIME" verb_category="REFLEXIV">töt;-en;haben;-e,-est,-et,-en,-et,-en;ge-et,-e,-et</word>
+						<word verb_category="REFLEXIV" group="words/verb/process">verbrenn;-en;haben;-e,-st,-t,-en,-t,-en;verbrannt;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/bigImportant]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation></word>
+						<word>verdampf;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation></word>
+						<word verb_category="REFLEXIV">vernicht;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation></word>
+						<word verb_category="REFLEXIV">verwüst;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation></word>
+						<word verb_category="REFLEXIV">zerbr;-echen;haben;-eche,-ichst,-icht,-echen,-echt,-echen;-ochen;-eche;-echt
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation></word>
+						<word verb_category="REFLEXIV">zerstör;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation></word>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation>
+						<relation type="object" needs="ac">für [words/substantiv/bigImportant:ac]</relation>
+						<relation type="object" needs="ac">für [words/substantiv/person:ac]</relation>
+						<relation type="object" needs="ac">für [words/substantiv/nature:ac]</relation>
+					</destroy>
+					<create>
+						<word topic="CHRISTMAS,BIRTHDAY">bast;-eln;haben;-le,-elst,-elt,-eln,-elt,-eln;ge-elt,-le,-elt
+							<relation type="object">an [words/substantiv:da]</relation>
+							<relation type="object">[words/substantiv/thing:ac]</relation>
+						</word>
+						<word topic="WORK">bau
+							<relation type="object" name="bauen_an" needs="EXCLUDE=bauen_acc">an [words/substantiv:da]</relation>
+							<relation type="object" name="bauen_acc" needs="EXCLUDE=bauen_an">[words/substantiv/thing:ac]</relation>
+						</word>
+						<word topic="SCIENCE">berechn;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et
+							<relation type="object">[words/substantiv/bigImportant:ac]</relation>
+						</word>
+						<word verb_category="REFLEXIV">bieg;-en;haben;-e,-st,-t,-en,-t,-en;gebogen;-e;-t</word>
+						<word topic="ART" verb_category="REFLEXIV">erschaff;-en;haben;-e,-st,-t,-en,-t,-en;-en;-e;-t</word>
+						<word verb_category="REFLEXIV">erfind;-en;haben;-e,-est,-et,-en,-et,-en;erfunden;-e;-et</word>
+						<word topic="FOOD">koch
+							<relation type="object">[words/substantiv/nature:ac]</relation>
+						</word>
+						<word topic="WORK">konstruier
+							<relation type="object">[words/substantiv/abstractum:ac]</relation>
+						</word>
+						<word verb_category="REFLEXIV">mach
+							<relation type="object">[words/substantiv/abstractum/adjectivic:ac]</relation>
+						</word>
+						<word topic="ART" symbols="FARBPALETTE" verb_category="REFLEXIV">mal
+							<relation type="object">[words/substantiv/abstractum/adjectivic:ac]</relation>
+						</word>
+						<!--word topic="ART" probability="0.5">stap;-eln;haben;-le,-elst,-elt,-eln,-elt,-eln;ge-elt;-le;-elt</word-->
+						<word>strick</word>
+						<word verb_category="REFLEXIV">veränder;-n;haben;-e,-st,-t,-n,-t,-n;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation></word>
+						<!--word verb_category="REFLEXIV">verknüpf;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word-->
+						<word verb_category="REFLEXIV">verform;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word topic="DREAMS" verb_category="REFLEXIV">verzauber;-n;haben;-e,-st,-t,-n,-t,-n;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation></word>
+						<word topic="ART" verb_category="REFLEXIV">zeichn;-en;haben;-e,-est,-et,-en,-et,-en;ge-et;-e;-et
+							<relation type="object">[words/substantiv/abstractum/adjectivic:ac]</relation>
+						</word>
+						
+						<relation type="object" casus="AKKUSATIV" probability="10">[words/substantiv/thing]</relation>
+						<relation name="create_fuer_big" type="object" needs="ac">für [words/substantiv/bigImportant:ac]</relation>
+						<relation name="create_fuer_person" type="object" needs="ac">für [words/substantiv/person:ac]</relation>
+						<relation type="object" needs="casus=AKKUSATIV;EXCLUDE=create_fuer_big;EXCLUDE=create_fuer_person;EXCLUDE=create_fuer_nature">[words/substantiv/person:da]</relation>
+						<relation name="create_fuer_nature" type="object" needs="ac">für [words/substantiv/nature:ac]</relation>
+					</create>
+					<use>
+						<word verb_category="REFLEXIV" probability="2">benutz;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word verb_category="REFLEXIV" probability="1">gebrauch;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word verb_category="REFLEXIV">verschwend;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et</word>
+						<word verb_category="REFLEXIV" probability="2">verwend;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et</word>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/tool]</relation>
+					</use>
+					<sense>
+						<see>
+							<word verb_category="REFLEXIV">seh;sehen;haben;sehe,siehst,sieht,sehen,seht,sehen;gesehen;sieh;seht</word>
+							<!--word probability="0.1">beschau;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word-->
+							<word verb_category="REFLEXIV" probability="0.2">bestaun;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<!--word>bestarr;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word-->
+							<word verb_category="REFLEXIV">erblick;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						</see>
+						<taste>
+							<word topic="FOOD" verb_category="REFLEXIV">schmeck
+								<relation type="ADJECTIVE" >[words/adjective/food]</relation>
+							</word>
+
+						</taste>
+						<hear>
+							<word verb_category="REFLEXIV">hör</word>
+							<word verb_category="REFLEXIV">vernehm;-en;haben;-e,vernimmst,vernimmt,-en,-t,-en;vernommen;-e;-t</word>
+							<word verb_category="REFLEXIV">versteh;-en;haben;-e,-st,-t,-en,-t,-en;verstanden;-e;-t</word>
+						</hear>
+						<smell>
+							<word verb_category="REFLEXIV">riech;-en;haben;-e,-st,-t,-en,-t,-en;gerochen;-e;-t</word>
+							<word verb_category="REFLEXIV">beschnupper;-n;haben;-e,-st,-t,-n,-t,-n;-t;-e;-t</word>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/food]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/beverage]</relation>
+						</smell>
+						<feel>
+							<word topic="BODY" verb_category="REFLEXIV">betast;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et</word>
+							<word topic="BODY" verb_category="REFLEXIV">befühl;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word verb_category="REFLEXIV">bemerk;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word probability="2" verb_category="REFLEXIV">berühr;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word>erfühl;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word>erspür;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word probability="3" group="words/verb/state/universal" verb_category="REFLEXIV">fühl;-en;haben;-e,-st,-t,-en,-t,-en;gefühlt;-e;-t</word>
+							<word probability="3" group="words/verb/state/universal" verb_category="REFLEXIV">spür;-en;haben;-e,-st,-t,-en,-t,-en;gespürt;-e;-t</word>
+						</feel>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/person]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation>
+
+						<relation type="object" needs="casus=NOMINATIV;FLAGS=SINGLE">[words/pronomen/reflexiv:ac]</relation>
+					</sense>
+					<eat>
+						<food>
+							<word topic="FOOD" verb_category="REFLEXIV" probability="3">ess;-en;haben;-e,isst,isst,-en,-t,-en;gegessen;iss;-t</word>
+							<word topic="FOOD" verb_category="REFLEXIV">verzehr;-en;haben;-e,-st,-t,-en,-t,-en;verzehrt;-e;-et</word>
+							<word topic="FOOD" verb_category="REFLEXIV">verspeis;-en;haben;-e,-t,-t,-en,-t,-en;verspeist;-e;-t</word>
+							<word topic="FOOD" verb_category="REFLEXIV">speis;-en;haben;-e,-t,-t,-en,-t,-en;gespeist;-e;-t</word>
+							<word topic="FOOD,ANIMALS" verb_category="REFLEXIV" probability="3">fress;-en;haben;-e,frisst,frisst,-en,-t,-en;ge-en;friss;-t</word>
+
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/food]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation>
+						</food>
+						<drink>
+							<word topic="ALCOHOL,FOOD">sauf;-en;haben;-e,-st,-t,-en,-t,-en;gesoffen;-e;-t</word>
+							<word topic="FOOD" verb_category="REFLEXIV">trink;-en;haben;-e,-st,-t,-en,-t,-en;getrunken;-e;-t</word>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/beverage]</relation>
+						</drink>
+						
+						<word topic="ALCOHOL,FOOD" verb_category="REFLEXIV_ONLY">besauf;-en;haben;-e,-st,-t,-en,-t,-en;besoffen;-e;-t
+							<relation type="object" casus="AKKUSATIV">mit [words/substantiv/thing/beverage]</relation>
+						</word>
+						
+						<word topic="FOOD" verb_category="REFLEXIV">kost;-en;haben;-e,-est,-et,-en,-et,-en;gekostet;-e;-et
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/food]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation>
+						</word>
+						<!--word probability="0.1">beknabber;-n;haben;-e,-st,-t,-n,-t,-n;-t;-e;-t</word-->
+						<word topic="FOOD" verb_category="REFLEXIV">schluck;-en;haben;-e,-st,-t,-en,-t,-en;verschluckt;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/food]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation>
+						</word>
+					</eat>
+					<give>
+						<oneobject>
+							<word>bring;-en,haben;-e,-st,-t,-en,-t,-en;gebracht;-,-t</word>
+							<word topic="CRIME">stehl;-en;haben;-e,stiehlst,stiehlt,-en,-lt,-en;gestohlen;stiehl;-t</word>
+
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/games]</relation>
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/location/general/in/housing]</relation>
+							<relation type="object" casus="DATIV">[words/substantiv/person]</relation>
+							<relation type="object" casus="DATIV">[words/substantiv/nature/animals]</relation>
+						</oneobject>
+						<multiobject>
+							<word>geb;-en;haben;-e,gibst,gibt,-en,-t,-en;ge-en;gib;-t</word>
+							<word verb_category="REFLEXIV">übergeb;-en;haben;-e,übergibst,übergibt,-en,-t,-en;-en;übergib;-t
+								<relation type="object" needs="casus=NOMINATIV;FLAGS=SINGLE">[words/pronomen/reflexiv:ac]</relation>
+							</word>
+							<word>schenk</word>
+							<word>überreich;-en;haben;-e,-st,-t,-en,-t;-en;-t;-e;-t
+								<relation type="object" needs="da">[words/substantiv/thing:ac]</relation>
+							</word>
+							<word>überlass;-en;haben;-e,überlässt,überlässt,-en,-t,-en;-en,-e,-t
+								<relation type="object" needs="casus=NOMINATIV;casus=DATIV">[words/pronomen/reflexiv:ac]</relation>
+							</word>
+
+							<relation type="object" casus="AKKUSATIV" needs="da">[words/substantiv/thing]</relation>
+							<relation type="object" casus="AKKUSATIV" needs="da">[words/substantiv/nature]</relation>
+							<relation type="object" casus="AKKUSATIV" needs="da">[words/substantiv/games]</relation>
+							<relation type="object" casus="AKKUSATIV" needs="da">[words/substantiv/location/general/in/housing]</relation>
+							<relation type="object" casus="DATIV" needs="ac">[words/substantiv/person]</relation>
+							<relation type="object" casus="DATIV" needs="ac">[words/substantiv/nature/animals]</relation>
+						</multiobject>
+						<!--word probability="0.1">lass;-en;haben;-e,lässt,lässt,-en,-t,-en;ge-en,-e,-t</word-->
+					</give>
+					<say>
+						<von_ueber>
+							<word >bericht;-en;haben;-e,-est,-et,-en,-et,-en;-et;-e;-et
+								<relation name="berichten_ueber" type="object" needs="EXCLUDE=sprechen_von;EXCLUDE=berichten_von">über [words/substantiv:ac]</relation>
+								<relation name="berichten_von" type="object" needs="EXCLUDE=sprechen_ueber;EXCLUDE=berichten_ueber">von [words/substantiv:da]</relation>
+							</word>
+							<word>erzähl;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+							<word topic="MUSIC" group="words/verb/activity/intransitiv">summ</word>
+							<word topic="MUSIC" group="words/verb/activity/intransitiv">sing;-en;haben;-e,-st,-t,-en,-t,-en;gesungen;-e;-t</word>
+							<word topic="ALCOHOL, PARTY" symbols="FLASCHE">lall
+								<relation type="object">von [words/substantiv/thing/beverage/alcohol:da]</relation>
+							</word>
+							<word topic="SADNESS" group="words/verb/activity/intransitiv">seufz</word>
+							<word>sprech;-en;haben;-e,sprichst,spricht,-en,-t,-en;gesprochen;sprich;-t</word>
+							<word topic="SEX" group="words/verb/activity/intransitiv">stöhn</word>
+							<relation name="sprechen_ueber" type="object" needs="EXCLUDE=sprechen_von">über [words/substantiv/abstractum:ac]</relation>
+							<relation name="sprechen_von" type="object" needs="EXCLUDE=sprechen_ueber">von [words/substantiv/abstractum:da]</relation>
+						</von_ueber>
+						<word topic="SADNESS">heul
+							<relation name="heul_ueber" type="object" needs="EXCLUDE=heul_von">über [words/substantiv/abstractum:ac]</relation>
+							<relation name="heul_von" type="object" needs="EXCLUDE=heul_ueber">von [words/substantiv/abstractum:da]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/abstractum:ge]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/nature/animals:ge]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/person:ge]</relation>
+						</word>
+						<word verb_category="REFLEXIV_ONLY">bedank;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" needs="no">[words/pronomen/reflexiv:ac]</relation>
+							<relation type="object" needs="ac">bei [words/substantiv/person:da]</relation>
+						</word>
+						<word>maul
+							<relation name="maul_ueber" type="object" needs="EXCLUDE=maul_von">über [words/substantiv/abstractum:ac]</relation>
+							<relation name="maul_von" type="object" needs="EXCLUDE=maul_ueber">von [words/substantiv/abstractum:da]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/abstractum:ge]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/nature/animals:ge]</relation>
+							<relation type="object" needs="CASUS=AKKUSATIV">wegen [words/substantiv/person:ge]</relation>
+						</word>
+						<word>murmel;murmeln;haben;murmle,-st,-t,-n,-t,-n;ge-t;murmle;-t
+							<relation type="object" needs="CASUS=AKKUSATIV">[words/substantiv/person:da]</relation>
+							<relation type="object">[words/substantiv/abstractum/feeling:ac]</relation>
+							<relation type="object">[words/substantiv/abstractum/adjectivic:ac]</relation>
+						</word>
+						<word>sag
+							<relation type="object" needs="CASUS=AKKUSATIV">[words/substantiv/person:da]</relation>
+							<relation type="object">[words/substantiv/abstractum/feeling:ac]</relation>
+							<relation type="object">[words/substantiv/abstractum/adjectivic:ac]</relation>
+						</word>
+						<word probability="2">erklär;-en;haben;-e,-st,-t,-en,-t,-en;erklärt,-e,-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum:ac]</relation>
+							<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">[words/substantiv/person:da]</relation>
+						</word>
+						<!--word topic="MUSIC">besing;-en;haben;-e,-st,-t,-en,-t,-en;besungen;-e;-t</word-->
+						<word verb_category="REFLEXIV">unterhalt;-en;haben;-e,unterhältst,unterhält,-en,-et,-en;-en;-e;-et
+							<relation type="object" needs="EXCLUDE=unterhalten_mich">[words/substantiv/person:ac]</relation>
+							<relation name="unterhalten_mich" type="object" casus="AKKUSATIV" needs="CASUS=NOMINATIV">[words/pronomen/reflexiv:ac]</relation>
+						</word>
+						<!--relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum/adjectivic]</relation-->
+					</say>
+					<do_with>
+						<word verb_category="REFLEXIV" group="words/verb/state/universal">beurteil;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv]</relation>
+						</word>
+						<word>versäum;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+							<relation type="object" casus="AKKUSATIV">[words/substantiv/event]</relation>
+						</word>
+					</do_with>
+					
+					<word verb_category="REFLEXIV">erhalt;-en;haben;-e,erhältst,erhält,-en,-et,-en;-en;-e;-et
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/location/general/in/housing]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum/adjectivic]</relation>
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">von [words/substantiv/person:da]</relation>
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">von [words/substantiv/nature/animals:da]</relation>
+					</word>
+					<word>erreich;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/geographic]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/nature/animals]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/abstractum]</relation>
+						<relation type="object" casus="DATIV">ohne [words/substantiv/nature/animals]</relation>
+						<relation type="object" casus="DATIV">ohne [words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV">ohne [words/substantiv/abstractum]</relation>
+					</word>
+					<word verb_category="REFLEXIV">find;-en;haben;-e,-est,-et,-en,-et,-en;gefunden;-e;-et
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum]</relation> 
+					</word>
+					<word verb_category="REFLEXIV">feier;-n;haben;-e,-st,-t,-n,-t,-n;ge-t;-e,-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/event]</relation></word>
+					<word>halt;-en;haben;-e,-est,hält,-en,-et,-en;ge-en;-e,-et
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/weapon]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation></word>
+					<word probability="2">jag
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation></word>
+					<word topic="GENDER, LIFESTYLE" symbols="EINKAUFSWAGEN" verb_category="REFLEXIV">kauf
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/games]</relation></word>
+					<word topic="EDUCATION, SCIENCE">les;-en;haben;-e,liest,liest,-en,-t,-en;gelesen;-e;-t</word>
+					<word verb_category="REFLEXIV">leg
+						<relation type="object" needs="da">[words/substantiv/person:ac]</relation>
+						<relation type="object" needs="da">[words/pronomen:ac]</relation>
+						<relation type="object" needs="ac">in [words/substantiv/person:da]</relation>
+					</word>
+					<word verb_category="REFLEXIV">nehm;-en;haben;-e,nimmst,nimmt,-en,-t,-en;genommen;nimm;-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/instrument]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/thing/tool]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/thing/vehicle]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation></word>
+					<word topic="WORK, GENDER" probability="3" verb_category="REFLEXIV">putz
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/food]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/thing/weapon]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/thing/vehicle]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/thing/instrument]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation><relation
+							type="object" casus="AKKUSATIV">[words/substantiv/games]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation></word>
+					<word>saug
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/material]</relation></word>
+					<word topic="GAMES" verb_category="REFLEXIV">spiel
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing/instrument]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/games]</relation></word>
+						<relation type="object" casus="DATIV">mit [words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/nature/animals]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/abstractum]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/bigImportant]</relation>
+					<word topic="DISPUTE" verb_category="REFLEXIV">streit;-en;haben;-e,-est,-et,-en,-et,-en;gestritten;-e,-et
+						<relation type="object" casus="AKKUSATIV">über [words/substantiv]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/nature/animals]</relation>
+						</word>
+					<word>urteil;-en;haben;-e,-st,-t,-en,-t,-en;geurteilt;-e,-t
+						<relation type="object" casus="AKKUSATIV">über [words/substantiv/abstractum]</relation>
+						<relation type="object" casus="AKKUSATIV">über [words/substantiv/person]</relation>
+					</word>
+					<word verb_category="REFLEXIV">verzeih;-en;haben;-e,-st,-t,-en,-t,-en;verziehen;-e,-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum/adjectivic]</relation>
+						<relation type="object" casus="DATIV">[words/substantiv/person]</relation>
+						<relation type="object">[words/pronomen/personal:dap1]</relation>
+						<relation type="object">[words/pronomen/personal:dap2]</relation></word>
+					<word topic="WORK, GENDER" probability="3" verb_category="REFLEXIV">wasch;-en;haben;-e,wäschst,wäscht,-en,-t,-en;gewaschen;-e,-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/nature]</relation><relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation></word>
+					<word>wiss;-en;haben;weiß,weißt,weiß,-en,-t,-en;gewusst;wisse;wisset
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/abstractum/adjectivic]</relation>
+						<relation type="object" casus="AKKUSATIV">alles über [words/substantiv]</relation>
+						<relation type="object" casus="AKKUSATIV">viel über [words/substantiv]</relation>
+						<relation type="object" casus="AKKUSATIV">nichts über [words/substantiv]</relation>
+						<relation type="object" casus="AKKUSATIV">einiges über [words/substantiv]</relation>
+						</word>
+					<word>zahl
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">[words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">mit [words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">für [words/substantiv/abstractum]</relation>
+						<relation type="object" casus="AKKUSATIV">für [words/substantiv/person]</relation>
+					</word>
+					
+					<word verb_category="REFLEXIV_ONLY">verabred;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+						<relation type="object" casus="DATIV">mit [words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV">mit [words/substantiv/nature/animals]</relation>
+					</word>
+					
+					<word>bezahl;-en;haben;-e,-st,-t,-en,-t,-en;-t;-e;-t
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">[words/substantiv/person]</relation>
+						<relation type="object" casus="DATIV" needs="CASUS=AKKUSATIV">mit [words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">für [words/substantiv/abstractum]</relation>
+						<relation type="object" casus="AKKUSATIV">für [words/substantiv/person]</relation>
+					</word>
+					<word verb_category="REFLEXIV">zeig
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/location]</relation>
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/geographic]</relation>
+						<relation type="object" casus="AKKUSATIV">auf [words/substantiv/nature]</relation>
+						<relation type="object" casus="AKKUSATIV">auf [words/substantiv/thing]</relation>
+						<relation type="object" casus="AKKUSATIV">auf [words/substantiv/location]</relation>
+						<relation type="object" casus="AKKUSATIV">auf [words/substantiv/games]</relation>
+						<relation type="object" casus="AKKUSATIV">auf [words/substantiv/person]</relation>
+						</word>
+
+
+					<word topic="SEX">besteig;-en;haben;-e,-st,-t,-en,-t,-en;bestiegen;-e,-t
+						<relation type="object" casus="AKKUSATIV">[words/substantiv/nature/animals]</relation>
+					</word>
+					<word>gelt;-en,haben,-e,giltst,gilt,-en,-et,-en;gegolten;-e,-et</word>
+
+					<word>wünsch
+						<relation type="object" needs="ac">[words/pronomen/personal:dap1]</relation>
+						<relation type="object" needs="ac">[words/pronomen/personal:dap2]</relation>
+						<relation type="object" needs="ac">[words/pronomen/personal:dap3]</relation>
+						<relation type="object" needs="da">[words/substantiv:ac]</relation>
+					</word>
+
+					<relation type="object" needs="ac">in [words/substantiv/location/general/in:da]</relation>
+					<relation type="object" needs="ac">in [words/substantiv/geographic:da]</relation>
+					<relation type="object" needs="ac">auf [words/substantiv/location/general/on:da]</relation>
+
+					<relation type="subject" needs="ac">[words/substantiv/person]</relation>
+				</transitive>
+				<intransitiv>
+					<!-- intransitive werben brauchen KEIN accusativ-objekt -->
+					<move>
+						<word topic="TRAVEL">flieg;-en;sein;-e,-st,-t,-en,-t,-en;geflogen;-e;-t</word>
+						<word topic="TRAVEL">geh;-en;sein;-e,-st,-t,-en,-t,-en;gegangen;-e;-t</word>
+						<word topic="SPORT">hüpf;-en;sein;-e,-st,-t,-en,-t,-en;gehüpft;-e;-t</word>
+						<word>komm;-en;sein;-e,-st,-t,-en,-t,-en;ge-en;-;-t</word>
+						<word topic="CATS">krabb;-eln;sein;-le,-elst,-elt,-eln,-elt,-eln;ge-elt;-le;-elt</word>
+						<word topic="ALCOHOL">kriech;-en;sein;-e,-st,-t,-en,-t,-en;gekrochen;-e;-t</word>
+						<word topic="SPORT" symbols="LAUFEN, LAUFEN_ANDERS">lauf;-en;sein;-e,läufst,läuft,-en,-t,-en;gelaufen;-e;-t</word>
+						<word topic="SPORT">renn;-en;sein;-e,-st,-t,-en,-t,-en;gerannt;-e;-t</word>
+						<word topic="CRIME" verb_category="REFLEXIV">schleich;-en;sein;-e,-st,-t,-en,-t,-en;geschlichen;-e;-t</word>
+						<word>schreit;-en;sein;-e,-est,-et,-en,-et,-en;geschritten;-e;-et</word>
+						<word topic="TRAVEL">spazier;-en;sein;-e,-st,-t,-en,-t,-en;-t;-e;-t</word>
+						<word topic="ALCOHOL, PARTY">tork;-eln;sein;-le,-elst,-elt,-eln,-elt,-eln;ge-elt,-le;-elt</word>
+						<word topic="SPORT, TRAVEL" symbols="WANDERN">wander;-n;sein;-e,-st,-t,-n,-t,-n;gewandert;-e;-t</word>
+						<!-- Julian -->
+						<word topic="ALCOHOL">stolper;-n;sein;-e,-st,-t,-n,-t,-n;ge-t;-e;-t</word>
+
+						<relation name="move_in_loc" type="object">in [words/substantiv/location/general/in:ac]</relation>
+						<relation name="move_in_geo" type="object">in [words/substantiv/geographic:ac]</relation>
+						<relation name="move_auf_loc" type="object">auf [words/substantiv/location/general/on:ac]</relation>
+
+						<relation type="subject">[words/substantiv/nature/animals]</relation>
+					</move>
+
+					<stay>
+						<word>bleib;-en;sein;-e,-st,-t,-en,-t,-en;geblieben;-;-t</word>
+						<word>steh;-en;sein;-e,-st,-t,-en,-t,-t;gestanden;-e;-t</word>
+
+						<relation type="subject">[words/substantiv/nature/animals]</relation>
+					</stay>
+					
+					<word topic="WORK">arbeit;-en;haben;-e,-est,-et,-en,-et,-en;ge-et,-e,-et
+						<relation type="object">an [words/substantiv:da]</relation>
+					</word>
+					
+					<word>hud;-eln;haben;-le,-elst,-elt,-eln,-elt,-eln;gehudelt;-le;-elt</word>
+					<word topic="PARTY" group="words/verb/process">lach
+						<relation type="object">über [words/substantiv:ac]</relation>
+					</word>
+					<word topic="PARTY" group="words/verb/toDance">tanz</word>
+					<word topic="DISPUTE" symbols="KARATE">kämpf
+						<relation type="object">um [words/substantiv:ac]</relation>
+					</word>
+					<word topic="DISEASE, BODY">lieg;-en;sein;-e,-st,-t,-en,-t,-en;gelegen;-e;-t
+						<relation type="object">auf [words/substantiv/person:da]</relation>
+						<relation type="object">auf [words/substantiv/nature:dapl]</relation>
+					</word>
+					<word topic="HAPPINESS, MUSIC">pfeif;-en;haben;-e,-st,-t,-en,-t,-en;gepfiffen;-e;-t</word>
+					<word topic="GENDER, CRIME">randalier</word>
+					<word topic="GENDER, DISPUTE">rauf</word>
+					<word topic="RELATIONSHIP, MONOLOGUE">schweig;-en;haben;-e,-st,-t,-en,-t,-en;geschwiegen;-e;-t</word>
+					<word topic="TOILET" probability="5">stink;-en;haben;-e,-st,-t,-en,-t,-en;gestunken;-e,-t</word>
+					<word topic="SADNESS" group="words/verb/process">wein
+						<relation type="object">um [words/substantiv:ac]</relation>
+					</word>
+
+
+					<relation type="object">mit [words/substantiv/person:da]</relation>
+					<relation type="object">mit [words/substantiv/person:dapl]</relation>
+					<relation type="object" needs="EXCLUDE=move_in_loc;EXCLUDE=move_in_geo;EXCLUDE=move_auf_loc">in [words/substantiv/location/general/in:da]</relation>
+					<relation type="object" needs="EXCLUDE=move_in_loc;EXCLUDE=move_in_geo;EXCLUDE=move_auf_loc">in [words/substantiv/geographic:da]</relation>
+					<relation type="object" needs="EXCLUDE=move_in_loc;EXCLUDE=move_in_geo;EXCLUDE=move_auf_loc">auf [words/substantiv/location/general/on:da]</relation>
+
+					<relation type="subject">[words/substantiv/person]</relation>
+				</intransitiv>
+				
+				<relation type="ADVERB">[words/adverb/modal]</relation>
+			</activity>
+			<modal>
+				<word>woll;-en;haben;will,willst,will,-en,-t,-en;wollen;will;-t</word>
+				<word>könn;-en;haben;kann,kannst,kann,-en,-t,-en;können;kann;-t</word>
+				<word>müss;-en;haben;muss,musst,muss,-en,-t,-en;müssen;muss;-t</word>
+				<word>soll;-en;haben;-,-st,-,-en,-t,-en;-en;soll;-t</word>
+				<word probability="0.5">mög;-en;haben;mag,magst,mag,-en,-t,-en;mögen;mag;-t</word>
+				<word probability="0.5">möcht;-en;haben;-e,-est,-e,-en,-et,-en;gemocht;-e;-et</word>
+				<word>dürf;-en;haben;darf,darfst,darf,-en,-t,-en;dürfen;darf;-t</word>
+
+				<relation type="object" casus="AKKUSATIV">[words/verb:nein]</relation>
+
+				<relation type="subject" needs="ac">[words/substantiv/person]</relation>
+				<relation type="subject" needs="ac">[words/substantiv/nature/animals]</relation>
+				<!--relation type="object" needs="ac">in [words/substantiv/location/general/in:da]</relation-->
+				<!--relation type="object" needs="ac">in [words/substantiv/geographic:da]</relation-->
+				<!--relation type="object" needs="ac">auf [words/substantiv/location/general/on:da]</relation-->
+				<relation type="ADVERB">[words/adverb/temporal]</relation>
+			</modal>
+		</verb>
+		<!-- ADJECTIVE -->
+		<adjective>
+			<word>abstrakt</word>
+			<colors>
+				<word>braun</word>
+				<word>blau</word>
+				<word group="words/adjective/things">bunt</word>
+				<word>grün</word>
+				<word>grau</word>
+				<word>hellblau</word>
+				<!--word>lila</word-->
+				<word>orange</word>
+				<word>pink</word>
+				<word>rot;röter,rötesten</word>
+				<word>rosa;-ner,-sten</word>
+				<word>schwarz;schwärzer,schwärzeste</word>
+				<word>türkis</word>
+				<word>weiß;weißer;weißeste</word>
+				<word>violett</word>
+			</colors>
+			<human>
+				<psychology>
+					<positive group="words/adjective/human/positive">
+						<address>
+							<word topic="RELATIONSHIP">geliebt</word>
+							<word topic="FRIENDSHIP">verehrt</word>
+							<word topic="RELATIONSHIP">lieb</word>
+						</address>
+						<word topic="SCIENCE, RELIGION">allwissend</word>
+						<word probability="3" group="words/adjective/things">cool</word>
+						<word>draufgängerisch</word>
+						<word>ehrlich</word>
+						<word symbols="DAUMEN_RAUF">erfolgreich</word>
+						<word group="words/adjective/situation/positive">ernst</word>
+						<word>freigiebig</word>
+						<word group="words/adjective/food,words/adjective/things">geil</word>
+						<word>gerecht</word>
+						<word>geschickt</word>
+						<word topic="HAPPINESS,PSYCHOLOGY">glücklich</word>
+						<word probability="2">hilfsbereit</word>
+						<word probability="2">humorvoll</word>
+						<word>höflich</word>
+						<word probability="2">intelligent</word>
+						<word probability="1">kühn</word>
+						<word probability="2" group="words/adjective/situation/positive">lustig</word>
+						<word symbols="MAENNLICH">männlich</word>
+						<word probability="2">menschlich</word>
+						<word>mutig</word>
+						<word probability="2">nachdenklich</word>
+						<word>nachgiebig</word>
+						<word group="words/adjective/things">normal</word>
+						<word>ordentlich</word>
+						<word>pünktlich</word>
+						<word topic="COMPLIMENTS,PSYCHOLOGY">romantisch</word>
+						<word>schlau</word>
+						<word topic="SEX">sexuell</word>
+						<word group="words/adjective/food">süß;süßer;süßeste</word>
+						<word>vorsichtig</word>
+						<word>weise</word>
+						<word symbols="WEIBLICH">weiblich</word>
+						<word>zuvorkommend</word>
+					</positive>
+					<negative group="words/adjective/human/negative">
+						<word>ärgerlich</word>
+						<word>aufbrausend</word>
+						<word group="words/adjective/situation/negative">banal</word>
+						<word>beängstigend</word>
+						<word group="words/adjective/food">bitter</word>
+						<word topic="CRIME, PSYCHOLOGY">brutal</word>
+						<word>berechnend</word>
+						<word>einfach</word>
+						<word symbols="DAUMEN_RUNTER">erfolglos</word>
+						<word>faul</word>
+						<word symbols="DAUMEN_RUNTER">fies</word>
+						<word>geizig</word>
+						<word>gemein</word>
+						<word>gewalttätig</word>
+						<word group="words/adjective/situation/negative,words/adjective/abstractum">grausam</word>
+						<word>grob;gröber;gröbste</word>
+						<word>hilflos</word>
+						<word>hinterhältig</word>
+						<word>komisch</word>
+						<word group="words/adjective/situation/negative,words/adjective/abstractum">langweilig</word>
+						<word group="words/adjective/situation/negative">laut</word>
+						<word>melancholisch</word>
+						<word>närrisch</word>
+						<word>naiv</word>
+						<word group="words/adjective/food">sauer;saurer;sauerste</word>
+						<word>seltsam</word>
+						<word>stur</word>
+						<word>traurig</word>
+						<word>trübsinnig</word>
+						<word>ungerecht</word>
+						<word>unintelligent</word>
+						<word>unordentlich</word>
+						<word>unnachgiebig</word>
+						<word>unvorsichtig</word>
+						<word>verrückt</word>
+						<word>wahnsinnig</word>
+						<word>wehleidig</word>
+						<word>wild</word>
+						<word topic="SPORT">langsam</word>
+					</negative>
+				</psychology>
+				<positive>
+					<word topic="ART,CINEMA">berühmt</word>
+					<word topic="BODY">fesch</word>
+					<word topic="SCIENCE">gebildet;-er;gebildetste</word>
+					<word topic="BODY">hübsch</word>
+					<word topic="LUXURY">reich</word>
+					<word group="words/adjective/things">schnell</word>
+					<word topic="BODY">schön</word>
+					<word topic="SEX">sexy;sexier;sexiest</word>
+					<word topic="BODY">stark;stärker,stärkste</word>
+					<word group="words/adjective/situation/positive">wichtig</word>
+				</positive>
+				<negative>
+					<word topic="ALCOHOL">betrunken</word>
+					<word topic="ALCOHOL">besoffen</word>
+				</negative>
+				<word topic="FOOD">durstig</word>
+				<word topic="FOOD">hungrig</word>
+				<word topic="FOOD">nackt</word>
+				<word topic="FOOD">satt</word>
+				<word topic="FOOD">unbekleidet;-er,-ste</word>
+			</human>
+			<things>
+				<!--word>bunt</word-->
+				<word>flauschig</word>
+				<word>feucht</word>
+				<!--word probability="3">cool</word-->
+				<word topic="BODY">haarig</word>
+				<word>hell</word>
+				<!--word>normal</word-->
+				<!--word>heiß</word-->
+				<!--word>kalt;kälter,kälteste</word-->
+				<word topic="BODY">juckend</word>
+				<word probability="2">klein</word>
+				<word probability="2">groß;größer,größte</word>
+				<word>kompliziert</word>
+				<!--word>langsam</word-->
+				<word>leicht</word>
+				<!--word>schnell</word-->
+				<word>schwer</word>
+				<word>stinkend</word>
+				<word>tropfend</word>
+				<word>weich</word>
+			</things>
+			<abstractum>
+				<word group="words/adjective/human/positive">bedeutend</word>
+				<word group="words/adjective/human/negative">begrenzt</word>
+				<word group="words/adjective/human/negative">falsch</word>
+				<word >geheim</word>
+				<!--word group="words/adjective/human/negative">komplex</word-->
+				<word group="words/adjective/human/positive">mächtig</word>
+				<word >richtig</word>
+			</abstractum>
+			<food>
+				<positive>
+					<word group="words/adjective/things">duftend</word>
+					<word group="words/adjective/things">fein</word>
+					<word>fleischig</word>
+					<word>fruchtig</word>
+					<word>köstlich</word>
+					<word>pikant</word>
+					<word>saftig</word>
+					<word>vorzüglich</word>
+					<word>würzig</word>
+				</positive>
+				<negative>
+					<word>faulig</word>
+					<word group="words/adjective/things,words/adjective/human/negative">furchtbar</word>
+					<word group="words/adjective/things">kalt;kälter;kälteste</word>
+					<word>lauwarm;wärmer;wärmste</word>
+					<word group="words/adjective/things">schimmlig</word>
+					<!--word group="words/adjective/human/psychology/negative">schlecht</word-->
+					<word group="words/adjective/things">schleimig</word>
+					<word group="words/adjective/things">verfault</word>
+					<word group="words/adjective/things">vergammelt</word>
+					<word>versalzen</word>
+					<word group="words/adjective/things">verschimmelt</word>
+				</negative>
+				<!--word>bitter</word-->
+				<word group="words/adjective/things">heiß;heißer;heißeste</word>
+				<!--word>sauer;saurer;sauerste</word-->
+				<!--word>süß;süßer;süßeste</word-->
+				<word>salzig</word>
+				<word group="words/adjective/things">trocken</word>
+				<word group="words/adjective/things">warm;wärmer;wärmste</word>
+				<word group="words/adjective/things,words/adjective/human/negative">kühl</word>
+			</food>
+			<situation>
+				<positive>
+					<word>aufbauend</word>
+					<word>aufregend</word>
+					<!--word>ernst</word-->
+					<word>gemütlich</word>
+					<word>intensiv</word>
+					<word>interessant</word>
+					<word>leidenschaftlich</word>
+					<!--word>lustig</word-->
+					<word>schummrig</word>
+					<word>spannend</word>
+					<!--word>wichtig</word-->
+				</positive>
+				<negative>
+					<word>aussichtslos</word>
+					<!--word>egal</word-->
+					<word topic="SADNESS,NOITEM">einsam</word>
+					<word>fad</word>
+					<!--word>langweilig</word-->
+					<word>leise</word>
+					<word topic="NOITEM">leer</word>
+					<word group="words/adjective/human/negative">peinlich</word>
+					<word>schmerzlich</word>
+					<word topic="NOITEM" group="words/adjective/human/psychology">still</word>
+					<word>trostlos</word>
+					<word>unwichtig</word>
+				</negative>
+			</situation>
+			<allPositiveGroups group="words/adverb/modal/positive,words/adjective/things,words/adjective/situation/positive,words/adjective/human/positive,words/adjective/food,words/adjective/abstractum">
+					<word>prächtig</word>
+					<word>gut;besser;beste</word>
+			</allPositiveGroups>
+			<allNegativeGroups group="words/adverb/modal/negative,words/adjective/things,words/adjective/situation/negative,words/adjective/human/negative,words/adjective/food,words/adjective/abstractum">
+					<word>schlecht</word>
+			</allNegativeGroups>
+
+		</adjective>
+		<article>
+			<the>
+				<word genus="MASCULINUM" article_type="DEFINED_ARTICLE" probability="10">der;des,dem,den;die,der,den,die</word>
+				<word genus="FEMININUM" article_type="DEFINED_ARTICLE" probability="10">die;der,der,die;die,der,den,die</word>
+				<word genus="NEUTRUM" article_type="DEFINED_ARTICLE" probability="10">das;des,dem,das;die,der,den,die</word>
+			</the>
+			<a>
+				<word genus="MASCULINUM" probability="10">ein;eines,einem,einen;,,,</word>
+				<word genus="FEMININUM" probability="10">eine;einer,einer,eine;,,,</word>
+				<word genus="NEUTRUM" probability="10">ein;eines,einem,ein;,,,</word>
+			</a>
+			<this>
+				<word genus="MASCULINUM" article_type="DEFINED_ARTICLE">dieser;dieses,diesem,diesen;diese,dieser,diesen,diese</word>
+				<word genus="FEMININUM" article_type="DEFINED_ARTICLE">diese;dieser,dieser,diese;diese,dieser,diesen,diese</word>
+				<word genus="NEUTRUM" article_type="DEFINED_ARTICLE">dieses;dieses,diesem,dieses;diese,dieser,diesen,diese</word>
+			</this>
+			<possessiv_pronomen>
+				<my>
+					<word genus="MASCULINUM" probability="3">mein</word>
+					<word genus="FEMININUM" probability="3">meine</word>
+					<word genus="NEUTRUM" probability="3">mein</word>
+				</my>
+				<his>
+					<word genus="MASCULINUM">sein</word>
+					<word genus="FEMININUM">seine</word>
+					<word genus="NEUTRUM">sein</word>
+				</his>
+				<her>
+					<word genus="MASCULINUM">ihr</word>
+					<word genus="FEMININUM">ihre</word>
+					<word genus="NEUTRUM">ihr</word>
+				</her>
+				<our>
+					<word genus="MASCULINUM">unser</word>
+					<word genus="FEMININUM">unsere</word>
+					<word genus="NEUTRUM">unser</word>
+				</our>
+				<yours>
+					<word genus="MASCULINUM">euer;eures,eurem,euren;eure,eurer,euren,eure</word>
+					<word genus="FEMININUM">eure;eurer,eurer,eure;eure,eurer,euren,eure</word>
+					<word genus="NEUTRUM">euer;eures,eurem,euer;eure,eurer,euren,eure</word>
+				</yours>
+				<your>
+					<word genus="MASCULINUM">dein</word>
+					<word genus="FEMININUM">deine</word>
+					<word genus="NEUTRUM">dein</word>
+				</your>
+			</possessiv_pronomen>
+			<no>
+				<word genus="MASCULINUM">kein</word>
+				<word genus="FEMININUM">keine</word>
+				<word genus="NEUTRUM">kein</word>
+			</no>
+			<question_which>
+				<word genus="MASCULINUM">welcher;welches,welchem,welchen;welche,welcher,welchen,welche</word>
+				<word genus="FEMININUM">welche</word>
+				<word genus="NEUTRUM">welches;-,welchem,welches;welche,welcher,welchen,welche</word>
+			</question_which>
+		</article>
+
+
+		<pronomen>
+
+			<!-- p1nosi,p1gesi,p1dasi,p1acsi,p2nosi,p2gecsi,p2dasi,p2dacsi,p3nosi,p3dgesi,p3dasi,p3acsi,p1nopl,p1gepl,p1dapl,p1acpl,p2nopl,p2gecpl,p2dapl,p2dacpl,p3nopl,p3dgepl,p3dapl,p3acpl -->
+			<personal>
+				<word genus="MASCULINUM" article_type="NO_ARTICLE">ich,meiner,mir,mich;du;deiner,dir,dich;er,seiner,ihm,ihn;wir,unser,uns,uns;ihr,euer,euch,euch;sie,ihrer,ihnen,sie</word>
+				<word genus="FEMININUM" article_type="NO_ARTICLE">ich,meiner,mir,mich;du;deiner,dir,dich;sie,ihrer,ihr,sie;wir,unser,uns,uns;ihr,euer,euch,euch;sie,ihrer,ihnen,sie</word>
+				<word genus="NEUTRUM" article_type="NO_ARTICLE">ich,meiner,mir,mich;du;deiner,dir,dich;es,seiner,ihm,es;wir,unser,uns,uns;ihr,euer,euch,euch;sie,ihrer,ihnen,sie</word>
+			</personal>
+
+			<!-- p1dasi,p1acsi,p2dasi,p2dacsi,p3dasi,p3acsi,p1dapl,p1acpl,p2dapl,p2acpl,p3dapl,p3acpl -->
+			<reflexiv>
+				<word article_type="NO_ARTICLE">mir,mich,dir,dich,sich,sich,uns,uns,euch,euch,sich,sich</word>
+			</reflexiv>
+		</pronomen>
+
+
+
+		<adverb>
+			<modal>
+				<positive>
+					<word>gut;besser;am besten</word>
+					<word>gemütlich</word>
+					<word>gerne;lieber;am liebsten</word>
+					<word>gekonnt</word>
+					<word>geschickt</word>
+					<word>leise</word>
+					<word>sacht</word>
+					<word>schnell</word>
+					<word probability="0.1">stabil</word>
+					<word>vorsichtig</word>
+				</positive>
+				<negative>
+					<word>arg;ärger;am ärgsten</word>
+					<word>langsam</word>
+					<word>mühsam</word>
+					<word>schlecht</word>
+					<word flags="NO_COMPARATION">ungern</word>
+					<word>ungeschickt</word>
+					<word>zittrig</word>
+				</negative>
+				<word flags="NO_COMPARATION">anders</word>
+				<word flags="NO_COMPARATION">äußerst</word>
+				<word flags="NO_COMPARATION">allzu</word>
+				<word flags="NO_COMPARATION">beinahe</word>
+				<word flags="NO_COMPARATION">besonders</word>
+				<word flags="NO_COMPARATION">bekanntlich</word>
+				<word flags="NO_COMPARATION">ebenfalls</word>
+				<word flags="NO_COMPARATION">einigermaßen</word>
+				<word flags="NO_COMPARATION">fast</word>
+				<word flags="NO_COMPARATION">ganz</word>
+				<word flags="NO_COMPARATION">genauso</word>
+				<word flags="NO_COMPARATION">genug</word>
+				<word flags="NO_COMPARATION">leider</word>
+				<word flags="NO_COMPARATION">möglicherweise</word>
+				<word flags="NO_COMPARATION">sehr</word>
+				<word flags="NO_COMPARATION">so</word>
+				<word flags="NO_COMPARATION">vielleicht</word>
+				<word flags="NO_COMPARATION">völlig</word>
+				<word flags="NO_COMPARATION">wirklich</word>
+				<word flags="NO_COMPARATION">ziemlich</word>
+			</modal>
+			<temporal>
+				<word flags="NO_COMPARATION">abends</word>
+				<word flags="NO_COMPARATION" group="words/adverb/modal/positive">gerade</word>
+				<word>häufig</word>
+				<word flags="NO_COMPARATION">immer</word>
+				<word flags="NO_COMPARATION">jetzt</word>
+				<word flags="NO_COMPARATION">kaum</word>
+				<word flags="NO_COMPARATION">manchmal</word>
+				<word flags="NO_COMPARATION">morgens</word>
+				<word flags="NO_COMPARATION">nie</word>
+				<word>oft;öfter;am öftesten</word>
+				<word>selten;seltener;am seltensten</word>
+				<word flags="NO_COMPARATION">wieder</word>
+				<word flags="NO_COMPARATION">zuerst</word>
+			</temporal>
+			<lokal>
+				<word flags="NO_COMPARATION">hier</word>
+				<word flags="NO_COMPARATION">dort</word>
+				<word flags="NO_COMPARATION">oben</word>
+				<word flags="NO_COMPARATION">unten</word>
+				<word flags="NO_COMPARATION">drüben</word>
+			</lokal>
+			<kausal>
+				<word flags="NO_COMPARATION">deswegen</word>
+				<word flags="NO_COMPARATION">daher</word>
+				<word flags="NO_COMPARATION">deshalb</word>
+				<word flags="NO_COMPARATION">also</word>
+				<word flags="NO_COMPARATION">darum</word>
+				<word flags="NO_COMPARATION">dadurch</word>
+				<word flags="NO_COMPARATION">hiermit</word>
+				<word flags="NO_COMPARATION">dazu</word>
+				<word flags="NO_COMPARATION">jedenfalls</word>
+				<word flags="NO_COMPARATION">demnach</word>
+				<word flags="NO_COMPARATION">dennoch</word>
+				<word flags="NO_COMPARATION">dafür</word>
+				<word flags="NO_COMPARATION">schließlich</word>
+			</kausal>
+		</adverb>
+
+
+		<preposition>
+			<subhubstantival>
+				<countable>
+					<word>viele</word>
+					<word>wenige</word>
+					<word>genug</word>
+					<word>ausreichend</word>
+					<word>etliche</word>
+				</countable>
+				<uncountable>
+					<word>viel</word>
+					<word>wenig</word>
+					<word>genug</word>
+					<word>ausreichend</word>
+					<word>Mengen an</word>
+				</uncountable>
+			</subhubstantival>
+			<adjectival>
+				<positive>
+					<word>absolut</word>
+					<word>besonders</word>
+					<word>einfach</word>
+					<word>echt</word>
+					<word>furchtbar</word>
+					<word>natürlich</word>
+					<word>schrecklich</word>
+					<word>sehr</word>
+					<word>ultimativ</word>
+					<word>unwahrscheinlich</word>
+					<word>wirklich</word>
+					<word>wunderbar</word>
+				</positive>
+				<negative>
+					<word>durchschnittlich</word> 
+					<word>eigentlich</word>
+					<word>ehh</word>
+					<word>zu</word>
+				</negative>
+				<word>eventuell</word>
+				<word>vielleicht</word>
+			</adjectival>
+		</preposition>
+		<!-- Julian Ende -->
+	</words>
+</LocalizedText>
