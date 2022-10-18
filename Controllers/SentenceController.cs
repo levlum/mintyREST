@@ -21,10 +21,10 @@ public class SentenceController : ControllerBase
     {
         MintyScriptTest.Run();
         Sentence testS = new Sentence();
-        testS.Text = "Weil [sentence:topic=deep_statements]";
+        testS.Text = "[words/article/the:(s)] [s=subject(v)] [v=words/verb:p3] [words/article/the:(o)] [o=object(v):da] [words/article/the:(o2)] [?2:;[adjective(o2)]] [o2=object(v):ac]";
 
         return Enumerable.Range(1, 5).Select(index => new MintyItem {
-                Text = testS.Process(null, null, null, true),
+                Text = testS.Process(null, null, null),
                 Name = "One Sentence",
                 IsComplete = true
             }).ToArray();
