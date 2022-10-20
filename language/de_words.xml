@@ -494,7 +494,6 @@
 						<word topic="BODY">der Popo;-,-s,-,-;-s,-s,-s,-s</word>
 						<word topic="BODY">der Popsch;-,-es,-,-;Pöpsche,Pöpsche,Pöpschen,Pöpsche</word>
 						<word topic="BODY">der Rücken;-,-s,-,-;-,-,-,-</word>
-						<word topic="SEX,BODY">das Schamhaar;-,-s,-,-;-e,-e,-en,-e</word>
 						<word topic="SEX,BODY">die Schulter;-,-,-,-;-n,-n,-n,-n</word>
 						<word topic="BODY,SPORT" genus="FEMININUM">Wade</word>
 						<word topic="BODY" genus="FEMININUM">die Wange</word>
@@ -610,6 +609,7 @@
 				<word group="words/substantiv/abstractum" topic="SCIENCE" id="name of topic" symbols="DIPLOMHUT">die Wissenschaft</word>
 				<word group="words/substantiv/abstractum">die Zeit</word>
 				<word group="words/substantiv/abstractum">der Zufall;-,-s,-,-;Zufälle,Zufälle,Zufällen,Zufälle</word>
+				<word topic="SPORT" symbols="MARKER">das Ziel;-,-s,-,-;-e,-e,-en,-e</word>
 
 				<relation type="ADJECTIVE">[words/adjective/situation]</relation>
 			</bigImportant>
@@ -1140,11 +1140,17 @@
 				<feeling>
 					<!--Wärme, Kälte-->
 				</feeling>
+				<language>
+					<word>der Begriff;-,-s,-,-;-e,-e,-en,-e</word>
+					<word>das Hauptwort;-,-s,-,-;Hauptwörter,Hauptwörter,Hauptwörtern,Hauptwörter</word>
+					<word>das Satzglied;-,-s,-,-;-er,-er,-ern,-er</word>
+					<word>das Verb;-,-s,-,-;-en,-en,-en,-en</word>
+					<word>das Wort;-,-s,-,-;Wörter,Wörter,Wörtern,Wörter</word>
+				</language>
 				<word probability="0.05" topic="DISEASE" genus="NEUTRUM" symbols="SCHLEIFE_ANDERS" article_type="NO_ARTICLE">Aids;-,-,-,-;-kranken,-kranken,-kranken,-kranken</word>
 				<word group="words/substantiv/bigImportant" genus="NEUTRUM">Alles;-,-,-,-;Vollständigen,Vollständigen,Vollständigen,Vollständigen</word>
 				<word topic="WORK" id="name of topic" symbols="BUEROKLAMMER">die Arbeit</word>
 				<word topic="DISEASE" symbols="BEHINDERT">die Behinderung</word>
-				<word>der Begriff;-,-s,-,-;-e,-e,-en,-e</word>
 				<word>das Benehmen;-,-s,-,-;Umgangsformen,Umgangsformen,Umgangsformen,Umgangsformen</word>
 				<word topic="POETRY" id="name of topic">die Dichtkunst;-,-,-,-;Dichtkünste,Dichtkünste,Dichtkünsten,Dichtkünste</word>
 				<word genus="NEUTRUM">Gefühl;-,-s,-,-;-e,-e,-en,-e</word>
@@ -1164,7 +1170,6 @@
 				<word topic="SPORT" id="name of topic" symbols="BASEBALL_ANDERS, BASEBALL">der Sport;-,-s,-,-;Sportarten,Sportarten,Sportarten,Sportarten</word>
 				<word topic="WORK">der Stress;-,-es,-,-;-zeiten,-zeiten,-zeiten,-zeiten</word>
 				<word topic="SCIENCE" symbols="STECKER">der Strom;-,-s,-,-;Ströme,Ströme,Strömen,Ströme</word>
-				<word topic="SPORT" symbols="MARKER">das Ziel;-,-s,-,-;-e,-e,-en,-e</word>
 				<word>der Zweifel</word>
 
 					<relation type="ADJECTIVE">[words/adjective/situation]</relation>
