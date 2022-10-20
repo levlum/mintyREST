@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+MintyRESTlog.txt
 *.code-workspace
 
 # User-specific files (MonoDevelop/Xamarin Studio)
